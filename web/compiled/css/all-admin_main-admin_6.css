@@ -1,0 +1,70 @@
+#bus td.placeReserved{background-color: #FF0000 !important;}
+#bus td.placeReservedNow{background-color: #46a546 !important;}
+#bus td.isPlace:hover {background-color: #6cdf37;}
+/*#bus table {transform:rotate(270deg);}*/
+
+.bs-heading {
+    min-height: 55px;
+}
+
+.ad-gallery .ad-image-wrapper {
+    height: 110px;
+    margin-bottom: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ad-thumb-list {
+    min-width: 100%;
+}
+
+.ad-gallery .ad-thumbs li {
+    float: left;
+    padding-right: 0px;
+}
+
+.ad-gallery .ad-forward {
+    cursor: pointer;
+    display: block;
+    right: 5px;
+    width: 11px;
+    background: url(../../../assets/css/ad_scroll_forward.png) 0px 18px no-repeat;
+}
+
+.flexslider {
+    margin: 0 0 0px;
+    background: initial;
+    border: 4px solid initial;
+}
+
+.list-group.panel > .list-group-item {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px
+}
+.list-group-submenu {
+  margin-left:20px;
+}
+
+blockquote.tour-date:hover {
+    background-color: #eee;
+}
+
+blockquote.tour-date footer::before {
+    content: "";
+}
+
+blockquote.tour-date button {
+    margin-bottom: 4px;
+}
+.fa-fa-custom {
+    font-size: 25px;
+    padding: 5px;
+}
+#reserving-show-dates .list-group-item:hover, #reserving-show-dates .list-group-item.active {
+    background-color: #dff0d8;
+    color: #333;
+}
+
+#reserving-show-dates .list-group-item-text {
+    color: #333 !important;
+}

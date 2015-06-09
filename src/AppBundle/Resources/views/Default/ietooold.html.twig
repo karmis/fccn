@@ -1,0 +1,93 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Веб-студия Color New просит обновить браузер</title>
+    <style>
+        * { text-align: center; font-family: "Arial";}
+    </style>
+</head>
+<body>
+<img src="/assets/img/color_logo.png" />
+<h1 style="font-size: 2em">РАЗРАБОТКА И ПРОДВИЖЕНИЕ САЙТОВ, СЕРВИСОВ И ПОРТАЛОВ</h1>
+<h2>ОТ <big>1195</big> РУБ.</h2>
+
+<div>
+<form id="content-form" method="post" action="/feed/callback">
+<small><label for="name">Ваше имя:</label></small><br>
+<input type="text" id="name" name="name" style="width: 320px; height: 32px" /><br><br>
+<small><label for="email">Электронная почта:</small></label><br>
+<input type="text" id="email" name="email" style="width: 320px; height: 32px" /><br><br>
+<small><label for="phone">Телефон:</label></small><br>
+<input type="text" id="phone" name="phone" style="width: 320px; height: 32px" /><br><br>
+<p id="ok_result" style="display: none">Ваша заявка принята</p>
+<input type="submit" value="Отправить" style="background: #C81415; color: white; border: none; padding: 10px 20px">
+</form>
+</div>
+
+<h2>Наши контакты</h2>
+<p>г. Владимир +7 (4922) 60-02-32</p>
+<p>г. Нижний Новгород +7 (831) 261-34-74</p>
+<p>г. Нижний Новгород +7 (499) 704-38-43</p>
+<br>
+<p><big><big><big><big> 8-800-000-00-00</big></big></big></big></p>
+<p>звнок по России бесплатный</p>
+<p><a href="mailto:sale@colornew.ru">sale@colornew.ru</a> &ndash; отдел продаж</p> 
+<p><a href="mailto:support@colornew.ru">support@colornew.ru</a> &ndash; тех. поддержка</p> 
+<br>
+<p>ООО «Колор Нью» ИНН/КПП 3327115037/332701001 ОГРН 1133327001280</p>
+<p>Вы используете браузер IE устаревшей версии. Рекомендуем Вам обновить браузер для просмотра полноценной версии сайта.</p>
+
+<script>
+	function createRequestObject() {
+  		if (typeof XMLHttpRequest === 'undefined') {
+    		XMLHttpRequest = function() {
+      		try { return new ActiveXObject("Msxml2.XMLHTTP.6.0"); }
+        		catch(e) {}
+      		try { return new ActiveXObject("Msxml2.XMLHTTP.3.0"); }
+        		catch(e) {}
+      		try { return new ActiveXObject("Msxml2.XMLHTTP"); }
+        		catch(e) {}
+      		try { return new ActiveXObject("Microsoft.XMLHTTP"); }
+        		catch(e) {}
+      			throw new Error("This browser does not support XMLHttpRequest.");
+    		};
+  		}
+  		return new XMLHttpRequest();
+	}
+
+	var ajax = null;
+    var form = document.getElementById("content-form");
+    var ok_result = document.getElementById("ok_result");
+
+	function processReqChange()
+	{
+  		try { // Важно!
+    	// только при состоянии "complete"
+    		if (ajax.readyState == 4) {
+        		// для статуса "OK"
+        		if (ajax.status == 200) {
+            		// обработка ответа
+            		ok_result.style.display = 'block';
+        		} else {
+            		alert("Не удалось получить данные:\n" +	ajax.statusText);
+        		}
+    		}
+  	}
+  	catch( e ) {
+  		alert("error " +e.description);
+  	}
+}
+
+    form.onsubmit=function(){
+    	ajax = createRequestObject();
+    	var name = document.getElementById("name").value;
+    	var email = document.getElementById("email").value;
+    	var phone = document.getElementById("phone").value;
+    	ajax.open("POST", "/feed/callback", true);
+        ajax.onreadystatechange = processReqChange;
+        ajax.send('name=' + encodeURIComponent(name) + '&email=' + encodeURIComponent(email) + '&phone=' + encodeURIComponent(phone));
+    	return false;
+    };
+</script>
+
+</body></html>

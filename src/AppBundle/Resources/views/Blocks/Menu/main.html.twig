@@ -1,0 +1,186 @@
+        <nav class="cbp-hsmenu-wrapper navbar" id="cbp-hsmenu-wrapper">
+            <div class="container">
+                <div class="cbp-hsinner">
+                    <ul class="cbp-hsmenu">
+                        <a class="small-btn btn-dashed fancybox" href="#forma_zvonok">
+                            Заказать звонок
+                        </a>
+
+                        <div class="open-close-menu"></div>
+                        <li class="withImage">
+                            <a class="withImage" href="{{ path('main_page') }}" title="colornew.ru"><img class="logo-image"
+                                        src="{{ asset('assets/img/logo.png')}}" alt="colornew.ru" title="colornew.ru"/></a>
+                        </li>
+                        <li>
+                            <a href="#" title="Создание сайтов">Создание сайтов</a>
+                            <ul class="cbp-hssubmenu">
+                                <li><a href="{{ path('vizitka_page') }}" class="withImage" title="Сайт визитка"><img
+                                                src="{{ asset('assets/img/sayt-vizitka.png')}}" alt="Сайт визитка"
+                                                title="Сайт визитка"/><span>Сайт-визитка</span></a></li>
+                                <li><a href="{{ path('shop_page') }}" class="withImage" title="Интернет-магазин"><img
+                                                src="{{ asset('assets/img/internet-magazin.png')}}"
+                                                alt="Интернет-магазин"
+                                                title="Интернет-магазин"/><span>Интернет-магазин</span></a></li>
+                                <li><a href="{{ path('corp_page') }}" class="withImage" title="Корпоративный сайт"><img
+                                                src="{{ asset('assets/img/korporativnyy_sayt.png')}}"
+                                                alt="Корпоративный сайт" title="Корпоративный сайт"/><span>Корпоративный сайт</span></a>
+                                </li>
+                                <li><a href="{{ path('landing_page') }}" class="withImage" title="Landing-page"><img
+                                                src="{{ asset('assets/img/landing-page.png')}}" alt="Landing-page"
+                                                title="Landing-page"/><span>Landing-page</span></a></li>
+                                <li><a href="{{ path('promotion_page') }}" class="withImage" title="Продвижение с гарантией"><span>Продвижение с гарантией</span></a><a
+                                            href="{{ path('promotion_page') }}" class="btn-podrobnee">Узнать подробнее</a></li>
+                            </ul>
+                            <ul class="cbp-hssubmenu-small">
+                                <li><a href="{{ path('vizitka_page') }}" title="Сайт визитка">Сайт-визитка</a></li>
+                                <li><a href="{{ path('shop_page') }}" title="Интернет-магазин">Интернет-магазин</a></li>
+                                <li><a href="{{ path('corp_page') }}" title="Корпоративный сайт">Корпоративный сайт</a></li>
+                                <li><a href="{{ path('landing_page') }}" title="Landing-page">Landing-page</a></li>
+                                <li><a href="{{ path('promotion_page') }}" title="Продвижение с гарантией">Продвижение с гарантией</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="{{ path('promotion_page') }}" title="Продвижение сайтов">Продвижение сайтов</a>
+                            <ul class="cbp-hssubmenu">
+                                <img src="{{ asset('assets/img/banners/prodvizheniye_raketa.jpg')}}" alt="Продвижение сайтов"
+                                     title="Продвижение сайтов"/>
+                                <li><a href="{{ path('advertising_page') }}" title="Контекстная реклама">Контекстная реклама</a></li>
+                                <li><a href="{{ path('promotion_page') }}" title="SEO продвижение">SEO продвижение</a></li>
+                                <li><a href="{{ path('social_page') }}" title="Продвижение в соц.сетях">Продвижение в соц.сетях</a></li>
+                                <li><a href="{{ path('page_display', {slug:'sale-site' }) }}" title="При заказе продвижения СКИДКИ ДО 50%" class="withImage"><span
+                                                style="top: 20px;">при заказе продвижения</span><span
+                                                style="font-size: 23px; top: 42px;">СКИДКИ ДО 50%</span></a><a href="#"
+                                                                                                               class="btn-podrobnee">Узнать
+                                        подробнее</a></li>
+                                <li><a href="{{ path('installments_page') }}" title="Сайт в рассрочку" class="withImage"><span
+                                                style="top: 20px; color: #fff;">Сайт в рассрочку</span><span
+                                                style="font-size: 23px; top: 40px; color: #fff;">Почему это выгодно?</span></a><a
+                                            href="{{ path('installments_page') }}" class="btn-podrobnee">Узнать подробнее</a></li>
+                            </ul>
+                            <ul class="cbp-hssubmenu-small">
+                                <li><a href="{{ path('advertising_page') }}" title="Контекстная реклама">Контекстная реклама</a></li>
+                                <li><a href="{{ path('promotion_page') }}" title="SEO продвижение">SEO продвижение</a></li>
+                                <li><a href="{{ path('social_page') }}" title="Продвижение в соц.сетях">Продвижение в соц.сетях</a></li>
+                                <li><a href="{{ path('page_display', {slug:'sale-site' }) }}" title="При заказе продвижения СКИДКИ ДО 50%">При заказе продвижения
+                                        СКИДКИ ДО 50%</a></li>
+                                <li><a href="{{ path('installments_page') }}" title="Сайт в рассрочку">Сайт в рассрочку. Почему это выгодно?</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" title="Домены и хостинг">Домены и хостинг</a>
+                            <ul class="cbp-hssubmenu">
+                                <li>
+                                    <img src="{{ asset('assets/img/banners/khosting_i_arenda_servera.jpg')}}" alt="Хостинг и аренда сервера"
+                                         title="Хостинг и аренда сервера"/>
+                                    <a href="{{ path('domains_page') }}" title="Хостинг и аренда сервера">
+                                        Хостинг
+                                        и аренда сервера
+                                    </a>
+                                </li>
+                                <li>
+                                    <img src="{{ asset('assets/img/banners/zashchita_sayta_ot_vzloma.jpg')}}" alt="Защита сайта от взлома"
+                                         title="Защита сайта от взлома"/>
+                                    <a href="{{ path('page_display', {slug:'anti-hacker'}) }}" title="Защита сайта от взлома">
+                                        Защита
+                                        сайта от взлома
+                                    </a>
+                                </li>
+                                <li>
+                                    <img src="{{ asset('assets/img/banners/registratsiya_domenov.jpg')}}" alt="Регистрация доменов"
+                                         title="Регистрация доменов"/>
+                                    <a href="{{ path('page_display', {slug: 'domains-regoster'}) }}" title="Регистрация доменов">Регистрация
+                                        доменов</a></li>
+                                <li><img src="{{ asset('assets/img/banners/rezervnoye_kopirovaniye.jpg')}}" alt="Резервное копирование"
+                                         title="Резервное копирование"/><a href="{{ path('page_display', {slug:'backups-page'}) }}" title="Резервное копирование">Резервное
+                                        копирование</a></li>
+                                <li><a href="{{ path('page_display', {slug:'two-domains'}) }}" title="Два домена по цене одного RU+РФ" class="withImage"><span
+                                                style="top: 18px; color: #fff;">Закажи прямо сейчас</span><span
+                                                style="font-size: 24px; top: 40px; color: #fff;">Два по цене одного</span><span
+                                                style="font-size: 24px; top: 72px; color: #fff;">RU+РФ</span></a><a
+                                            href="{{ path('page_display', {slug:'two-domains'}) }}" class="btn-podrobnee">Узнать подробнее</a></li>
+                            </ul>
+                            <ul class="cbp-hssubmenu-small">
+                                <li><a href="{{ asset('assets/img/banners/khosting_i_arenda_servera.jpg')}}" title="Хостинг и аренда сервера">Хостинг и аренда сервера</a></li>
+                                <li><a href="{{ path('page_display', {slug:'anti-hacker'}) }}" title="Защита сайта от взлома">Защита сайта от взлома</a></li>
+                                <li><a href="{{ path('page_display', {slug: 'domains-regoster'}) }}" title="Регистрация доменов">Регистрация доменов</a></li>
+                                <li><a href="{{ path('page_display', {slug:'backups-page'}) }}" title="Резервное копирование">Резервное копирование</a></li>
+                                <li><a href="{{ path('page_display', {slug:'two-domains'}) }}" title="Два домена по цене одного RU+РФ">Закажи прямо сейчас. Два по цене
+                                        одного. RU+РФ</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" title="Прочие услуги">Прочие услуги</a>
+                            <ul class="cbp-hssubmenu">
+                                <div>
+                                    <p class="uslugi_header">IP-ТЕЛЕФОНИЯ:</p>
+                                    <a href="{{ path('page_display', {slug:'city-phone'}) }}" title="Прямые городские номера">Прямые городские номера<p>Подключите
+                                            прямой городской номер любого</br>города без привязки к проводам!</p></a>
+                                    <a href="{{ path('page_display', {slug:'8-800'}) }}" title="Номер 8-800">Номер 8-800<p>Ваши клиенты смогут звонить Вам
+                                            бесплатно</br>по телефону "горячей" линии!</p></a>
+                                </div>
+                                <div>
+                                    <p class="uslugi_header">ТЕХ. ПОДДЕРЖКА:</p>
+                                    <a href="{{ path('support_page') }}" title="Поддержка сайтов, доработка">Поддержка сайтов, доработка<p>Вам
+                                            нужно доработать функционал?</br>Не вопрос - поможем! Для сайтов с любыми
+                                            CMS!</p></a>
+                                    <a href="{{ path('page_display', {slug:'copyright'}) }}" title="Написание текстов (копирайтинг)">Написание текстов (копирайтинг)
+                                        <p>Профессиональное написание текстов</br>для любой тематики.</p></a>
+                                    <a href="{{ path('page_display', {slug: 'content-for-sites'}) }}" title="Наполнение сайтов">Наполнение сайтов<p>Нет времени наполнять
+                                            сайт?</br>Поручите эту работу нам, освободите своё время!</p></a>
+                                </div>
+                                <div>
+                                    <p class="uslugi_header">ЛЮБИМЫМ КЛИЕНТАМ</p>
+                                    <a href="{{ path('installments_page') }}" title="Сайты в рассрочку">Сайты в рассрочку<p>Это выгодно! Вы получаете
+                                            доход с сайта, параллельно</br>оплачивая его стоимость. Закажите сайт в
+                                            рассрочку сейчас!</p></a>
+                                    <a href="{{ path('page_display', {slug: 'friendship-page'}) }}" title="Программа лояльности">Программа лояльности<p>Сделаем для Вас
+                                            индивидуальное предложение более</br>выгодное чем у других. Давайте
+                                            познакомимся?</p></a>
+                                    <a href="{{ path('page_display', {slug: 'nodoubt-page'}) }}" title='Услуга "без сомнений"'>Услуга "без сомнений"<p>Нарисуем для вас
+                                            несколько вариантов индивидуального</br>дизайна для того, чтобы не
+                                            сомневаться!</p></a>
+                                </div>
+                            </ul>
+                            <ul class="cbp-hssubmenu-small">
+                                <li><a href="{{ path('page_display', {slug:'city-phone'}) }}" title="Прямые городские номера">Прямые городские номера</a></li>
+                                <li><a href="{{ path('page_display', {slug:'8-800-phones'}) }}" title="Номер 8-800">Номер 8-800</a></li>
+                                <li><a href="{{ path('page_display', {slug: 'modules'}) }}" title="Разработка модулей на сайт">Разработка модулей на сайт</a></li>
+                                <li><a href="{{ path('page_display', {slug:'copyright'}) }}" title="Написание текстов (копирайтинг)">Написание текстов
+                                        (копирайтинг)</a></li>
+                                <li><a href="{{ path('page_display', {slug: 'content-for-sites'}) }}" title="Наполнение сайтов">Наполнение сайтов</a></li>
+                                <li><a href="{{ path('page_display', {slug: 'credit-page'}) }}" title="Сайты в рассрочку">Сайты в рассрочку</a></li>
+                                <li><a href="{{ path('page_display', {slug: 'friendship-page'}) }}" title="Программа лояльности">Программа лояльности</a></li>
+                                <li><a href="{{ path('page_display', {slug: 'nodoubt-page'}) }}" title='Услуга "без сомнений"'>Услуга "без сомнений"</a></li>
+                            </ul>
+                        </li>
+                        <li class="withImage dontknow">
+                            <a class="withImage" href="#" title="Не знаю что хочу" bs-id="dontknow" bs-action="{{ path('dontknow') }}">
+
+                                <img src="{{ asset('assets/img/dice.png')}}" alt="Не знаю что хочу" title="Не знаю что хочу"/></a>
+                            <ol class="cbp-hssubmenu">
+                                <li>Сайт визитка (типовой)<a href="{{ path('vizitka_page') }}"
+                                                             title="Сайт визитка (типовой)">colornew.ru/sait-vizitka.html</a>
+                                </li>
+                                <li>Интернет-магазин<a href="{{ path('shop_page') }}" title="Интернет-магазин">colornew.ru/internet-magazin.html</a>
+                                </li>
+                                <li>Landing-page<a href="{{ path('landing_page') }}" title="Landing-page">colornew.ru/landing-page.html</a>
+                                </li>
+                                <li>Продвижение сайтов<a href="{{ path('promotion_page') }}" title="Продвижение сайтов">colornew.ru/promotion-of-s...</a>
+                                </li>
+                            </ol>
+                            <ol class="cbp-hssubmenu-small">
+                                <li>Сайт визитка (типовой)<a href="{{ path('vizitka_page') }}"
+                                                             title="Сайт визитка (типовой)">colornew.ru/sait-vizitka.html</a>
+                                </li>
+                                <li>Интернет-магазин<a href="{{ path('shop_page') }}" title="Интернет-магазин">colornew.ru/internet-magazin.html</a>
+                                </li>
+                                <li>Landing-page<a href="{{ path('landing_page') }}" title="Landing-page">colornew.ru/landing-page.html</a>
+                                </li>
+                                <li>Продвижение сайтов<a href="{{ path('promotion_page') }}" title="Продвижение сайтов">colornew.ru/promotion-of-s...</a>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>

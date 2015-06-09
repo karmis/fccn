@@ -1,0 +1,38 @@
+{% extends 'default/index.html.twig' %}
+    {% block meta %}
+	<title>Сайт в рассрочку - ColorNew Интернет Студия</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Сайт в рассрочку">
+    {% endblock meta %}
+{% block content %}
+<!--~~~~~~~~~~~~~~~~~content~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~banner~~~~~~~~~~~~~~~~~-->
+    {% block banner %}
+        {{ include('AppBundle:Blocks/Banners:installments.html.twig') }}
+    {% endblock %}  
+<!--~~~~~~~~~~~~~~~~~/banner~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~svyazatsya~~~~~~~~~~~~~~~~~-->
+<div class="forma container svyazatsya">
+    <h2>Почему это выгодно?</h2>
+    <p>Потому что у Вас есть возможность разобраться с финансовыми трудностями, не «выдирая» из бюджета Вашей организации средств на сайт.</p>
+    <p>Создание сайта в рассрочку может позволить реализовать Ваши идеи, поможет вам с бизнесом. При этом, заказав сайт в рассрочку, Вы нисколько не переплачиваете!</p>
+    <form action="">
+        <p>Заполните форму и мы перезвоним вам!</p>
+        <input type="text" placeholder="Ваше имя" required>
+        <input type="tel" class="phone_input" placeholder="Телефон" required>
+        <input type="email" placeholder="Электронная почта">
+        <textarea name="" id="" cols="30" rows="8" placeholder="Сообщение"></textarea>
+        <a href="" class="politica">Политика конфиденциальности</a>
+        <input type="submit" class="btn-dashed" value="Отправить">
+    </form>
+    <div class="escho">
+        <p>Еще несколько причин:</p>
+        <li>Вы не переплачиваете за сайт, заказав его в рассрочку.</li>
+        <li>Стоимость Вашего сайта окупится уже в первые месяцы пребывания в сети!</li>
+        <li>Параллельно получая доход с сайта, вы оплачиваете равными долями рассрочку.</li>
+    </div>
+</div>
+<!--~~~~~~~~~~~~~~~~~/svyazatsya~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~/content~~~~~~~~~~~~~~~~~-->
+
+{% endblock %}

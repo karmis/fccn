@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% block meta %}
+	    <title>Продвижение сайта с гарантией - ColorNew Интернет Студия</title>
+	    <meta charset="utf-8">
+	    <meta name="description" content="">
+	    <meta name="robots" content="index, follow">
+	    <meta name="language" content="Russian">
+	{% endblock meta %}
+	<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="HandheldFriendly" content="True">
+    {% block css %}{% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
+</head>
+<body>
+{% block body %}{% endblock %}
+
+{% block js %}{% endblock %}
+</body>
+</html>

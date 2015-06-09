@@ -1,0 +1,518 @@
+{% extends 'default/index.html.twig' %}
+    {% block meta %}
+	<title>Домены и хостинг - ColorNew Интернет Студия</title>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+    {% endblock meta %}
+{% block content %}
+    {% block banner %}
+        <!--~~~~~~~~~~~~~~~~~banner~~~~~~~~~~~~~~~~~-->
+        {{ include('AppBundle:Blocks/Banners:domains_hosting.html.twig') }}
+        <!--~~~~~~~~~~~~~~~~~/banner~~~~~~~~~~~~~~~~~-->
+    {% endblock %}
+
+
+    {% block tariffs %}
+        <div class="tariffs container">
+            <h2>Тарифы на хостинг</h2>
+
+            <div class="korpus2" id="korpus2">
+                <input type="radio" name="odin" checked="checked" id="vvkl1"/><label for="vvkl1"><a class="tab"
+                                                                                                    title="НЕДОРОГОЙ ХОСТИНГ">НЕДОРОГОЙ ХОСТИНГ</a></label>
+                <input type="radio" name="odin" id="vvkl2"/><label for="vvkl2"><a class="tab" title="ПРОФЕССИОНАЛЬНЫЙ ХОСТИНГ">ПРОФЕССИОНАЛЬНЫЙ ХОСТИНГ</a></label>
+                <input type="radio" name="odin" id="vvkl3"/><label for="vvkl3"><a class="tab" title="БЕЗЛИМИТНЫЙ ХОСТИНГ">БЕЗЛИМИТНЫЙ ХОСТИНГ</a></label>
+                <!--~~~~~~~~~~~~~~~~~virtual hosting~~~~~~~~~~~~~~~~~-->
+                <div>
+                    <div class="row visible-md visible-lg">
+                        <div class="thead col-md-4"></div>
+                        <div class="thead col-md-2">N-1</div>
+                        <div class="thead col-md-2">N-2</div>
+                        <div class="thead col-md-2">N-3</div>
+                        <div class="thead col-md-2">N-4</div>
+                        <div class="tleft col-md-4">
+                            <li>Стоимость (с помесячной оплатой)</li>
+                            <li>Стоимость (при оплате за 1 год)</li>
+                            <li>Место под сайты, Мб</li>
+                            <li>Количество сайтов на одном аккаунте, шт.</li>
+                            <li>Баз данных MySQL</li>
+                            <li>Допустимая нагрузка на сервер, %</li>
+                            <li>E-mail ящики, шт.</li>
+                            <li>Поддомены</li>
+                            <li>Домен в подарок (ru, рф) при оплате за год</li>
+                
+                        </div>
+                        <div class="tbody col-md-2">
+                            <li>49 руб./мес.</li>
+                            <li style='color:red;'>45 руб./мес.</li>
+                            <li>500</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>3</li>
+                            <li>-</li>
+                            <li>1</li>
+                            <li>-</li>
+                            <li class="hid"><a class="btn-podrobnee" href="#" title="">Заказать</a></li>
+                        </div>
+                        <div class="tbody col-md-2">
+                            <li>69 руб./мес.</li>
+                            <li style='color:red;'>60 руб./мес.</li>
+                            <li>700</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>5</li>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>-</li>
+                            <li class="hid"><a class="btn-podrobnee" href="#" title="">Заказать</a></li>
+                        </div>
+                        <div class="tbody col-md-2">
+                    <li>99 руб./мес.</li>
+                            <li style='color:red;'>90 руб./мес.</li>
+                            <li>1000</li>
+                            <li>2</li>
+                            <li>2</li>
+                            <li>7</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>да</li>
+                            <li class="hid"><a class="btn-podrobnee" href="#" title="">Заказать</a></li>
+                        </div>
+                        <div class="tbody col-md-2">
+                            <li>149 руб./мес.</li>
+                            <li style='color:red;'>139 руб./мес.</li>
+                            <li>8000</li>
+                            <li>4</li>
+                            <li>4</li>
+                            <li>17</li>
+                            <li>4</li>
+                            <li>6</li>
+                            <li>да</li>
+                            <li class="hid"><a class="btn-podrobnee" href="#" title="">Заказать</a></li>
+                        </div>
+                    </div>
+                    <div class="row visible-sm visible-xs">
+                        <div class="horizontal-click1">
+                            <input type="radio" name="virtual_hosting" id="vkl1" checked="checked"/>
+                            <label for="vkl1">N-1</label>
+
+                            <div class="row">
+                                <div class="tleft col-sm-6 col-xs-6">
+                                  <li>Стоимость (с помесячной оплатой)</li>
+                            <li>Стоимость (при оплате за 1 год)</li>
+                            <li>Место под сайты, Мб</li>
+                            <li>Количество сайтов на одном аккаунте, шт.</li>
+                            <li>Баз данных MySQL</li>
+                            <li>Допустимая нагрузка на сервер, %</li>
+                            <li>E-mail ящики, шт.</li>
+                            <li>Поддомены</li>
+                            <li>Домен в подарок (ru, рф) при оплате за год</li>
+                                </div>
+                                <div class="tbody col-sm-6 col-xs-6">
+                                     <li>49 руб./мес.</li>
+                            <li style='color:red;'>45 руб./мес.</li>
+                            <li>500</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>3</li>
+                            <li>-</li>
+                            <li>1</li>
+                            <li>-</li>
+                                    <li class="hid"><a class="btn-podrobnee" href="#" title="">Заказать</a></li>
+                                </div>
+                            </div>
+                            <input type="radio" name="virtual_hosting" id="vkl2"/>
+                            <label for="vkl2">N-2</label>
+
+                            <div class="row">
+                                <div class="tleft col-sm-6 col-xs-6">
+                                               <li>Стоимость (с помесячной оплатой)</li>
+                            <li>Стоимость (при оплате за 1 год)</li>
+                            <li>Место под сайты, Мб</li>
+                            <li>Количество сайтов на одном аккаунте, шт.</li>
+                            <li>Баз данных MySQL</li>
+                            <li>Допустимая нагрузка на сервер, %</li>
+                            <li>E-mail ящики, шт.</li>
+                            <li>Поддомены</li>
+                            <li>Домен в подарок (ru, рф) при оплате за год</li>
+                                </div>
+                                <div class="tbody col-sm-6 col-xs-6">
+                                               <li>69 руб./мес.</li>
+                            <li style='color:red;'>60 руб./мес.</li>
+                            <li>700</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>5</li>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>-</li>
+                                    <li class="hid"><a class="btn-podrobnee" href="#" title="">Заказать</a></li>
+                                </div>
+                            </div>
+                            <input type="radio" name="virtual_hosting" id="vkl3"/>
+                            <label for="vkl3">N-3</label>
+
+                            <div class="row">
+                                <div class="tleft col-sm-6 col-xs-6">
+                                                      <li>Стоимость (с помесячной оплатой)</li>
+                            <li>Стоимость (при оплате за 1 год)</li>
+                            <li>Место под сайты, Мб</li>
+                            <li>Количество сайтов на одном аккаунте, шт.</li>
+                            <li>Баз данных MySQL</li>
+                            <li>Допустимая нагрузка на сервер, %</li>
+                            <li>E-mail ящики, шт.</li>
+                            <li>Поддомены</li>
+                            <li>Домен в подарок (ru, рф) при оплате за год</li>
+                                </div>
+                                <div class="tbody col-sm-6 col-xs-6">
+                                <li>99 руб./мес.</li>
+                               <li style='color:red;'>90 руб./мес.</li>
+                            <li>1000</li>
+                            <li>2</li>
+                            <li>2</li>
+                            <li>7</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>да</li>
+                                    <li class="hid"><a class="btn-podrobnee" href="#" title="">Заказать</a></li>
+                                </div>
+                            </div>
+                            <input type="radio" name="virtual_hosting" id="vkl4"/>
+                            <label for="vkl4">N-4</label>
+
+                            <div class="row">
+                                <div class="tleft col-sm-6 col-xs-6">
+                                                            <li>Стоимость (с помесячной оплатой)</li>
+                            <li>Стоимость (при оплате за 1 год)</li>
+                            <li>Место под сайты, Мб</li>
+                            <li>Количество сайтов на одном аккаунте, шт.</li>
+                            <li>Баз данных MySQL</li>
+                            <li>Допустимая нагрузка на сервер, %</li>
+                            <li>E-mail ящики, шт.</li>
+                            <li>Поддомены</li>
+                            <li>Домен в подарок (ru, рф) при оплате за год</li>
+                                </div>
+                                <div class="tbody col-sm-6 col-xs-6">
+                                   <li>149 руб./мес.</li>
+                            <li style='color:red;'>139 руб./мес.</li>
+                            <li>8000</li>
+                            <li>4</li>
+                            <li>4</li>
+                            <li>17</li>
+                            <li>4</li>
+                            <li>6</li>
+                            <li>да</li>
+                                    <li class="hid"><a class="btn-podrobnee" href="#" title="">Заказать</a></li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--~~~~~~~~~~~~~~~~~/virtual hosting~~~~~~~~~~~~~~~~~-->
+                <!--~~~~~~~~~~~~~~~~~hosted on SSD-drives~~~~~~~~~~~~~~~~~-->
+                <div>
+                    <div class="row visible-md visible-lg">
+                         <div class="thead col-md-4"></div>
+                        <div class="thead col-md-2">Profi-1</div>
+                        <div class="thead col-md-2">Profi-2</div>
+                        <div class="thead col-md-2">SSD-1</div>
+                        <div class="thead col-md-2">SSD-2</div>
+                        <div class="tleft col-md-4">
+                            <li>Стоимость (с помесячной оплатой)</li>
+                            <li>Стоимость (при оплате за 1 год)</li>
+                            <li>Место под сайты, Мб</li>
+                            <li>Количество сайтов на одном аккаунте, шт.</li>
+                            <li>Баз данных MySQL</li>
+                            <li>Допустимая нагрузка на сервер, %</li>
+                            <li>E-mail ящики, шт.</li>
+                            <li>Поддомены</li>
+                            <li>Домен в подарок (ru, рф) при оплате за год</li>
+                            
+                
+                        </div>
+                        <div class="tbody col-md-2">
+                            <li>400 руб./мес.</li>
+                            <li style='color:red;'>250 руб./мес.</li>
+                            <li>400</li>
+                            <li>неограниченно</li>
+                            <li>неограниченно</li>
+                            <li>22</li>
+                            <li>неограниченно</li>
+                            <li>неограниченно</li>
+                            <li>да</li>
+                            <li class="hid"><a class="btn-podrobnee" href="#" title="">Заказать</a></li>
+                        </div>
+                        <div class="tbody col-md-2">
+                            <li>650 руб./мес.</li>
+                            <li style='color:red;'>500 руб./мес.</li>
+                            <li>1 000</li>
+                            <li>неограниченно</li>
+                            <li>неограниченно</li>
+                            <li>22</li>
+                            <li>неограниченно</li>
+                            <li>неограниченно</li>
+                            <li>да</li>
+                            <li class="hid"><a class="btn-podrobnee" href="#" title="">Заказать</a></li>
+                        </div>
+                        <div class="tbody col-md-2">
+                    <li>1 100 руб./мес.</li>
+                            <li style='color:red;'>990 руб./мес.</li>
+                            <li>15 000</li>
+                            <li>неограниченно</li>
+                            <li>неограниченно</li>
+                            <li>40</li>
+                            <li>неограниченно</li>
+                            <li>неограниченно</li>
+                            <li>да</li>
+                            <li class="hid"><a class="btn-podrobnee" href="#" title="">Заказать</a></li>
+                        </div>
+                        <div class="tbody col-md-2">
+                             <li>1 790 руб./мес.</li>
+                            <li style='color:red;'>1 590 руб./мес.</li>
+                            <li>30 000</li>
+                            <li>неограниченно</li>
+                            <li>неограниченно</li>
+                            <li>45</li>
+                            <li>неограниченно</li>
+                            <li>неограниченно</li>
+                            <li>да</li>
+                            <li class="hid"><a class="btn-podrobnee" href="#" title="">Заказать</a></li>
+                        </div>
+                    </div>
+                    <div class="row visible-sm visible-xs">
+                        <div class="horizontal-click2">
+                            <input type="radio" name="ssd" id="vkl5" checked="checked"/>
+                            <label for="vkl5">Profi-1</label>
+
+                            <div class="row">
+                                <div class="tleft col-sm-6 col-xs-6">
+                                   <li>Стоимость (с помесячной оплатой)</li>
+                            <li>Стоимость (при оплате за 1 год)</li>
+                            <li>Место под сайты, Мб</li>
+                            <li>Количество сайтов на одном аккаунте, шт.</li>
+                            <li>Баз данных MySQL</li>
+                            <li>Допустимая нагрузка на сервер, %</li>
+                            <li>E-mail ящики, шт.</li>
+                            <li>Поддомены</li>
+                            <li>Домен в подарок (ru, рф) при оплате за год</li>
+                                </div>
+                                <div class="tbody col-sm-6 col-xs-6">
+                                  <li>400 руб./мес.</li>
+                            <li style='color:red;'>250 руб./мес.</li>
+                            <li>400</li>
+                            <li>неограниченно</li>
+                            <li>неограниченно</li>
+                            <li>22</li>
+                            <li>неограниченно</li>
+                            <li>неограниченно</li>
+                            <li>да</li>
+                                    <li class="hid"><a class="btn-podrobnee" href="#" title="">Заказать</a></li>
+                                </div>
+                            </div>
+                            <input type="radio" name="ssd" id="vkl6"/>
+                            <label for="vkl6">Profi-2</label>
+
+                            <div class="row">
+                                <div class="tleft col-sm-6 col-xs-6">
+                                     <li>Стоимость (с помесячной оплатой)</li>
+                            <li>Стоимость (при оплате за 1 год)</li>
+                            <li>Место под сайты, Мб</li>
+                            <li>Количество сайтов на одном аккаунте, шт.</li>
+                            <li>Баз данных MySQL</li>
+                            <li>Допустимая нагрузка на сервер, %</li>
+                            <li>E-mail ящики, шт.</li>
+                            <li>Поддомены</li>
+                            <li>Домен в подарок (ru, рф) при оплате за год</li>
+                                </div>
+                                <div class="tbody col-sm-6 col-xs-6">
+                                   <li>650 руб./мес.</li>
+                            <li style='color:red;'>500 руб./мес.</li>
+                            <li>1 000</li>
+                            <li>неограниченно</li>
+                            <li>неограниченно</li>
+                            <li>22</li>
+                            <li>неограниченно</li>
+                            <li>неограниченно</li>
+                            <li>да</li>
+                                    <li class="hid"><a class="btn-podrobnee" href="#" title="">Заказать</a></li>
+                                </div>
+                            </div>
+                            <input type="radio" name="ssd" id="vkl7"/>
+                            <label for="vkl7">SSD-1</label>
+
+                            <div class="row">
+                                <div class="tleft col-sm-6 col-xs-6">
+                                                <li>Стоимость (с помесячной оплатой)</li>
+                            <li>Стоимость (при оплате за 1 год)</li>
+                            <li>Место под сайты, Мб</li>
+                            <li>Количество сайтов на одном аккаунте, шт.</li>
+                            <li>Баз данных MySQL</li>
+                            <li>Допустимая нагрузка на сервер, %</li>
+                            <li>E-mail ящики, шт.</li>
+                            <li>Поддомены</li>
+                            <li>Домен в подарок (ru, рф) при оплате за год</li>
+                                </div>
+                                <div class="tbody col-sm-6 col-xs-6">
+                                <li>1 100 руб./мес.</li>
+                            <li style='color:red;'>990 руб./мес.</li>
+                            <li>15 000</li>
+                            <li>неограниченно</li>
+                            <li>неограниченно</li>
+                            <li>40</li>
+                            <li>неограниченно</li>
+                            <li>неограниченно</li>
+                            <li>да</li>
+                                    <li class="hid"><a class="btn-podrobnee" href="#" title="">Заказать</a></li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--~~~~~~~~~~~~~~~~~/hosted on SSD-drives~~~~~~~~~~~~~~~~~-->
+                <!--~~~~~~~~~~~~~~~~~backup~~~~~~~~~~~~~~~~~-->
+                <div>
+                    <div class="row visible-md visible-lg">
+                        <div class="thead col-md-6"></div>
+                        <div class="thead col-md-2">Unlim-1</div>
+                        <div class="thead col-md-2">Unlim-1</div>
+                        <div class="thead col-md-2">Unlim-3</div>
+                        <div class="tleft col-md-6">
+                            <li>Стоимость (с помесячной оплатой)</li>
+                            <li>Стоимость (при оплате за 1 год)</li>
+                            <li>Ограничение на CPU</li>
+                            <li>Ограничение на ОЗУ</li>
+                            <li>Место на диске</li>
+                        </div>
+                        <div class="tbody col-md-2">
+                            <li>720 руб./мес.</li>
+                            <li>620 руб./мес.</li>
+                            <li>550 Мгц</li>
+                            <li>600 мб</li>
+                            <li>неограниченно</li>
+                            <li class="hid"><a class="btn-podrobnee" href="#" title="">Заказать</a></li>
+                        </div>
+                        <div class="tbody col-md-2">
+                            <li>1 000 руб./мес.</li>
+                            <li>900 руб./мес.</li>
+                            <li>1 000 Мгц</li>
+                            <li>720 мб</li>
+                            <li>неограниченно</li>
+                            <li class="hid"><a class="btn-podrobnee" href="#" title="">Заказать</a></li>
+                        </div>
+                        <div class="tbody col-md-2">
+                            <li>1 470 руб./мес.</li>
+                            <li>1 370 руб./мес.</li>
+                            <li>2 600 Мгц</li>
+                            <li>1 500 мб</li>
+                            <li>неограниченно</li>
+                            <li class="hid"><a class="btn-podrobnee" href="#" title="">Заказать</a></li>
+                        </div>
+                    </div>
+                    <div class="row visible-sm visible-xs">
+                        <div class="horizontal-click3">
+                            <input type="radio" name="backup" id="vkl8" checked="checked"/>
+                            <label for="vkl8">25 gb</label>
+
+                            <div class="row">
+                                <div class="tleft col-sm-6 col-xs-6">
+                                    <li>Цена (1 месяц), руб</li>
+                                </div>
+                                <div class="tbody col-sm-6 col-xs-6">
+                                    <li>1 500 руб.</li>
+                                    <li class="hid"><a class="btn-podrobnee" href="#" title="">Заказать</a></li>
+                                </div>
+                            </div>
+                            <input type="radio" name="backup" id="vkl9"/>
+                            <label for="vkl9">50 gb</label>
+
+                            <div class="row">
+                                <div class="tleft col-sm-6 col-xs-6">
+                                    <li>Цена (1 месяц), руб</li>
+                                </div>
+                                <div class="tbody col-sm-6 col-xs-6">
+                                    <li>2 390 руб.</li>
+                                    <li class="hid"><a class="btn-podrobnee" href="#" title="">Заказать</a></li>
+                                </div>
+                            </div>
+                            <input type="radio" name="backup" id="vkl10"/>
+                            <label for="vkl10">100 gb</label>
+
+                            <div class="row">
+                                <div class="tleft col-sm-6 col-xs-6">
+                                    <li>Цена (1 месяц), руб</li>
+                                </div>
+                                <div class="tbody col-sm-6 col-xs-6">
+                                    <li>2 990 руб.</li>
+                                    <li class="hid"><a class="btn-podrobnee" href="#" title="">Заказать</a></li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--~~~~~~~~~~~~~~~~~/backup~~~~~~~~~~~~~~~~~-->
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding: 0;">
+                    <div class="row" style="padding: 0 5px;">
+                        <div class="thead col-md-6 col-sm-6 col-xs-6">Доменная зона</div>
+                        <div class="thead col-md-6 col-sm-6 col-xs-6">Стоимость (1 год), руб.</div>
+                        <div class="tleft col-md-6 col-sm-6 col-xs-6">
+                            <li>ru</li>
+                            <li>рф</li>
+                            <li>ru+ru (два по цене одного)</li>
+                            <li>ru+рф (два по цене одного)</li>
+                            <li>рф+рф (два по цене одного)</li>
+                            <li>com</li>
+                            <li>com+ru</li>
+                            <li>su</li>
+                            <li>org</li>
+                            <li>biz</li>
+                            <li>info</li>
+                            <li>mobi</li>
+                            <li>name</li>
+                            <li>me</li>
+                        </div>
+                        <div class="tbody col-md-6 col-sm-6 col-xs-6">
+                            <li>600 руб.</li>
+                            <li>600 руб.</li>
+                            <li>600 руб.</li>
+                            <li>600 руб.</li>
+                            <li>600 руб.</li>
+                            <li>840 руб.</li>
+                            <li>950 руб.</li>
+                            <li>840 руб.</li>
+                            <li>840 руб.</li>
+                            <li>840 руб.</li>
+                            <li>840 руб.</li>
+                            <li>990 руб.</li>
+                            <li>840 руб.</li>
+                            <li>1770 руб.</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" style="padding: 0;">
+                    <div class="row" style="padding: 0 5px;">
+                        <div class="thead col-md-8 col-sm-8 col-xs-8">Наименование услуги</div>
+                        <div class="thead col-md-4 col-sm-4 col-xs-4">Стоимость</div>
+                        <div class="tleft col-md-8 col-sm-8 col-xs-8">
+                            <li>Защита сайта от взлома и вирусов</li>
+                            <li>Администрирование стороннего сервера</li>
+                            <li>Выкуп доменных имен на аукционах</li>
+                            <li style="padding: 20px 14px;">Юридические услуги по информационной безопасности</li>
+                            <li style="padding: 20px 14px;">Размещение и регистрация сайта за границей</li>
+                        </div>
+                        <div class="tbody col-md-4 col-sm-4 col-xs-4">
+                            <li>6 000 р./год</li>
+                            <li>от 1 000 руб./мес.</li>
+                            <li>4 990 руб.</li>
+                            <li>от 1 990 руб.</li>
+                            <li>9 990 руб.</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="podrobnee"><a href="#" class="btn-podrobnee">Получить консультацию</a></div>
+        </div>
+
+        <!--~~~~~~~~~~~~~~~~~/tariffs~~~~~~~~~~~~~~~~~-->
+    {% endblock %}
+{% endblock %}

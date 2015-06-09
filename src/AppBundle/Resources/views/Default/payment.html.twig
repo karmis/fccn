@@ -1,0 +1,179 @@
+{% extends 'default/index.html.twig' %}
+{% block meta %}
+    <title>Способы оплаты - ColorNew Интернет Студия</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Russian">
+{% endblock meta %}
+{% block content %}
+    {% block banner %}
+        {{ include('AppBundle:Blocks/Banners:payment.html.twig') }}
+    {% endblock %}
+    <div class="container">
+        <div class="">
+            <div class="container">
+                <div class="container" role="tabpanel">
+                    <div class="row">
+                        <div class="col-md-12 no-padding">
+                            <div class="payment forma container svyazatsya">
+                                <h2>Оплата c сайта</h2>
+                                <div class='payment-process top'>
+                                    <ul class="payment-process">
+                                        <li> Укажите ФИО Плательщика, сумму платежа и оcтальные данные. Затем переходим к оплате.
+                                        <li> В открывшемся окне проверьте правильность введенных данных. СЛЕВА выберите удобный способ оплаты (банковская карта).
+                                        <li> Проверив правильность исходных данных, укажите свой телефон или e-mail.
+                                        <li> Введите реквизиты Вашей банкоской карты.
+                                        <li> В открывшемся окне введите полученный пароль и завершите оплату.
+                                        <li> Сообщите об оплате по телефону <span class="tel">8 (800) 555 54 93</span>.
+                                    </ul>
+                                </div>
+                                <div class="tabs">
+                                    <div class="tab-container">
+                                        <ul class="tabs">
+                                            <li data-index="0" class="active"><a href="#">Для физических лиц</a>
+                                            <li data-index="1"><a href="#">Для юридических лиц</a>
+                                        </ul>
+                                        <div id="tab-content1" data-index="0" class="paytabs tab-content">
+                                            <h3>Заполните форму для физических лиц</h3>
+                                            <form bs-action="{{ path('payment_action') }}" accept-charset="utf-8" method="post" id="individual_form_payment" action="https://www.moneta.ru/assistant.htm">  
+                                                <div class="half">
+                                                    <input class="required" type="text" name='fio' placeholder="Ваше имя"/>
+                                                </div>
+                                                <div class="half">
+                                                    <input class="required" type="text" name="email" placeholder="Электронная почта"/>
+                                                </div>
+                                                <div class="half">
+                                                    <input class="required" type="text" name="amount" id="amount" placeholder="Сумма оплаты, руб"/>
+                                                </div>
+                                                <div class="half">
+                                                    <input class="required" type="text" name="tel" placeholder="Номер телефона"/>
+                                                </div>
+                                                <br style="clear: both">
+                                                <div class="whole">
+                                                    <div class="payment-goal">Назначние платежа: Оплата рекламных услуг в сети Интернет</div>
+                                                </div>
+                                                <p>Оплачивая счет, Вы соглашаетесь с <a href="http://www.colornew.ru/oferta/dogovor-oferta-colornew.pdf" target="_blank">Договором публичной Оферты</a></p>
+                                                <div class="half">
+                                                    <a class="print" id="print_receipts_individual" bs-form-action="{{ path('receipt_action') }}">Напечатать квитанцию для оплаты в банке</a>
+                                                    <div class="receipt_comission_individual">
+                                                        С учетом комисси: 0%: <span id="receipt_comission_val_individual"></span> рублей
+                                                    </div>
+                                                </div>
+                                                <div class="half">
+                                                    <button id="individual_submit" class="btn yuri" data-loading-text="Подождите">Оплатить банковской картой</button>
+                                                    <div class="receipt_comission_individual">
+                                                        С учетом комисси: 3.3%: <span id="receipt_comission_val_individual_bank"></span> рублей
+                                                    </div>
+                                                </div>
+                                                <br style="clear: both">
+                                                <div class="hor-line"></div>
+                                                <p class="systems">Также Вы можете оплатить через электронные платежные системы:</p>
+                                                <div class="web-money"><div class="img"></div><div class="code">R379596670519</div></div>
+                                                <div class="ya-money"><div class="img"></div><div class="code">41001610350258</div></div>
+                                                <input type="hidden" name="paymentSystem.unitId" value="499669">
+                                                <input type="hidden" name="MNT_ID" value="25553566">
+                                                <input type="hidden" name="payment_type" value="individual">
+                                                <input type="hidden" name="MNT_AMOUNT" id="mnt_amount_individual">
+                                                
+                                            </form>
+                                        </div>
+                                        <div id="tab-content2" data-index="1" class="paytabs tab-content">
+                                            <form bs-action="{{ path('receipt_action') }}" accept-charset="utf-8" method="post" id="legal_form_payment">
+                                                <h3 class="yuri">Заполните форму для юридических лиц</h3>                                                
+                                                <div class="half">
+                                                    <label class="required">Название организации (или ИП)</label>
+                                                    <input type="text" name="organization" placeholder="ООО &laquo;Колор Нью&raquo;"/>
+                                                </div>
+                                                <div class="half">
+                                                    <label class="required">ИНН</label>
+                                                    <input type="text" name="inn" placeholder="Введите Ваш ИНН"/>
+                                                </div>
+                                                <div class="half">
+                                                    <label class="required">КПП (для ИП поставьте 0)</label>
+                                                    <input type="text" name="kpp" placeholder="Введите Ваш КПП"/>
+                                                </div>
+                                                <div class="half">
+                                                    <label class="required">ОГРН</label>
+                                                    <input type="text" name="ogrn" placeholder="Введите Ваш ОГРН"/>
+                                                </div>
+                                                <div class="half">
+                                                    <label class="required">БИК банка</label>
+                                                    <input type="text" name="bik" placeholder="Введите БИК банка"/>
+                                                </div>
+                                                <div class="half">
+                                                    <label class="required">Р/с</label>
+                                                    <input type="text" name="pc" placeholder="Введите Ваш Р/с"/>
+                                                </div>
+                                                <div class="half">
+                                                    <label class="required">К/с</label>
+                                                    <input type="text" name="ks" placeholder="Введите Ваш К/с"/>
+                                                </div>
+                                                <div class="half">
+                                                    <label class="required">В лице:</label>
+                                                    <input type="text" name="fio" placeholder="Введите Ваше имя"/>
+                                                </div>
+                                                <div class="half">
+                                                    <label class="required">Действующего на основании</label>
+                                                    <input type="text" name="basis" placeholder="Устава"/>
+                                                </div>
+                                                <div class="half">
+                                                    <label class="required">Номер телефона</label>
+                                                    <input type="text" name="phone" placeholder="+7 (___)___-__-__"/>
+                                                </div>            
+                                                <div class="whole yuri">                                        
+                                                    <label class="required">Юридический адрес (с индексом)</label>
+                                                    <input type="text" id="legalAddress" name="legalAddress" placeholder="600001, г. Владимир, ул. Студеная гора, д.36"/>
+                                                </div>                                                
+                                                <div class="whole yuri">                                                    
+                                                    <label class="required">Почтовый адрес (с индексом)</label>
+                                                    <input id="postEqYuri" type="checkbox"/>
+                                                    <label for="postEqYuri">Взять из юридического адреса</label>
+                                                    <br class="clear: both">
+                                                    <input type="text" id="mailAddress" name="mailAddress" placeholder="600001, г. Владимир, ул. Студеная гора, д.36"/>
+                                                </div>
+                                                <div class="whole yuri">                                        
+                                                    <label class="required">Сумма оплаты</label>
+                                                    <input type="text" id="summ" name="MNT_AMOUNT" placeholder="Сумма оплаты, руб"/>
+                                                </div>   
+                                                <div class="whole yuri">
+                                                    <label>Назначение платежа</label>
+                                                    <div class="payment-goal">Оплата рекламных услуг в сети Интернет</div>
+                                                </div>
+                                                <br style="clear: both">
+                                                <p class="agree">
+                                                    Оплачивая счет, Вы соглашаетесь с <a href="http://www.colornew.ru/oferta/dogovor-oferta-colornew.pdf" target="_blank">Договором публичной Оферты</a> 
+                                                    <br>
+                                                    Оригиналы документов будут высланы Вам по почте России.
+                                                </p>
+                                                <a id="legal_submit" class="btn yuri" data-loading-text="Подождите">Сгенерировать счет</a>
+                                                <input type="hidden" name="payment_type" value="legal">
+                                            </form>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 payment no-padding">
+                                    <div class='payment-process right'>
+                                        <ul class="payment-process">
+                                            <li> Укажите ФИО Плательщика, сумму платежа и оcтальные данные. Затем переходим к оплате.
+                                            <li> В открывшемся окне проверьте правильность введенных данных. СЛЕВА выберите удобный способ оплаты банковская карта).
+                                            <li> Проверив правильность исходных данных, укажите свой телефон или e-mail.
+                                            <li> Введите реквизиты Вашей банкоской карты.
+                                            <li> В открывшемся окне введите полученный пароль и завершите оплату.
+                                            <li> Сообщите об оплате по телефону <span class="tel">8 (800) 555 54 93</span>.
+                                         </ul>
+                                        <div class="web-money-attestat">
+                                             <div class="img"></div>
+                                             <a href="#">Проверить аттестат</a>
+                                        </div>                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

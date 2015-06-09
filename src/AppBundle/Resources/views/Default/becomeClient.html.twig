@@ -1,0 +1,51 @@
+{% extends 'default/index.html.twig' %}
+    {% block meta %}
+	<title>Как стать клиентом, заказать сайт, продвижение, контекстную рекламу, фирменный стиль - ColorNew Интернет Студия</title>
+        <meta charset="utf-8">
+        <meta name="description" content="заказать сайт, продвижение, контекстная релама, фирменный стиль
+        <meta name="robots" content="index, follow">
+        <meta name="language" content="Russian">
+    {% endblock meta %}
+{% block content %}
+
+        <div class="banner banner_clouds"> 
+            <div class="banner_content"></div>
+        </div>
+        <div class="container">
+            <div class="">
+                <div class="container">
+                    <!-- Module sites -->
+                    <div class="container" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md-12 no-padding">
+				    {% block feedback %}
+				        <div class="forma container becomeClient_block">
+				            <h2>Как стать клиентом?</h2>
+				            <form bs-type="feedback" bs-action="{{ path('feed_call_back') }}" style="background: #F7F7F7;box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2);position: relative;margin-right: 13px;">
+				                <p style="font-size: 30px;padding-top: 15px;padding-bottom: 15px;">Заполните форму!</p>
+				                <input type="text" placeholder="Ваше имя" name='name' required>
+					        <input type="tel" name='tel' class="phone_input" placeholder="Телефон" required>
+					        <input type="email" placeholder="Электронная почта" name="email">
+					        <input type="hidden" name="ref">
+					        <textarea name="msg" id="" cols="30" rows="8" placeholder="Сообщение"></textarea>
+					        <a href="" class="politica">Политика конфиденциальности</a>
+					        <input type="submit" class="btn-dashed" value="Отправить">
+					    </form>
+					    <div class="becomeClient_ico">
+					          <img src="{{asset('assets/img/becomeClient.jpg')}}" alt="Отдел продаж" title="Отдел продаж"/>
+					    </div>
+					    <div class="becomeClient_ico">
+					        <div>
+					            Вы хотите заказать сайт, продвижение, контекстную рекламу, фирменный стиль? Нет ничего проще! Заполните форму ниже, наш менеджер свяжется с Вами и предложит варианты продвижения Вашего бизнеса в Интернете!
+					        </div>
+					    </div>
+				</div>
+				    {% endblock %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+{% endblock %}

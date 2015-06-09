@@ -1,0 +1,1429 @@
+<!--~~~~~~~~~~~~~~~~~calculate~~~~~~~~~~~~~~~~~-->
+<div class="calculate container" id="calculate">
+    <div class="korpus" id="korpus">
+        <h2>А сколько стоит сайт?</h2>
+        {% if vizitka == true %}
+            <input type="radio" name="odin" class="calc-type-item" id="vkl1"/>
+            <label for="vkl1">
+                <a class="tab" title="Cайт-визитка">САЙТ-ВИЗИТКА</a>
+            </label>
+        {% endif %}
+
+        {% if shop == true %}
+            <input type="radio" name="odin" class="calc-type-item" id="vkl2"/>
+            <label for="vkl2">
+                <a class="tab" title="Интернет-магазин">ИНТЕРНЕТ-МАГАЗИН</a>
+            </label>
+        {% endif %}
+
+        {% if corp == true %}
+            <input type="radio" name="odin" class="calc-type-item" id="vkl3"/>
+            <label for="vkl3">
+                <a class="tab" title="Корпоративный сайт">КОРПОРАТИВНЫЙ
+                САЙТ</a>
+            </label>
+        {% endif %}
+
+        {% if landing == true %}
+            <input type="radio" name="odin" class="calc-type-item" id="vkl4"/>
+            <label for="vkl4">
+                <a class="tab" title="Landing-page">LANDING-PAGE</a>
+            </label>
+        {% endif %}
+
+
+        <!--~~~~~~~~~~~~~~~~~business card site calc~~~~~~~~~~~~~~~~~-->
+        {% if vizitka == true %}
+        <div>
+            <form name="site_vizitka" bs-type='feedback' bs-action='{{ path('feed_calc_order') }}'>
+                <input type="hidden" name="site_type_name" value="Сайт-визитка"/>
+                <img src="{{ asset('assets/img/calc/dizayn_logo.png') }}" alt="Дизайн сайта"
+                     title="Дизайн сайта">
+
+                <p class="zagolovok_h2">Дизайн сайта</p>
+                <li>
+                    <div class="calc_radio"><input type="radio" name="dizayn" value="gotoviy"
+                                                   id="site_vizitka_gotoviy" checked><label
+                                for="site_vizitka_gotoviy">Готовый</label></div>
+                    <div class="item">
+                        <h3>Готовый дизайн</h3>
+                        <span class="price">Этот тип сайта поставляется с уже разработанными дизайн-шаблонами, поэтому обладая полноценным функционалом его стоимость невысокая. Данный сайт подойдет Вам если нужно в кратчайшие сроки запустить сайт с минимальными затратами с приятным дизайном.</span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+                     
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="calc_radio"><input type="radio" name="dizayn" value="individualniy"
+                                                   id="site_vizitka_individualniy"><label
+                                for="site_vizitka_individualniy">Индивидуальный</label></div>
+                    <div class="item">
+                        <h3>Индивидуальный дизайн</h3>
+                        <span class="price">Индивидуальный дизайн проектируется под конкретные запросы Заказчика и подходит тем, кто хочет расширенный функционал и детальную проработку дизайн-макета без использования шаблонов.</span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+                         
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="calc_checkbox"><input type="checkbox" name="razrabotka_logotipa"
+                                                      id="site_vizitka_razrabotka_logotipa"><label
+                                for="site_vizitka_razrabotka_logotipa">Разработка логотипа</label></div>
+                    <div class="item">
+                        <h3>Разработка логотипа</h3>
+                        <span class="price"> Индивидуальный логотип – это лицо компании. Именно с него начинается процесс формирования фирменного стиля. Мы разработаем для Вас 3 уникальных варианта логотипа!</span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+                           
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="calc_checkbox"><input type="checkbox" name="razrabotka_bannerov"
+                                                      id="site_vizitka_razrabotka_bannerov"><label
+                                for="site_vizitka_razrabotka_bannerov">Разработка баннеров для
+                            слайдшоу</label><input type="text" id="site_vizitka_k" value="1"> шт.
+                    </div>
+                    <div class="item">
+                        <h3>Разработка баннеров для слайдшоу</h3>
+                        <span class="price">Баннеры на сайте будут привлекать внимание пользователей уникальными акциями, спецпредложениями и помогут сделать акцент на предлагаемых услугах.</span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+                            
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+
+                <img src="{{ asset('assets/img/calc/kompl_logo.png') }}" alt="Тип сайта"
+                     title="Тип сайта">
+
+                <p class="zagolovok_h2">Тип сайта</p>
+
+                <li>
+                    <div class="calc_radio"><input type="radio" name="kompl" value="mini" id="site_vizitka_mini"
+                                                   checked><label for="site_vizitka_mini">Мини</label></div>
+                    <div class="item">
+                        <h3>Мини</h3>
+                        <span class="price"> «Визитка-мини» - самый недорогой сайт (одностраничный). Требует минимум времени и затрат для запуска. Подойдет Вам если нужно разместить в сети Интернет информацию о деятельности, небольшой прайс, фотогалерею, схему проезда и контакты.</span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+                            
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="calc_radio">
+                        <input type="radio" name="kompl" value="standart" id="site_vizitka_standart">
+                        <label for="site_vizitka_standart">Стандарт</label></div>
+                    <div class="item">
+                        <h3>Стандарт</h3>
+                        <span class="price">Данный тип сайта имеет расширенную структуру сайта визитки «мини». Этот сайт уже представляет собой не одну страницу, а полноценные разделы которые можно наполнять любой информацией!</span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="calc_radio"><input type="radio" name="kompl" value="rashirenniy"
+                                                   id="site_vizitka_rashirenniy"><label
+                                for="site_vizitka_rashirenniy">Расширенный</label></div>
+                    <div class="item">
+                        <h3>Расширенный</h3>
+                        <span class="price">Реализация функционала сайта под любые запросы Заказчика</span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="calc_checkbox"><input type="checkbox" name="copyright"
+                                                      id="site_vizitka_copyright"><label
+                                for="site_vizitka_copyright">Копирайтинг</label><input type="text"
+                                                                                       id="site_vizitka_k2"
+                                                                                       value="1"> страниц
+                    </div>
+                    <div class="item">
+                        <h3>Копирайтинг</h3>
+                        <span class="price">Профессиональное написание текстов для любой тематики.</span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+
+                <input type="checkbox" id="site_vizitka_checkbox_spoyler"><label
+                        for="site_vizitka_checkbox_spoyler" class="zagolovok_h2">Комплектация сайта:</label>
+
+                <div id="spoyler">
+                    <div id="site_vizitka_gotoviy_mini_dop">
+                       
+                    <p class="text">Страница с услугами компании</p>
+                        
+                         <a href="#q1" class="fancybox dop" title="Форма обратной связи"><img
+                                    src="{{ asset('assets/img/dop/feedback.png') }}" alt="Форма обратной связи" title="Форма обратной связи">
+                            <div></div>
+                            <span>Форма обратной связи</span>
+                        </a>
+                        
+                        <a href="#q2" class="fancybox dop" title="Онлайн консультант"><img
+                                    src="{{ asset('assets/img/dop/konsultant.jpg') }}" alt="Онлайн консультант" title="Онлайн консультант">
+                            <div></div>
+                            <span>Онлайн консультант</span>
+                        </a>
+                        
+                         <a href="#q3" class="fancybox dop" title="Схема проезда Yandex (или Google)"><img
+                                    src="{{ asset('assets/img/dop/maps.jpg') }}" alt="Схема проезда Yandex (или Google)" title="Схема проезда Yandex (или Google)">
+                            <div></div>
+                            <span><b>Схема проезда</b> Yandex (или Google)</span>
+                        </a>
+                        
+                          <a href="#q4" class="fancybox dop" title="Фотогалерея"><img
+                                    src="{{ asset('assets/img/dop/photo.png') }}" alt="Фотогалерея" title="Фотогалерея">
+                            <div></div>
+                            <span>Фотогалерея</span>
+                        </a>
+                        
+                     
+                        
+                        
+                    </div>
+   
+   
+                    <div id="site_vizitka_gotoviy_standart_dop">
+                    
+                     <p class="text">Полноценные разделы сайта с услугами компании и фотогалереей</p>
+               
+                          <a href="#q1" class="fancybox dop" title="Форма обратной связи"><img
+                                    src="{{ asset('assets/img/dop/feedback.png') }}" alt="Форма обратной связи" title="Форма обратной связи">
+                            <div></div>
+                            <span>Форма обратной связи</span>
+                        </a>
+                        
+                        <a href="#q11" class="fancybox dop" title="Слайдер"><img
+                                    src="{{ asset('assets/img/dop/slider.jpg') }}" alt="Слайдер" title="Слайдер">
+                            <div></div>
+                            <span>Слайдер</span>
+                        </a>
+                        
+                         <a href="#q12" class="fancybox dop" title="Обратный звонок"><img
+                                    src="{{ asset('assets/img/dop/obr_zv.jpg') }}" alt="Обратный звонок" title="Обратный звонок">
+                            <div></div>
+                            <span>Обратный звонок</span>
+                        </a>
+                        
+                        <a href="#q2" class="fancybox dop" title="Онлайн консультант"><img
+                                    src="{{ asset('assets/img/dop/konsultant.jpg') }}" alt="Онлайн консультант" title="Онлайн консультант">
+                            <div></div>
+                            <span>Онлайн консультант</span>
+                        </a>
+                        
+                         <a href="#q3" class="fancybox dop" title="Схема проезда Yandex (или Google)"><img
+                                    src="{{ asset('assets/img/dop/maps.jpg') }}" alt="Схема проезда Yandex (или Google)" title="Схема проезда Yandex (или Google)">
+                            <div></div>
+                            <span>Схема проезда Yandex (или Google)</span>
+                        </a>
+                        
+                          <a href="#q4" class="fancybox dop" title="Фотогалерея"><img
+                                    src="{{ asset('assets/img/dop/photo.png') }}" alt="Фотогалерея" title="Фотогалерея">
+                            <div></div>
+                            <span>Фотогалерея</span>
+                        </a>
+                        
+                    </div>
+                    
+                    
+                    
+                    
+                    <div id="site_vizitka_individualniy_rashireniy_dop">
+                       <p class="text">Индивидуальный авторский дизайн</p>
+                       <p class="text">Любой функционал</p>
+                                  <a href="#q5" class="fancybox dop" title="Адаптивный дизайн"><img
+                                    src="{{ asset('assets/img/dop/adaptive.png') }}" alt="Адаптивный дизайн"
+                                    title="Адаптивный дизайн">
+
+                            <div></div>
+                            <span>Адаптивный дизайн</span></a>
+                            
+                              <a href="#q1" class="fancybox dop" title="Форма обратной связи"><img
+                                    src="{{ asset('assets/img/dop/feedback.png') }}" alt="Форма обратной связи" title="Форма обратной связи">
+                            <div></div>
+                            <span>Форма обратной связи</span>
+                        </a>
+                        
+                        <a href="#q2" class="fancybox dop" title="Онлайн консультант"><img
+                                    src="{{ asset('assets/img/dop/konsultant.jpg') }}" alt="Онлайн консультант" title="Онлайн консультант">
+                            <div></div>
+                            <span>Онлайн консультант</span>
+                        </a>
+                        
+                         <a href="#q3" class="fancybox dop" title="Схема проезда Yandex (или Google)"><img
+                                    src="{{ asset('assets/img/dop/maps.jpg') }}" alt="Схема проезда Yandex (или Google)" title="Схема проезда Yandex (или Google)">
+                            <div></div>
+                            <span>Схема проезда Yandex (или Google)</span>
+                        </a>
+                        
+                          <a href="#q4" class="fancybox dop" title="Фотогалерея"><img
+                                    src="{{ asset('assets/img/dop/photo.png') }}" alt="Фотогалерея" title="Фотогалерея">
+                            <div></div>
+                            <span>Фотогалерея</span>
+                        </a>
+                        
+                                    <a href="#q6" class="fancybox dop" title="Новостная лента"><img
+                                    src="{{ asset('assets/img/dop/news.png') }}" alt="Новостная лента" title="Новостная лента">
+                            <div></div>
+                            <span>Новостная лента</span>
+                        </a>
+                        
+                        <a href="#q7" class="fancybox dop" title="Вопрос-ответ"><img
+                                    src="{{ asset('assets/img/dop/faq.jpg') }}" alt="Вопрос-ответ" title="Вопрос-ответ">
+                            <div></div>
+                            <span>Корзина</span>
+                        </a>
+                        
+                        <a href="#q8" class="fancybox dop" title="Спецпредложения"><img
+                                    src="{{ asset('assets/img/dop/spec.jpg') }}" alt="Спецпредложения" title="Спецпредложения">
+                            <div></div>
+                            <span>Спецпредложения</span>
+                        </a>
+                            
+                            
+                    </div>
+
+                    <div class="vsyo_vklucheno">
+                        <div><img src="{{ asset('assets/img/ico_001.png') }}">Первичное наполнение Вашими
+                            материалами
+                        </div>
+                        <div><img src="{{ asset('assets/img/ico_002.png') }}">Система управления сайтом (CMS)
+                        </div>
+                        <div><img src="{{ asset('assets/img/ico_003.png') }}">Домен</div>
+                        <div><img src="{{ asset('assets/img/ico_004.png') }}">Хостинг</div>
+                        <div><img src="{{ asset('assets/img/ico_005.png') }}">Регистрация в поисковых системах</div>
+                        <div><img src="{{ asset('assets/img/ico_006.png') }}">Подключение прямого городского
+                            номера (по желанию бесплатно)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="forma_zakaza">
+                    <p id="itogo">Итого: <span id="site_vizitka_cena" name="cena"></span> руб.</p>
+
+                    <div class="checkbox_skidka">
+                        <input type="checkbox" name="checkbox_skidka" id="site_vizitka_checkbox_skidka" checked>
+                        <label for="site_vizitka_checkbox_skidka">
+                            СДЕЛАТЬ СКИДКУ
+                            <span id="site_vizitka_skidka" name="skidka"></span>
+                            %
+                        </label>
+                    </div>
+                    <p id="pri_zakaze_prodvigheniya">при заказе продвижения</p>
+                    <img src="{{ asset('assets/img/name_ico.png') }}" class="vashe_imya_img"/>
+                    <img src="{{ asset('assets/img/email_ico.png') }}" class="email_img"/>
+                    <img src="{{ asset('assets/img/phone_ico.png') }}" class="phone_img"/>
+                    <input type="text" name="name" placeholder="Ваше имя" required>
+                    <br>
+                    <input type="email" name="email" placeholder="Электронная почта" required>
+                    <br>
+                    <input type="tel" name="tel" placeholder="Телефон" required>
+                    <input type="hidden" class="hide" name="ref" bs-id="form-reference" />
+                    <input type="hidden" class="hide" name="price" bs-id="form-calc-price" />
+                    <br>
+                    <input class="btn-podrobnee" data-loading-text="Отправляется запрос" type="submit" name="submit" id="submit"
+                           value="Заказать прямо сейчас">
+                </div>
+            </form>
+
+        </div>
+        {% endif %}
+        <!--~~~~~~~~~~~~~~~~~/business card site calc~~~~~~~~~~~~~~~~~-->
+        <!--~~~~~~~~~~~~~~~~~online shop calc~~~~~~~~~~~~~~~~~-->
+        {% if shop == true %}
+        <div>
+            <form name="internet-magazin" bs-type='feedback' bs-action='{{ path('feed_calc_order') }}'>
+                <input type="hidden" name="site_type_name" value="Интернет-магазин"/>
+                <img src="{{ asset('assets/img/calc/dizayn_logo.png') }}" alt="Дизайн сайта"
+                     title="Дизайн сайта">
+
+                <p class="zagolovok_h2">Дизайн сайта</p>
+                <li>
+                    <div class="calc_radio"><input type="radio" name="dizayn" value="gotoviy"
+                                                   id="internet-magazin_gotoviy" checked><label
+                                for="internet-magazin_gotoviy">Готовый</label></div>
+                    <div class="item">
+                        <h3>Готовый дизайн</h3>
+                        <span class="price">Готовый интернет магазин поставляется с уже разработанными дизайн-шаблонами с доработкой под Ваш фирменный стиль, поэтому обладая полноценным функционалом его стоимость невысокая. Данный тип сайта подойдет Вам если нужно в кратчайшие сроки запустить интернет магазин с минимальными затратами с приятным дизайном. </span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+                            
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="calc_radio"><input type="radio" name="dizayn" value="individualniy"
+                                                   id="internet-magazin_individualniy"><label
+                                for="internet-magazin_individualniy">Индивидуальный</label></div>
+                    <div class="item">
+                        <h3>Индивидуальный дизайн</h3>
+                        <span class="price">Интернет-магазин индивидуальный - проектируется под конкретные запросы Заказчика и подходит тем, кто хочет более расширенный функционал типового интернет-магазина (например, добавление каких-либо калькуляторов подсчета, фильтрации товаров по определенным параметрам и т.д.), а также детальную проработку дизайн-макета без использования готовых вариантов и шаблонов.  </span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="calc_checkbox"><input type="checkbox" name="razrabotka_logotipa"
+                                                      id="internet-magazin_razrabotka_logotipa"><label
+                                for="internet-magazin_razrabotka_logotipa">Разработка логотипа</label></div>
+                    <div class="item">
+                        <h3>Разработка логотипа</h3>
+                        <span class="price">Индивидуальный логотип – это лицо компании. Именно с него начинается процесс формирования фирменного стиля. Мы разработаем для Вас 3 уникальных варианта логотипа!</span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="calc_checkbox"><input type="checkbox" name="razrabotka_bannerov"
+                                                      id="internet-magazin_razrabotka_bannerov"><label
+                                for="internet-magazin_razrabotka_bannerov">Разработка баннеров для
+                            слайдшоу</label><input type="text" id="internet-magazin_k" value="1"> шт.
+                    </div>
+                    <div class="item">
+                        <h3>Разработка баннеров для слайдшоу</h3>
+                        <span class="price">Баннеры на сайте будут привлекать внимание пользователей уникальными акциями, спецпредложениями и помогут сделать акцент на предлагаемых услугах.</span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+
+                <img src="{{ asset('assets/img/calc/kompl_logo.png') }}" alt="Тип сайта"
+                     title="Тип сайта">
+
+                <p class="zagolovok_h2">Тип сайта</p>
+
+
+                <li>
+                    <div class="calc_radio"><input type="radio" name="kompl" value="katalog_bez_korzini"
+                                                   id="internet-magazin_katalog_bez_korzini" checked><label
+                                for="internet-magazin_katalog_bez_korzini">Каталог (без корзины)</label></div>
+                    <div class="item">
+                        <h3>Каталог (без корзины)</h3>
+                        <span class="price">На сайте каталоге Вы сможете публиковать товары, добавлять описание, фотографии, новости, оставаться на связи с Вашими клиентами по средствам обратной связи расположенной на сайте, а также получать заявки на заказ той или иной позиции через функцию «купить в 1 клик». Клиенты смогут быстро заказать понравившийся товар через миниатюрную всплывающую форму, которая может быть применена к Вашим товарам. </span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="calc_radio"><input type="radio" name="kompl" value="katalog_s_korzinoy"
+                                                   id="internet-magazin_katalog_s_korzinoy"><label
+                                for="internet-magazin_katalog_s_korzinoy">Сайт-магазин (с корзиной)</label></div>
+                    <div class="item">
+                        <h3>Сайт-магазин (с корзиной)</h3>
+                        <span class="price">В этом варианте мы предлагаем Вам расширенный вариант сайта каталога с возможностью добавления товаров в корзину, оформления заказа, возможностью сравнения, фильтр по производителям, модули акций и хитов продаж. </span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="calc_checkbox"><input type="checkbox" name="copyright"
+                                                      id="internet-magazin_copyright"><label
+                                for="internet-magazin_copyright">Копирайтинг</label><input type="text"
+                                                                                           id="internet-magazin_k2"
+                                                                                           value="1"> страниц
+                    </div>
+                    <div class="item">
+                        <h3>Копирайтинг</h3>
+                        <span class="price">Профессиональное написание текстов для любой тематики.</span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+
+                        </p>
+
+                        <p class="opisanie"></p>
+                    </div>
+                </li>
+
+                <input type="checkbox" id="internet-magazin_checkbox_spoyler"><label
+                        for="internet-magazin_checkbox_spoyler" class="zagolovok_h2">Комплектация сайта:</label>
+                <div id="spoyler">
+                    <div id="internet-magazin_gotoviy_katalog_bez_korzini_dop">
+						<p class="text">Полноценный функционал сайта каталога и дополнительные модули</p>
+                        <a href="#q1" class="fancybox dop" title="Форма обратной связи">
+                        	<img src="{{ asset('assets/img/dop/feedback.png') }}" alt="Форма обратной связи" title="Форма обратной связи">
+                         	<div></div>
+                            <span>Форма обратной связи</span>
+                        </a>
+						<a href="#q11" class="fancybox dop" title="Слайдер"><img
+                                    src="{{ asset('assets/img/dop/slider.jpg') }}" alt="Слайдер" title="Слайдер">
+                            <div></div>
+                            <span>Слайдер</span>
+                        </a>
+                        <a href="#q2" class="fancybox dop" title="Онлайн консультант"><img
+                                    src="{{ asset('assets/img/dop/konsultant.jpg') }}" alt="Онлайн консультант" title="Онлайн консультант">
+                            <div></div>
+                            <span>Онлайн консультант</span>
+                        </a>
+                        <a href="#q3" class="fancybox dop" title="Схема проезда Yandex (или Google)"><img
+                                    src="{{ asset('assets/img/dop/maps.jpg') }}" alt="Схема проезда Yandex (или Google)" title="Схема проезда Yandex (или Google)">
+                            <div></div>
+                            <span>Схема проезда Yandex (или Google)</span>
+                        </a>
+						<a href="#q6" class="fancybox dop" title="Новостная лента"><img
+                                    src="{{ asset('assets/img/dop/news.png') }}" alt="Новостная лента" title="Новостная лента">
+                            <div></div>
+                            <span>Новостная лента</span>
+                        </a>
+                        <a href="#q8" class="fancybox dop" title="Спецпредложения"><img
+                                    src="{{ asset('assets/img/dop/spec.jpg') }}" alt="Спецпредложения" title="Спецпредложения">
+                            <div></div>
+                            <span>Спецпредложения</span>
+                        </a>
+                        <a href="#q9" class="fancybox dop" title="Поиск по сайту"><img
+                                    src="{{ asset('assets/img/dop/poisk.jpg') }}" alt="Поиск по сайту" title="Поиск по сайту">
+                            <div></div>
+                            <span>Поиск по сайту</span>
+                        </a>
+                        
+               			<a href="#q13" class="fancybox dop" title="Возможность комментирования"><img
+                                    src="{{ asset('assets/img/dop/comment_pages.jpg') }}" alt="Поиск по сайту" title="Возможность комментирования">
+                            <div></div>
+                            <span>Возможность комментирования</span>
+                        </a>
+                    </div>
+                    <div id="internet-magazin_gotoviy_katalog_s_korzinoy_dop">
+                      <p class="text">Полноценный функционал интернет магазина и дополнительные модули</p>
+                            <a href="#q1" class="fancybox dop" title="Форма обратной связи"><img
+                                src="{{ asset('assets/img/dop/feedback.png') }}" alt="Форма обратной связи" title="Форма обратной связи">
+                            <div></div>
+                            <span>Форма обратной связи</span>
+                        </a>
+                            <a href="#q10" class="fancybox dop" title="Корзина"><img
+                                src="{{ asset('assets/img/dop/cart.jpg') }}" alt="Корзина" title="Корзина">
+                            <div></div>
+                            <span>Корзина</span>
+                        </a>
+                        
+                            <a href="#q11" class="fancybox dop" title="Слайдер"><img
+                                    src="{{ asset('assets/img/dop/slider.jpg') }}" alt="Слайдер" title="Слайдер">
+                            <div></div>
+                            <span>Слайдер</span>
+                        </a>
+                        
+                        <a href="#q2" class="fancybox dop" title="Онлайн консультант"><img
+                                    src="{{ asset('assets/img/dop/konsultant.jpg') }}" alt="Онлайн консультант" title="Онлайн консультант">
+                            <div></div>
+                            <span>Онлайн консультант</span>
+                        </a>
+                        
+                         <a href="#q3" class="fancybox dop" title="Схема проезда Yandex (или Google)"><img
+                                    src="{{ asset('assets/img/dop/maps.jpg') }}" alt="Схема проезда Yandex (или Google)" title="Схема проезда Yandex (или Google)">
+                            <div></div>
+                            <span>Схема проезда Yandex (или Google)</span>
+                        </a>
+   
+                        
+                                    <a href="#q6" class="fancybox dop" title="Новостная лента"><img
+                                    src="{{ asset('assets/img/dop/news.png') }}" alt="Новостная лента" title="Новостная лента">
+                            <div></div>
+                            <span>Новостная лента</span>
+                        </a>
+                      
+                        
+                        <a href="#q8" class="fancybox dop" title="Спецпредложения"><img
+                                    src="{{ asset('assets/img/dop/spec.jpg') }}" alt="Спецпредложения" title="Спецпредложения">
+                            <div></div>
+                            <span>Спецпредложения</span>
+                        </a>
+                        
+                        
+                        <a href="#q9" class="fancybox dop" title="Поиск по сайту"><img
+                                    src="{{ asset('assets/img/dop/poisk.jpg') }}" alt="Поиск по сайту" title="Поиск по сайту">
+                            <div></div>
+                            <span>Поиск по сайту</span>
+                        </a>
+                      
+                      
+                           <a href="#q13" class="fancybox dop" title="Возможность комментирования"><img
+                                    src="{{ asset('assets/img/dop/comment_pages.jpg') }}" alt="Возможность комментирования" title="Возможность комментирования">
+                            <div></div>
+                            <span>Возможность комментирования</span>
+                        </a>
+                        
+                        
+                      								       <a href="#q14" class="fancybox dop" title="Плагин соц.сетей поделиться"><img
+                                    src="{{ asset('assets/img/dop/pod.jpg') }}" alt="Плагин соц.сетей поделиться" title="Плагин соц.сетей поделиться">
+                            <div></div>
+                            <span>Плагин соц.сетей поделиться</span>
+                        </a>
+                      
+                      
+                    </div>
+                    <div id="internet-magazin_individualniy_dop">
+                        <p class="text">Авторский дизайн без использования шаблонов</p>
+
+                        <p class="text">Любой расширенный функционал</p>
+                        
+                           <a href="#q5" class="fancybox dop" title="Адаптивный дизайн"><img
+                                    src="{{ asset('assets/img/dop/adaptive.png') }}" alt="Адаптивный дизайн"
+                                    title="Адаптивный дизайн">
+
+                            <div></div>
+                            <span>Адаптивный дизайн</span></a>
+                        
+                        
+                                <a href="#q1" class="fancybox dop" title="Форма обратной связи"><img
+                                    src="{{ asset('assets/img/dop/feedback.png') }}" alt="Форма обратной связи" title="Форма обратной связи">
+                            <div></div>
+                            <span>Форма обратной связи</span>
+                        </a>
+                        
+                                   <a href="#q10" class="fancybox dop" title="Корзина"><img
+                                    src="{{ asset('assets/img/dop/cart.jpg') }}" alt="Корзина" title="Корзина">
+                            <div></div>
+                            <span>Корзина</span>
+                        </a>
+                        
+                              <a href="#q5" class="fancybox dop" title="Прием платежей на сайте"><img
+                                    src="{{ asset('assets/img/dop/pay.jpg') }}" alt="Прием платежей на сайте"
+                                    title="Прием платежей на сайте">
+
+                            <div></div>
+                            <span>Прием платежей на сайте</span></a>
+                        
+                            <a href="#q11" class="fancybox dop" title="Слайдер"><img
+                                    src="{{ asset('assets/img/dop/slider.jpg') }}" alt="Слайдер" title="Слайдер">
+                            <div></div>
+                            <span>Слайдер</span>
+                        </a>
+                        
+                        <a href="#q2" class="fancybox dop" title="Онлайн консультант"><img
+                                    src="{{ asset('assets/img/dop/konsultant.jpg') }}" alt="Онлайн консультант" title="Онлайн консультант">
+                            <div></div>
+                            <span>Онлайн консультант</span>
+                        </a>
+                        
+                         <a href="#q3" class="fancybox dop" title="Схема проезда Yandex (или Google)"><img
+                                    src="{{ asset('assets/img/dop/maps.jpg') }}" alt="Схема проезда Yandex (или Google)" title="Схема проезда Yandex (или Google)">
+                            <div></div>
+                            <span>Схема проезда Yandex (или Google)</span>
+                        </a>
+   
+                        
+                                    <a href="#q6" class="fancybox dop" title="Новостная лента"><img
+                                    src="{{ asset('assets/img/dop/news.png') }}" alt="Новостная лента" title="Новостная лента">
+                            <div></div>
+                            <span>Новостная лента</span>
+                        </a>
+                      
+                        
+                        <a href="#q8" class="fancybox dop" title="Спецпредложения"><img
+                                    src="{{ asset('assets/img/dop/spec.jpg') }}" alt="Спецпредложения" title="Спецпредложения">
+                            <div></div>
+                            <span>Спецпредложения</span>
+                        </a>
+                        
+                        
+                        <a href="#q9" class="fancybox dop" title="Поиск по сайту"><img
+                                    src="{{ asset('assets/img/dop/poisk.jpg') }}" alt="Поиск по сайту" title="Поиск по сайту">
+                            <div></div>
+                            <span>Поиск по сайту</span>
+                        </a>
+                      
+                      
+                           <a href="#q13" class="fancybox dop" title="Возможность комментирования"><img
+                                    src="{{ asset('assets/img/dop/comment_pages.jpg') }}" alt="Возможность комментирования" title="Возможность комментирования">
+                            <div></div>
+                            <span>Возможность комментирования</span>
+                        </a>
+                        
+                                 <a href="#q12" class="fancybox dop" title="Обратный звонок"><img
+                                    src="{{ asset('assets/img/dop/obr_zv.jpg') }}" alt="Обратный звонок" title="Обратный звонок">
+                            <div></div>
+                            <span>Обратный звонок</span>
+							  </a>
+                  
+                       
+                    </div>
+
+                    <div class="vsyo_vklucheno">
+                        <div><img src="{{ asset('assets/img/ico_001.png') }}">Первичное наполнение Вашими
+                            материалами
+                        </div>
+                        <div><img src="{{ asset('assets/img/ico_002.png') }}">Система управления сайтом (CMS)
+                        </div>
+                        <div><img src="{{ asset('assets/img/ico_003.png') }}">Домен</div>
+                        <div><img src="{{ asset('assets/img/ico_004.png') }}">Хостинг</div>
+                        <div><img src="{{ asset('assets/img/ico_005.png') }}">Регистрация в поисковых системах</div>
+                        <div><img src="{{ asset('assets/img/ico_006.png') }}">Подключение прямого городского
+                            номера (по желанию бесплатно)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="forma_zakaza">
+                    <p id="itogo">Итого: <span id="internet-magazin_cena" name="cena"></span> руб.</p>
+
+                    <div class="checkbox_skidka"><input type="checkbox" name="checkbox_skidka"
+                                                        id="internet-magazin_checkbox_skidka" checked><label
+                                for="internet-magazin_checkbox_skidka">СДЕЛАТЬ СКИДКУ <span
+                                    id="internet-magazin_skidka" name="skidka"></span>%</label></div>
+                    <p id="pri_zakaze_prodvigheniya">при заказе продвижения</p>
+                    <img src="{{ asset('assets/img/name_ico.png') }}" class="vashe_imya_img"/>
+                    <img src="{{ asset('assets/img/email_ico.png') }}" class="email_img"/>
+                    <img src="{{ asset('assets/img/phone_ico.png') }}" class="phone_img"/>
+                    <input type="text" name="name" placeholder="Ваше имя" required>
+                    <br>
+                    <input type="email" name="email" placeholder="Электронная почта" required>
+                    <br>
+                    <input type="tel" name="tel" placeholder="Телефон" required>
+                    <input type="hidden" class="hide" name="ref" bs-id="form-reference" />
+                    <input type="hidden" class="hide" name="price" bs-id="form-calc-price" />
+                    <br>
+                    <input class="btn-podrobnee" data-loading-text="Отправляется запрос" type="submit" name="submit" id="submit"
+                           value="Заказать прямо сейчас">
+                </div>
+            </form>
+        </div>
+        {% endif %}
+        <!--~~~~~~~~~~~~~~~~~/online shop calc~~~~~~~~~~~~~~~~~-->
+        <!--~~~~~~~~~~~~~~~~~corporate website calc~~~~~~~~~~~~~~~~~-->
+        {% if corp == true %}
+        <div>
+            <form name="korparativniy-site" bs-type='feedback' bs-action='{{ path('feed_calc_order') }}'>
+                <input type="hidden" name="site_type_name" value="Корпоративный сайт"/>
+                <img src="{{ asset('assets/img/calc/dizayn_logo.png') }}" alt="Дизайн сайта"
+                     title="Дизайн сайта">
+
+                <p class="zagolovok_h2">Дизайн сайта</p>
+                <li>
+                    <div class="calc_radio"><input type="radio" name="dizayn" value="gotoviy"
+                                                   id="korparativniy-site_gotoviy" checked=""><label
+                                for="korparativniy-site_gotoviy">Готовый</label></div>
+                    <div class="item">
+                        <h3>Готовый дизайн</h3>
+                        <span class="price">Готовый корпоративный сайт поставляется с уже разработанными дизайн-шаблонами, поэтому обладая полноценным функционалом его стоимость невысокая. Данный тип сайта подойдет Вам если нужно в кратчайшие сроки запустить сайт с минимальными затратами с приятным дизайном. </span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="calc_radio"><input type="radio" name="dizayn" value="individualniy"
+                                                   id="korparativniy-site_individualniy"><label
+                                for="korparativniy-site_individualniy">Индивидуальный</label></div>
+                    <div class="item">
+                        <h3>Индивидуальный дизайн</h3>
+                        <span class="price">Индивидуальный дизайн проектируется под конкретные запросы Заказчика и подходит тем, кто хочет расширенный функционал и детальную проработку дизайн-макета без использования шаблонов.</span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="calc_checkbox"><input type="checkbox" name="razrabotka_logotipa"
+                                                      id="korparativniy-site_razrabotka_logotipa"><label
+                                for="korparativniy-site_razrabotka_logotipa">Разработка логотипа</label></div>
+                    <div class="item">
+                        <h3>Разработка логотипа</h3>
+                        <span class="price">Индивидуальный логотип – это лицо компании. Именно с него начинается процесс формирования фирменного стиля. Мы разработаем для Вас 3 уникальных варианта логотипа!</span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="calc_checkbox"><input type="checkbox" name="razrabotka_bannerov"
+                                                      id="korparativniy-site_razrabotka_bannerov"><label
+                                for="korparativniy-site_razrabotka_bannerov">Разработка баннеров для
+                            слайдшоу</label><input type="text" id="korparativniy-site_k" value="1"> шт.
+                    </div>
+                    <div class="item">
+                        <h3>Разработка баннеров для слайдшоу</h3>
+                        <span class="price">Баннеры на сайте будут привлекать внимание пользователей уникальными акциями, спецпредложениями и помогут сделать акцент на предлагаемых услугах.</span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+
+                <img src="{{ asset('assets/img/calc/kompl_logo.png') }}" alt="Тип сайта"
+                     title="Тип сайта">
+
+                <p class="zagolovok_h2">Тип сайта</p>
+
+                <li>
+                    <div class="calc_radio"><input type="radio" name="kompl" value="standart"
+                                                   id="korparativniy-site_standart" checked><label
+                                for="korparativniy-site_standart">Стандарт</label></div>
+                    <div class="item">
+                        <h3>Стандарт</h3>
+                        <span class="price">На готовом корпоративном сайте варианта "Стандарт" Вы сможете публиковать информацию, фото, видео, новости и оставаться на связи с Вашими клиентами по средствам обратной связи расположенной на сайте.</span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="calc_radio"><input type="radio" name="kompl" value="rashireniy"
+                                                   id="korparativniy-site_rashireniy" checked><label
+                                for="korparativniy-site_rashireniy">Расширенный</label></div>
+                    <div class="item">
+                        <h3>Расширенный</h3>
+                        <span class="price">Реализация функционала сайта под любые запросы Заказчика</span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="calc_checkbox"><input type="checkbox" name="copyright"
+                                                      id="korparativniy-site_copyright"><label
+                                for="korparativniy-site_copyright">Копирайтинг</label><input type="text"
+                                                                                             id="korparativniy-site_k2"
+                                                                                             value="1"> страниц
+                    </div>
+                    <div class="item">
+                        <h3>Копирайтинг</h3>
+                        <span class="price">Профессиональное написание текстов для любой тематики.</span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+
+                <input type="checkbox" id="korparativniy-site_checkbox_spoyler"><label
+                        for="korparativniy-site_checkbox_spoyler" class="zagolovok_h2">Комплектация сайта:</label>
+
+                <div id="spoyler">
+                    <div id="korparativniy-site_gotoviy_standart_dop">
+                             <p class="text">Полноценные разделы сайта с услугами компании и фотогалереей</p>
+               
+                          <a href="#q1" class="fancybox dop" title="Форма обратной связи"><img
+                                    src="{{ asset('assets/img/dop/feedback.png') }}" alt="Форма обратной связи" title="Форма обратной связи">
+                            <div></div>
+                            <span>Форма обратной связи</span>
+                        </a>
+                        
+                        <a href="#q11" class="fancybox dop" title="Слайдер"><img
+                                    src="{{ asset('assets/img/dop/slider.jpg') }}" alt="Слайдер" title="Слайдер">
+                            <div></div>
+                            <span>Слайдер</span>
+                        </a>
+                        
+                         <a href="#q12" class="fancybox dop" title="Обратный звонок"><img
+                                    src="{{ asset('assets/img/dop/obr_zv.jpg') }}" alt="Обратный звонок" title="Обратный звонок">
+                            <div></div>
+                            <span>Обратный звонок</span>
+                        </a>
+                        
+                        <a href="#q2" class="fancybox dop" title="Онлайн консультант"><img
+                                    src="{{ asset('assets/img/dop/konsultant.jpg') }}" alt="Онлайн консультант" title="Онлайн консультант">
+                            <div></div>
+                            <span>Онлайн консультант</span>
+                        </a>
+                        
+                         <a href="#q3" class="fancybox dop" title="Схема проезда Yandex (или Google)"><img
+                                    src="{{ asset('assets/img/dop/maps.jpg') }}" alt="Схема проезда Yandex (или Google)" title="Схема проезда Yandex (или Google)">
+                            <div></div>
+                            <span>Схема проезда Yandex (или Google)</span>
+                        </a>
+                        
+                          <a href="#q4" class="fancybox dop" title="Фотогалерея"><img
+                                    src="{{ asset('assets/img/dop/photo.png') }}" alt="Фотогалерея" title="Фотогалерея">
+                            <div></div>
+                            <span>Фотогалерея</span>
+                        </a>
+                        
+                        
+                       <a href="#q15" class="fancybox dop" title="Многоуровневое меню"><img
+                                    src="{{ asset('assets/img/dop/menu.jpg') }}" alt="Многоуровневое меню" title="Многоуровневое меню">
+                            <div></div>
+                            <span>Многоуровневое меню</span>
+                        </a>
+                        
+                        
+                                         <a href="#q6" class="fancybox dop" title="Новостная лента"><img
+                                    src="{{ asset('assets/img/dop/news.png') }}" alt="Новостная лента" title="Новостная лента">
+                            <div></div>
+                            <span>Новостная лента</span>
+                        </a>
+                        
+                    </div>
+                    <div id="korparativniy-site_individualniy_dop">
+                        <p class="text">Авторский дизайн без использования шаблонов</p>
+
+                        <p class="text">Любой расширенный функционал</p>
+                        
+                           <a href="#q5" class="fancybox dop" title="Адаптивный дизайн"><img
+                                    src="{{ asset('assets/img/dop/adaptive.png') }}" alt="Адаптивный дизайн"
+                                    title="Адаптивный дизайн">
+
+                            <div></div>
+                            <span>Адаптивный дизайн</span></a>
+                        
+                        
+                           <a href="#q1" class="fancybox dop" title="Форма обратной связи"><img
+                                    src="{{ asset('assets/img/dop/feedback.png') }}" alt="Форма обратной связи" title="Форма обратной связи">
+                            <div></div>
+                            <span>Форма обратной связи</span>
+                        </a>
+                        
+                        <a href="#q11" class="fancybox dop" title="Слайдер"><img
+                                    src="{{ asset('assets/img/dop/slider.jpg') }}" alt="Слайдер" title="Слайдер">
+                            <div></div>
+                            <span>Слайдер</span>
+                        </a>
+                        
+                         <a href="#q12" class="fancybox dop" title="Обратный звонок"><img
+                                    src="{{ asset('assets/img/dop/obr_zv.jpg') }}" alt="Обратный звонок" title="Обратный звонок">
+                            <div></div>
+                            <span>Обратный звонок</span>
+                        </a>
+                        
+                        <a href="#q2" class="fancybox dop" title="Онлайн консультант"><img
+                                    src="{{ asset('assets/img/dop/konsultant.jpg') }}" alt="Онлайн консультант" title="Онлайн консультант">
+                            <div></div>
+                            <span>Онлайн консультант</span>
+                        </a>
+                        
+                         <a href="#q3" class="fancybox dop" title="Схема проезда Yandex (или Google)"><img
+                                    src="{{ asset('assets/img/dop/maps.jpg') }}" alt="Схема проезда Yandex (или Google)" title="Схема проезда Yandex (или Google)">
+                            <div></div>
+                            <span>Схема проезда Yandex (или Google)</span>
+                        </a>
+                        
+                          <a href="#q4" class="fancybox dop" title="Фотогалерея"><img
+                                    src="{{ asset('assets/img/dop/photo.png') }}" alt="Фотогалерея" title="Фотогалерея">
+                            <div></div>
+                            <span>Фотогалерея</span>
+                        </a>
+                        
+                        
+                       <a href="#q15" class="fancybox dop" title="Многоуровневое меню"><img
+                                    src="{{ asset('assets/img/dop/menu.jpg') }}" alt="Многоуровневое меню" title="Многоуровневое меню">
+                            <div></div>
+                            <span>Многоуровневое меню</span>
+                        </a>
+                        
+                              <a href="#q8" class="fancybox dop" title="Спецпредложения"><img
+                                    src="{{ asset('assets/img/dop/spec.jpg') }}" alt="Спецпредложения" title="Спецпредложения">
+                            <div></div>
+                            <span>Спецпредложения</span>
+                        </a>
+                        
+                        
+                                         <a href="#q6" class="fancybox dop" title="Новостная лента"><img
+                                    src="{{ asset('assets/img/dop/news.png') }}" alt="Новостная лента" title="Новостная лента">
+                            <div></div>
+                            <span>Новостная лента</span>
+                        </a>
+                    </div>
+
+                    <div class="vsyo_vklucheno">
+                        <div><img src="{{ asset('assets/img/ico_001.png') }}">Первичное наполнение Вашими
+                            материалами
+                        </div>
+                        <div><img src="{{ asset('assets/img/ico_002.png') }}">Система управления сайтом (CMS)
+                        </div>
+                        <div><img src="{{ asset('assets/img/ico_003.png') }}">Домен</div>
+                        <div><img src="{{ asset('assets/img/ico_004.png') }}">Хостинг</div>
+                        <div><img src="{{ asset('assets/img/ico_005.png') }}">Регистрация в поисковых системах</div>
+                        <div><img src="{{ asset('assets/img/ico_006.png') }}">Подключение прямого городского
+                            номера (по желанию бесплатно)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="forma_zakaza">
+                    <p id="itogo">Итого: <span id="korparativniy-site_cena" name="cena"></span> руб.</p>
+
+                    <div class="checkbox_skidka"><input type="checkbox" name="checkbox_skidka"
+                                                        id="korparativniy-site_checkbox_skidka" checked><label
+                                for="korparativniy-site_checkbox_skidka">СДЕЛАТЬ СКИДКУ <span
+                                    id="korparativniy-site_skidka" name="skidka"></span>%</label></div>
+                    <p id="pri_zakaze_prodvigheniya">при заказе продвижения</p>
+                    <img src="{{ asset('assets/img/name_ico.png') }}" class="vashe_imya_img"/>
+                    <img src="{{ asset('assets/img/email_ico.png') }}" class="email_img"/>
+                    <img src="{{ asset('assets/img/phone_ico.png') }}" class="phone_img"/>
+                    <input type="text" name="name" placeholder="Ваше имя" required>
+                    <br/>
+                    <input type="email" name="email" placeholder="Электронная почта" required>
+                    <br/>
+                    <input type="tel" name="tel" placeholder="Телефон" required>
+                    <input type="hidden" class="hide" name="ref" bs-id="form-reference" />
+                    <input type="hidden" class="hide" name="price" bs-id="form-calc-price" />
+                    <br/>
+                    <input class="btn-podrobnee" data-loading-text="Отправляется запрос" type="submit" name="submit" id="submit"
+                           value="Заказать прямо сейчас">
+                </div>
+            </form>
+        </div>
+        {% endif %}
+        <!--~~~~~~~~~~~~~~~~~/corporate website calc~~~~~~~~~~~~~~~~~-->
+        <!--~~~~~~~~~~~~~~~~~landing-page calc~~~~~~~~~~~~~~~~~-->
+        {% if landing == true %}
+        <div>
+            <form name="landing-page" bs-type='feedback' bs-action='{{ path('feed_calc_order') }}'>
+                <input type="hidden" name="site_type_name" value="Landing-page"/>
+                <img src="{{ asset('assets/img/calc/dizayn_logo.png') }}" alt="Дизайн сайта"
+                     title="Дизайн сайта">
+
+                <p class="zagolovok_h2">Дизайн сайта</p>
+                <li>
+                    <div class="calc_radio"><input type="radio" name="dizayn" value="gotoviy"
+                                                   id="landing-page_gotoviy" checked><label
+                                for="landing-page_gotoviy">Готовый</label></div>
+                    <div class="item">
+                        <h3>Готовый дизайн</h3>
+                        <span class="price">в этом варианте мы предоставляем Вам на выбор уже готовые landing page по различным тематикам более чем из 100 шаблонов, которые можно наполнить собственной информацией без изменения структуры. Готовые шаблоны позволяют сэкономить время на приемку дизайна, а также выиграть в стоимости.</span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="calc_radio"><input type="radio" name="dizayn" value="individualniy"
+                                                   id="landing-page_individualniy"><label
+                                for="landing-page_individualniy">Индивидуальный</label></div>
+                    <div class="item">
+                        <h3>Индивидуальный дизайн</h3>
+                        <span class="price">В этом варианте мы разрабатываем для Вас индивидуальный дизайн-макет и авторский дизайн без использования шаблонов.</span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="calc_checkbox"><input type="checkbox" name="razrabotka_logotipa"
+                                                      id="landing-page_razrabotka_logotipa"><label
+                                for="landing-page_razrabotka_logotipa">Разработка логотипа</label></div>
+                    <div class="item">
+                        <h3>Разработка логотипа</h3>
+                        <span class="price">Индивидуальный логотип – это лицо компании. Именно с него начинается процесс формирования фирменного стиля. Мы разработаем для Вас 3 уникальных варианта логотипа!</span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="calc_checkbox"><input type="checkbox" name="razrabotka_bannerov"
+                                                      id="landing-page_razrabotka_bannerov"><label
+                                for="landing-page_razrabotka_bannerov">Разработка баннеров для
+                            слайдшоу</label><input type="text" id="landing-page_k" value="1"> шт.
+                    </div>
+                    <div class="item">
+                        <h3>Разработка баннеров для слайдшоу</h3>
+                        <span class="price">Баннеры на сайте будут привлекать внимание пользователей уникальными акциями, спецпредложениями и помогут сделать акцент на предлагаемых услугах.</span>
+
+                        <div style="clear: right;"></div>
+                        <p class="opisanie">
+
+                        </p>
+
+                        <p class="opisanie">
+
+                        </p>
+                    </div>
+                </li>
+
+                <input type="checkbox" id="landing-page_checkbox_spoyler"><label
+                        for="landing-page_checkbox_spoyler" class="zagolovok_h2">Что входит в
+                    предложение:</label>
+
+                <div id="spoyler">
+                    <div id="landing-page_gotoviy_dop">
+                        <p class="text">Выбор из 100 различных дизайнов по разным тематикам</p>
+                      
+                                  <a href="#q1" class="fancybox dop" title="Форма обратной связи"><img
+                                    src="{{ asset('assets/img/dop/feedback.png') }}" alt="Форма обратной связи" title="Форма обратной связи">
+                            <div></div>
+                            <span>Форма обратной связи</span>
+                        </a>
+                        
+                          <a href="#q2" class="fancybox dop" title="Онлайн консультант"><img
+                                    src="{{ asset('assets/img/dop/konsultant.jpg') }}" alt="Онлайн консультант" title="Онлайн консультант">
+                            <div></div>
+                            <span>Онлайн консультант</span>
+                        </a>
+                        
+                         <a href="#q3" class="fancybox dop" title="Схема проезда Yandex (или Google)"><img
+                                    src="{{ asset('assets/img/dop/maps.jpg') }}" alt="Схема проезда Yandex (или Google)" title="Схема проезда Yandex (или Google)">
+                            <div></div>
+                            <span>Схема проезда Yandex (или Google)</span>
+                        </a>
+                        
+                                  <a href="#q8" class="fancybox dop" title="Спецпредложения"><img
+                                    src="{{ asset('assets/img/dop/spec.jpg') }}" alt="Спецпредложения" title="Спецпредложения">
+                            <div></div>
+                            <span>Спецпредложения</span>
+                        </a>
+                      
+                      
+                    </div>
+                    <div id="landing-page_individualniy_dop">
+                        <p class="text">Авторский дизайн без использования шаблонов</p>
+
+                        <p class="text">Любой расширенный функционал</p>
+                       
+                                  <a href="#q1" class="fancybox dop" title="Форма обратной связи"><img
+                                    src="{{ asset('assets/img/dop/feedback.png') }}" alt="Форма обратной связи" title="Форма обратной связи">
+                            <div></div>
+                            <span>Форма обратной связи</span>
+                        </a>
+                        
+                          <a href="#q2" class="fancybox dop" title="Онлайн консультант"><img
+                                    src="{{ asset('assets/img/dop/konsultant.jpg') }}" alt="Онлайн консультант" title="Онлайн консультант">
+                            <div></div>
+                            <span>Онлайн консультант</span>
+                        </a>
+                        
+                         <a href="#q3" class="fancybox dop" title="Схема проезда Yandex (или Google)"><img
+                                    src="{{ asset('assets/img/dop/maps.jpg') }}" alt="Схема проезда Yandex (или Google)" title="Схема проезда Yandex (или Google)">
+                            <div></div>
+                            <span>Схема проезда Yandex (или Google)</span>
+                        </a>
+                        
+                                  <a href="#q8" class="fancybox dop" title="Спецпредложения"><img
+                                    src="{{ asset('assets/img/dop/spec.jpg') }}" alt="Спецпредложения" title="Спецпредложения">
+                            <div></div>
+                            <span>Спецпредложения</span>
+                        </a>
+                       
+                    </div>
+
+                    <div class="vsyo_vklucheno">
+                        <div><img src="{{ asset('assets/img/ico_001.png') }}">Первичное наполнение Вашими
+                            материалами
+                        </div>
+                        <div><img src="{{ asset('assets/img/ico_002.png') }}">Система управления сайтом (CMS)
+                        </div>
+                        <div><img src="{{ asset('assets/img/ico_003.png') }}">Домен</div>
+                        <div><img src="{{ asset('assets/img/ico_004.png') }}">Хостинг</div>
+                        <div><img src="{{ asset('assets/img/ico_005.png') }}">Регистрация в поисковых системах</div>
+                        <div><img src="{{ asset('assets/img/ico_006.png') }}">Подключение прямого городского
+                            номера (по желанию бесплатно)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="forma_zakaza">
+                    <p id="itogo">Итого: <span id="landing-page_cena" name="cena"></span> руб.</p>
+
+                    <div class="checkbox_skidka"><input type="checkbox" name="checkbox_skidka"
+                                                        id="landing-page_checkbox_skidka" checked><label
+                                for="landing-page_checkbox_skidka">СДЕЛАТЬ СКИДКУ <span id="landing-page_skidka"
+                                                                                        name="skidka"></span>%</label>
+                    </div>
+                    <p id="pri_zakaze_prodvigheniya">при заказе продвижения</p>
+                    <img src="{{ asset('assets/img/name_ico.png') }}" class="vashe_imya_img"/>
+                    <img src="{{ asset('assets/img/email_ico.png') }}" class="email_img"/>
+                    <img src="{{ asset('assets/img/phone_ico.png') }}" class="phone_img"/>
+                    <input type="text" name="name" placeholder="Ваше имя" required>
+                    <br>
+                    <input type="email" name="email" placeholder="Электронная почта" required>
+                    <br>
+                    <input type="tel" name="tel" placeholder="Телефон" required>
+                    <input type="hidden" class="hide" name="ref" bs-id="form-reference" />
+                    <input type="hidden" class="hide" name="price" bs-id="form-calc-price" />
+                    <br>
+                    <input class="btn-podrobnee" data-loading-text="Отправляется запрос" type="submit" name="submit" id="submit"
+                           value="Заказать прямо сейчас">
+
+                </div>
+            </form>
+        </div>
+        {% endif %}
+        <!--~~~~~~~~~~~~~~~~~/landing-page calc~~~~~~~~~~~~~~~~~-->
+    </div>
+</div>
+
+<div class="q" id="q1" style="display: none;">
+    <div>
+        <div>
+            <img src="{{ asset('assets/img/dop/feedback.png') }}" alt="Форма обратной связи" title="Форма обратной связи">
+            <span class="h">Форма обратной связи</span>
+        </div>
+        <p>Необходимость размещения на сайте <b>формы обратной связи</b> очевидна. <b>Форма обратной связи</b> позволяет вам общаться с посетителями, вести сбор необходимой информации, а также организовывать заказ товаров или услуг.</p>
+		<p>Мы предлагаем систему обратной связи на основе электронной почты. Сообщения, написанные в форме обратной связи, будут поступать на адрес электронной почты, который вы укажете.</p>
+    </div>
+</div>
+
+<div class="q" id="q2" style="display: none;">
+    <div>
+        <div>
+            <img src="{{ asset('assets/img/dop/konsultant.jpg') }}" alt="Онлайн консультант" title="Онлайн консультант">
+            <span class="h">Онлайн консультант</span>
+        </div>
+        <p><b>Онлайн консультант</b> &ndash; модуль, который позволяет вам общаться с вашими посетителями прямо через сайт. Такой диалог будет возможен, только когда посетитель нажмет на кнопку диалога. <b>Онлайн консультант</b>, очень удобная форма общения еще потому, что по переписке можно выяснить многое из того, что клиент не решился бы спросить при звонке.</p>
+		<o>Онлайн-консультант &ndash; незаменимая вещь для крупных интернет-магазинов и сайтов, продающих товары или услуги премимум- и VIP-класса.</p>
+    </div>
+</div>
+
+<div class="q" id="q3" style="display: none;">
+    <div>
+        <div>
+            <img src="{{ asset('assets/img/dop/maps.jpg') }}" alt="Схема проезда Yandex (или Google)" title="Схема проезда Yandex (или Google)">
+            <span class="h">Схема проезда Yandex (или Google)</span>
+        </div>
+        <p><b>Схема проезда</b> позволит Вашим клиентам найти Вас быстрее!</p>       
+    </div>
+</div>
+
+<div class="q" id="q4" style="display: none;">
+    <div>
+        <div>
+            <img src="{{ asset('assets/img/dop/photo.png') }}" alt="Фотогалерея" title="Фотогалерея">
+            <span class="h">Фотогалерея</span>
+        </div>
+        <p><b>Фотогалерея</b> &ndash; один из самых важных модулей для сайта и установка его обязательна, если идет речь о портфолио, образцах продукции, каталогах или вообще любых вещах, связанных с изображениями. Так же с помощью <b>фотогалереи</b> можно показать все ваши благодарственные письма, дипломы, сертификаты, лицензии и другие документы.</p>
+    </div>
+</div>
+
+<div class="q" id="q5" style="display: none;">
+    <div>
+        <div>
+            <img src="{{ asset('assets/img/dop/adaptive.png') }}" alt="Форма обратной связи" title="Форма обратной связи">
+            <span class="h">Форма обратной связи</span>
+        </div>
+        <p>Необходимость размещения на сайте формы обратной связи очевидна. Форма обратной связи позволяет вам общаться с посетителями, вести сбор необходимой информации, а также организовывать заказ товаров или услуг.</p>
+        <p>Мы предлагаем систему обратной связи на основе электронной почты. Сообщения, написанные в форме обратной связи, будут поступать на адрес электронной почты, который вы укажете.</p>
+    </div>
+</div>
+
+<div class="q" id="q6" style="display: none;">
+    <div>
+        <div>
+            <img src="{{ asset('assets/img/dop/news.png') }}" alt="Новостная лента" title="Новостная лента">
+            <span class="h">Новостная лента</span>
+        </div>
+        <p>Планируете разместить на сайте <b>новостную ленту</b>? Этот модуль создан как раз для того, чтобы она выглядела красиво и легко изменялась. Всё что вам нужно &ndash; это просто добавить новость: модуль сам уберёт одну из старых с главной и поставит сверху свежую, сформирует анонсы и расставит ссылки на полные тексты, если это нужно.</p>
+		<p>Правильно организованные новости помогают сайту в поисковом продвижении: мы рекомендуем этот модуль для любых коммерческих ресурсов.</p>
+		<p>Сами новости могут выводиться как на специально предназначенной для этого странице, так и на главной или в боковой колонке всех страниц сайта.</p>
+    </div>
+</div>
+
+<div class="q" id="q7" style="display: none;">
+    <div>
+        <div>
+            <img src="{{ asset('assets/img/dop/faq.jpg') }}" alt="Корзина" title="Корзина">
+            <span class="h">Корзина</span>
+        </div>
+        <p></p>
+    </div>
+</div>
+
+<div class="q" id="q8" style="display: none;">
+    <div>
+        <div>
+            <img src="{{ asset('assets/img/dop/spec.jpg') }}" alt="Спецпредложения" title="Спецпредложения">
+            <span class="h">Спецпредложения</span>
+        </div>
+        <p><b>Специальные предложения</b> &ndash; устанавливаются на сайте для привлечения внимания к акциям, действующим в настоящий момент. Данная функция очень полезна, так как вы сможете легко оповещать всех посетителей о наиболее важных событиях вашего сайта.</p>
+    </div>
+</div>
+
+<div class="q" id="q9" style="display: none;">
+    <div>
+        <div>
+            <img src="{{ asset('assets/img/dop/poisk.jpg') }}" alt="Поиск по сайту" title="Поиск по сайту">
+            <span class="h">Поиск по сайту</span>
+        </div>
+        <p><b>Поиск по сайту</b> &ndash; очень удобный модуль, когда нужно найти конкретную информацию, а сайт ею переполнен.</p>
+		<p>Данный модуль актуален не только для крупных информационный порталов, но и для интернет – магазинов.</p>
+    </div>
+</div>
+
+<div class="q" id="q10" style="display: none;">
+    <div>
+        <div>
+            <img src="{{ asset('assets/img/dop/cart.jpg') }}" alt="Корзина" title="Корзина">
+            <span class="h">Корзина</span>
+        </div>
+        <p></p>
+    </div>
+</div>
+
+<div class="q" id="q11" style="display: none;">
+    <div>
+        <div>
+            <img src="{{ asset('assets/img/dop/slider.jpg') }}" alt="Слайдер" title="Слайдер">
+            <span class="h">Слайдер</span>
+        </div>
+        <p><b>Слайдер</b> &ndash; элемент веб дизайна, созданный для того, чтобы привлечь внимание посетителей к важной информации. Как правило слайдеры можно прокручивать, это осуществляется пользователем или автоматически. Если вы хотите оригинально преподать посетителю вашего сайта важный контент, особенно если это акции и предложения, то лучше это сделать с помощью <b>слайдера</b>.</p>
+    </div>
+</div>
+
+<div class="q" id="q12" style="display: none;">
+    <div>
+        <div>
+            <img src="{{ asset('assets/img/dop/obr_zv.jpg') }}" alt="Обратный звонок" title="Обратный звонок">
+            <span class="h">Обратный звонок</span>
+        </div>
+        <p><b>Обратный звонок</b> &ndash; очень полезная функция для вашего сайта. Человек посетивший вас сайт, может оставить заявку, чтобы ему перезвонили в любое время дня и ночи. <b>Обратный звонок</b> является одним из самых незаменимых вещей для интернет – магазинов, так как люди из разных часовых поясов заходят в разное время.</p>
+    </div>
+</div>
+
+<div class="q" id="q13" style="display: none;">
+    <div>
+        <div>
+            <img src="{{ asset('assets/img/dop/comment_pages.jpg') }}" alt="Возможность комментирования" title="Возможность комментирования">
+            <span class="h">Возможность комментирования</span>
+        </div>
+        <p><b>Комментарии к странице</b> &ndash; модуль, позволяющий пользователям оставлять комментарии к выбранной странице или элементу сайта. Отлично подходит интернет магазинам для обсуждения товаров и услуг, или для обсуждения какой-либо информации на порталах. Используя данный модуль, вы получите максимально удобную обратную связь с вашими посетителями.</p>
+    </div>
+</div>
+
+<div class="q" id="q15" style="display: none;">
+    <div>
+        <div>
+            <img src="{{ asset('assets/img/dop/menu.jpg') }}" alt="Форма обратной связи" title="Форма обратной связи">
+            <span class="h">Многоуровневое меню</span>
+        </div>
+        <p>Многоуровневое меню позволит организовать структуру сайта вида «Категория» &ndash;&gt; «Подкатегория»</p>
+    </div>
+</div>
+
+<!--~~~~~~~~~~~~~~~~~/calculate~~~~~~~~~~~~~~~~~-->

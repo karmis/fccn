@@ -1,0 +1,34 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_driver: pdo_mysql
+    database_host: localhost
+    database_port: null
+    database_name: new_colornew
+    database_user: new_colornew
+    database_password: 6X8a6I5t
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    locale: ru
+    sxgeoip_base: '%kernel.root_dir%/../web/SxGeoIp/SxGeoCity.dat'
+    json_whois_api_key: 66bfda82f337f2aa3009578c7661c6e7
+    secret: 6966e3b510fd2b92e5be930260b8af41f50b4727
+    parameters_config_prices:
+        shop_text: '10 465'
+        vizitka_text: '1 195'
+        landing_text: '1 975'
+        corp_text: '8 365'
+    cities_phones:
+        RU-NIZ: '<span>(831)</span> 261-34-74'
+        RU-VLA: '<span>(4922)</span> 60-02-32'
+        RU-MOW: '<span>(499)</span> 704-38-43'
+        GLOBAL: '<span>(800)</span> 000 00 00'
+    cities_ip:
+        RU-NIZ: 109.184.14.163
+        RU-VLA: 176.122.64.24
+        RU-MOW: 195.218.132.2
+    admin_emails:
+        - site@colornew.ru
+        - init.reg@gmail.com
+        - support@colornew.ru

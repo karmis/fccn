@@ -1,0 +1,89 @@
+{% extends 'base.html.twig' %}
+
+{% block css %}
+    {% stylesheets
+    'assets/vendor/bootstrap/css/bootstrap.min.css'
+    'assets/css/fonts.css'
+    'assets/vendor/fancybox/source/jquery.fancybox.css'
+    'assets/vendor/fancybox/source/helpers/jquery.fancybox-buttons.css'
+    'assets/vendor/fancybox/source/helpers/jquery.fancybox-thumbs.css'
+    'assets/vendor/bxslider/jquery.bxslider.css'
+    'assets/css/main.css'
+    'assets/css/paging.css'
+    'assets/css/alertify.core.css'
+    'assets/css/alertify.default.css'
+    filter='cssrewrite' output='compiled/css/all.css' %}
+    <link rel="stylesheet" href="{{ asset_url }}"/>
+    {% endstylesheets %}
+{% endblock %}
+
+{% block js %}
+    {% javascripts
+    'assets/vendor/jquery/jquery.min.js'
+    'assets/vendor/jquery/jquery-migrate.min.js'
+    'assets/vendor/jquery/tabs_jquery.js'
+    'assets/vendor/bootstrap/js/bootstrap.min.js'
+    'assets/vendor/bxslider/jquery.bxslider.min.js'
+    'assets/vendor/fancybox/lib/jquery.mousewheel-3.0.6.pack.js'
+    'assets/vendor/fancybox/source/jquery.fancybox.pack.js'
+    'assets/vendor/fancybox/source/helpers/jquery.fancybox-buttons.js'
+    'assets/vendor/fancybox/source/helpers/jquery.fancybox-media.js'
+    'assets/vendor/fancybox/source/helpers/jquery.fancybox-thumbs.js'
+    'assets/vendor/Blueprints/HorizontalSlideOutMenu/js/modernizr.custom.js'
+    'assets/vendor/Blueprints/HorizontalSlideOutMenu/js/cbpHorizontalSlideOutMenu.min.js'
+    'assets/vendor/bootstrap-validator-master/js/validator.js'
+    'assets/vendor/maskedinput/jquery.maskedinput.js'
+    'assets/vendor/quicksand/jquery.quicksand.js/jquery.quicksand.js'
+    'assets/vendor/quicksand/quicksandpaginated.jquery.js'
+    'assets/vendor/punycode.js-master/punycode.min.js'
+    'assets/vendor/quicksand/qsmain.js'
+    'assets/js/calc.js'
+    'assets/js/scripts.js'
+    'assets/js/alertify.js'
+    output='compiled/js/all.js' %}
+    <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+    <script type="text/javascript">
+        window.ROUTES = {
+            'whois': "{{ path('services_whois') }}"
+        }
+    </script>
+{% endblock js %}
+
+{% block body %}
+    {% block header %}
+        <header class="visible-md visible-lg">
+            {{ include('AppBundle:Blocks/Menu:top.html.twig') }}
+        </header>
+    {% endblock %}
+
+        {% block menu %}
+        <!--~~~~~~~~~~~~~~~~~menu~~~~~~~~~~~~~~~~~-->
+            {{ include('AppBundle:Blocks/Menu:main.html.twig') }}
+        {% endblock %}
+        <!--~~~~~~~~~~~~~~~~~/menu~~~~~~~~~~~~~~~~~-->
+        {% block content %}{% endblock %}
+        <!--~~~~~~~~~~~~~~~~~footer~~~~~~~~~~~~~~~~~-->
+        {% block footer %}
+        <footer>
+            {{ include('AppBundle:Blocks:footer.html.twig') }}
+        </footer>
+        <!--~~~~~~~~~~~~~~~~~/footer~~~~~~~~~~~~~~~~~-->
+
+        {{ include('AppBundle:Blocks/Forms:feedback.call.html.twig') }}
+    {% endblock footer %}
+
+    <div class="q" id="q1" style="display: none;">
+        <div>
+            <div>
+                <img src="{{asset('assets/img/dop/feedback.png')}}" alt="Форма обратной связи" title="Форма обратной связи">
+                <span class="h">Форма обратной связи</span>
+                <span class="tsena">Цена: <span>990</span> руб.</span>
+            </div>
+            <p>Необходимость размещения на сайте формы обратной связи очевидна. Форма обратной связи позволяет вам общаться с посетителями, вести сбор необходимой информации, а также организовывать заказ товаров или услуг.</p>
+            <p>Мы предлагаем систему обратной связи на основе электронной почты. Сообщения, написанные в форме обратной связи, будут поступать на адрес электронной почты, который вы укажете.</p>
+            {# <a href="#">Посмотреть все модули</a> #}
+        </div>
+    </div>
+{% endblock %}

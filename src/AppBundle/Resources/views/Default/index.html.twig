@@ -1,0 +1,43 @@
+{% extends 'default/index.html.twig' %}
+{% block meta %}
+<title>Создание, разработка качественных сайтов во Владимире и по всей России. Создание сайтов, которые продают! Продвижение сайтов. Локализация сайтов. Интернет реклама сайтов. Создать сайт, разработать сайт, заказать сайт - ColorNew Интернет Студия</title>
+<meta charset="utf-8">
+<meta name="description" content="создание сайтов во Владимире, создание сайтов, создать сайт, продвинуть сайт, разработка сайтов, разработка сайтов во Владимире, разработать сайт, продвижение сайтов, интернет реклама сайтов, заказать сайт">
+{% endblock meta %}
+
+{% block content %}
+<div id="rv"></div>
+    {% block banner %}
+        {{ include('AppBundle:Blocks/Banners:main.html.twig') }}
+    {% endblock %}
+
+    {% block portfolio %}
+        {{ include('AppBundle:Portfolio:gallery.html.twig') }}
+    {% endblock %}
+
+    {% block calculate %}
+        {{ include('AppBundle:Blocks:calculator.html.twig', {
+            'vizitka': true,
+            'shop': true,
+            'corp': true,
+            'landing': true
+        }) }}
+    {% endblock calculate %}
+
+    {% block domain %}
+        {{ include('AppBundle:Blocks:whois.html.twig') }}
+    {% endblock %}
+
+    {% block homeimage %}
+        {{ include('AppBundle:Blocks:homeimage.html.twig') }}
+    {% endblock %}
+
+    {% block blog %}
+        {{ include('AppBundle:Article:preview_list.html.twig', { 'entities': articles }) }}
+    {% endblock blog %}
+    {% block accord %}
+        {{ include('AppBundle:Blocks:index_accordeon.html.twig') }}
+    {% endblock accord %}
+    <!--~~~~~~~~~~~~~~~~~/content~~~~~~~~~~~~~~~~~-->
+
+{% endblock %}

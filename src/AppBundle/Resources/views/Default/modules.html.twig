@@ -1,0 +1,78 @@
+{% extends 'default/index.html.twig' %}
+
+{% block content %}
+<div class="container">
+    <div class="">
+        <div class="container">
+            <div class="container modules" role="tabpanel">
+                <div class="row">
+                    <div class="col-md-3 no-padding categories">
+                        <div class="header">Каталог</div>
+                            <ul>
+                                <li><a href="#">Продажи</a>
+                                <li class="active"><a href="#">Навигация</a>
+                                <li><a href="#">Юзабилити</a>
+                                <li><a href="#">Интернет-магазин</a>
+                                <li><a href="#">Дизайн</a>
+                                <li><a href="#">Социальные сети</a>
+                            </ul>
+                        </div>
+                        <div class="col-md-1 half no-padding"></div>
+                        <div class="col-md-9 no-padding items">
+                            <h2>Дополнения к сайтам</h2>
+                            <p>Каждая система управления состоит из разделов, отвечающих за добавление разного содержимого (фотографии, новости). Такие разделы называются модулями. Также модулями называются специальные возможности сайта. Например, онлайн-консультант или обратная связь. Внешний вид модулей настраивается под выбранный дизайн.</p>
+                            <ul class="tags">
+                                <li><a href="{{ path('modules_page') }}">#Все,</a></li>
+                                {% for modulePath in modulesPaths %}
+                                    <li>
+                                        <a href="{{ path('modules_page', {path:modulePath.id}) }}">#{{ modulePath.caption }}</a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                            <br style="clear: both">
+                            {% if pagination.getTotalItemCount > 0 %}
+                            <ul class="items">
+                                {% for key, entity in pagination %}
+                                    <li>
+                                       {% if entity.getWebPath is not null %}
+                                            <img src="{{ asset(entity.getWebPath)|imagine_filter('module_preview_all') }}" class="blog_img"/>
+                                        {% else %}
+                                            <img src="{{ asset('assets/img/404.jpg')|imagine_filter('module_preview_all') }}" class="blog_img"/>
+                                        {% endif %}
+                                        <div class="content">
+                                            <h3>{{ entity.caption|truncate(50) }}</h3>
+                                            <p>{{ entity.content|truncate(150)|raw }}</p>
+                                            <a href="#q_modules_modal_{{ key }}" class="fancybox dop">Подробнее</a>                                            
+                                            <div class="cost"><span>{{ entity.price }}</span> руб.</div>                                                
+                                        </div>
+                                        <br style="clear: both">
+                                        <div class="q" id="q_modules_modal_{{ key }}" style="display: none;">
+                                            <div>
+                                                <div>
+                                                   {% if entity.getWebPath is not null %}
+                                                        <img src="{{ asset(entity.getWebPath)|imagine_filter('module_preview_modal') }}" alt="{{ entity.caption }}" title="{{ entity.caption }}">
+                                                    {% else %}
+                                                        <img src="{{ asset('assets/img/404.jpg')|imagine_filter('module_preview_modal') }}" alt="{{ entity.caption }}" title="{{ entity.caption }}" />
+                                                    {% endif %}
+                                                    
+                                                    <span class="h">{{ entity.caption }}</span>
+                                                    <span class="tsena">Цена: <span>{{ entity.price }}</span> руб.</span>
+                                                </div>
+                                                <p>{{ entity.content|raw }}</p>
+                                            </div>
+                                        </div>
+                                    </li> 
+                                {% endfor %}                                 
+                            </ul>
+                            {{ knp_pagination_render(pagination)|raw }}
+                            {% else %}
+                                <p>Не найдено ни одного модуля в этом разделе</p>
+                            {% endif %}                                 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

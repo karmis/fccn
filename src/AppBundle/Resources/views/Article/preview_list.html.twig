@@ -1,0 +1,35 @@
+<div class="blog container">
+    <h2>Наш блог</h2>
+
+    <p class="h2-dop">Также вы можете прочитать <a href="{{ path('article_list_all') }}" title="Прочитать все статьи">все статьи</a></p>
+
+    <div class="row">
+        {% if entities is defined and entities|length > 0 %}
+            {% for entity in entities %}
+                <div class="col-md-4">
+                    <div class="entity-item">
+                       {% if entity.getWebPath is not null %}
+                            <img src="{{ asset(entity.getWebPath)|imagine_filter('article_preview') }}" class="blog_img"/>
+                        {% else %}
+                            <img src="{{ asset('assets/img/404.jpg')|imagine_filter('article_preview') }}" class="blog_img"/>
+                        {% endif %}
+
+                        <p class="blog_title">{{ entity.caption|truncate(50) }}</p>
+
+                        <p class="blog_description">
+                            {{ entity.annotation|truncate(150) }}
+                        </p>
+                        <img src="{{ asset('assets/img/time.png') }}" class="time_ico"/>
+                        <span class="blog_date">{{ entity.updated|date('d.m.Y') }}</span>
+                        <a href="{{ path('article_display', {slug:entity.slug}) }}">Подробнее</a>
+                    </div>
+                </div>
+            {% endfor %}
+        {% else %}
+            <div class="row">
+                <div class="center-block">Не найдено ни одной статьи</div>
+            </div>
+        {% endif %}
+    </div>
+</div>
+<div class="clearfix"></div>

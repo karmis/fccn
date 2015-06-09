@@ -1,0 +1,54 @@
+{% extends 'default/index.html.twig' %}
+{% block content %}
+    <!--~~~~~~~~~~~~~~~~~content~~~~~~~~~~~~~~~~~-->
+        <div class="banner banner_clouds"> 
+            <div class="banner_content"></div>
+        </div>
+        <div class="container">
+            <div class="">
+                <div class="container">
+                    <!-- Module sites -->
+                    <div class="container" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md-12 no-padding">
+                                <div class="article-list">
+                                    <h2>Статьи</h2>
+                                    <ul class="tags">
+                                        <li><a href="{{ path('article_list_all') }}">#Все,</a>
+                                        {% for articlePath in articlesPaths  %}
+                                            <li>
+                                                <a href="{{ path('article_list_filter', {path:articlePath.id}) }}">#{{ articlePath.caption }}</a>
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                    <br style="clear: both">
+                                    {% if pagination.getTotalItemCount > 0 %}
+                                        <ul class="items">
+                                            {% for entity in pagination %}
+                                                <li>
+                                                    {% if entity.getWebPath is not null %}
+                                                        <img src="{{ asset(entity.getWebPath)|imagine_filter('article_preview_all') }}" class="blog_img"/>
+                                                    {% else %}
+                                                        <img src="{{ asset('assets/img/404.jpg')|imagine_filter('article_preview_all') }}" class="blog_img"/>
+                                                    {% endif %}                                      
+                                                    <h3>{{ entity.caption|truncate(50) }}</h3>
+                                                    <p>{{ entity.annotation|truncate(150) }}</p>
+                                                    <span class="time">{{ entity.updated|date('d.m.Y') }}</span>
+                                                    <a class="other" href="{{ path('article_display', {slug:entity.slug}) }}">Читать далее</a>                                            
+                                                </li>
+                                            {% endfor %}
+                                        </ul>
+                                        {{ knp_pagination_render(pagination)|raw }}
+                                    {% else %}
+                                        Не найдено ни одной статьи в этом разделе
+                                    {% endif %}                                      
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end sites -->
+                </div>
+            </div>
+        </div>
+
+{% endblock %}

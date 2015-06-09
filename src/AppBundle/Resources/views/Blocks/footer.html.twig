@@ -1,0 +1,108 @@
+            <div class="container_user">
+                <div>
+                    <div class="footer-block block-phone">
+                        <p class="phone"><a href="tel:+74922600232" class="tel"><span>(4922)</span> 60-02-32</a></p>
+                        <a href="#" title="Выбрать город">г.Владимир</a>
+                    </div>
+                    <div class="footer-block zvonok">
+                        <a class="btn-dashed fancybox" href="#forma_zvonok" bs-type="feedback">
+                            Задать вопрос
+                        </a>
+                    </div>
+                    <div class="footer-block mail">
+                        <img src="{{asset('assets/img/email_ico_2.png')}}" alt="Почта" title="Почта"/>
+                        <span>Отдел продаж:</span>
+                        <a href="mailto:n@colornew.ru" title="n@colornew.ru">n@colornew.ru</a>
+                        <br>
+                        <span>Тех. поддержка:</span>
+                        <a href="mailto:support@colornew.ru" title="support@colornew.ru">support@colornew.ru</a>
+                    </div>
+                    <div class="footer-block search">
+                        <form>
+                            <input type="text" placeholder="Поиск по сайту">
+                            <input type="submit" value="">
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p>СОЗДАНИЕ САЙТОВ</p>
+                        <a href="{{ path('vizitka_page') }}" title="Сайты-визитки">Сайты-визитки</a><br/>
+                        <a href="{{ path('landing_page') }}" title="Landing page">Landing page</a>
+                        <a href="{{ path('corp_page') }}" title="Корпоративные сайты">Корпоративные сайты</a>
+                        <a href="{{ path('shop_page') }}" title="Интернет-магазины">Интернет-магазины</a>
+                        <a href="{{ path('page_display', {slug: 'personal_page'}) }}" title="Индивидуальные проекты">Индивидуальные проекты</a>
+                        <a href="{{ path('page_display', {slug: 'bitrix_page'}) }}" title="Сайты на 1С Битрикс">Сайты на 1С Битрикс</a>
+                    </div>
+                    <div>
+                        <p>ПРОДВИЖЕНИЕ САЙТОВ</p>
+                        <a href="{{ path('promotion_page') }}" title="SEO-продвижение">SEO-продвижение</a>
+                        <a href="{{ path('advertising_page') }}" title="Контекстная реклама">Контекстная реклама</a>
+                        <a href="{{ path('social_page') }}" title="Продвижение в соц.сетях">Продвижение в соц.сетях</a>
+                        <a href="{{ path('page_display', {slug: 'email_subscribe_page'}) }}" title="E-mail рассылка">E-mail рассылка</a>
+
+                    </div>
+                    <div>
+                        <p>ХОСТИНГ И АРЕНДА СЕРВЕРА</p>
+                        <a href="{{ path('page_display', {slug: 'domains-regoster'}) }}" title="Регистрация доменов">Регистрация доменов</a>
+                        <a href="{{ path('page_display', {slug:'anti-hacker'}) }}" title="Защита сайта от взлома">Защита сайта от взлома</a>
+                        <a href="{{ path('page_display', {slug:'backups-page'}) }}" title="Резервное копирование">Резервное копирование</a>
+                    </div>
+                    <div style="width: 240px; margin-left: 40px;">
+                        <p>ПРОЧИЕ УСЛУГИ</p>
+                        <a href="{{ path('page_display', {slug:'city-phone'}) }}" title="Прямые городские номера">Прямые городские номера</a>
+                        <a href="{{ path('page_display', {slug:'8-800-phones'}) }}" title="Номера 8-800">Номера 8-800</a>
+                        <a href="{{ path('page_display', {slug: 'modules'}) }}" title="Разработка модулей на сайт">Разработка модулей на сайт</a>
+                        <a href="{{ path('page_display', {slug: 'content-for-sites'}) }}" title="Наполнение сайтов">Наполнение сайтов</a>
+                        <a href="{{ path('page_display', {slug: 'credit-page'}) }}" title="Сайты в рассрочку" style="color:#c81414 !important;">Сайты в рассрочку</a>
+                        <a href="{{ path('page_display', {slug: 'friendship-page'}) }}" title="Программа лояльности" style="color:#c81414 !important;">Программа лояльности</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <a href="/" title="colornew.ru" class="withImage"><img src="{{asset('assets/img/logo2.png')}}" alt="colornew.ru" title="colornew.ru"/></a>
+                    </div>
+                    <div>
+                        <a href="{{ path('payment_page') }}" title="Сбербанк" class="withImage"><img src="{{asset('assets/img/sberbank.png')}}" alt="Сбербанк" title="Сбербанк"/></a>
+                        <a href="{{ path('payment_page') }}" title="Qiwi" class="withImage"><img src="{{asset('assets/img/qiwi.png')}}" alt="Qiwi" title="Qiwi"/></a>
+                        <a href="{{ path('payment_page') }}" title="Яндекс деньги" class="withImage"><img src="{{asset('assets/img/yandex_money.png')}}" alt="Яндекс деньги" title="Яндекс деньги"/></a>
+                        <a href="{{ path('payment_page') }}" title="Webmoney" class="withImage"><img src="{{asset('assets/img/webmoney.png')}}" alt="Webmoney" title="Webmoney"/></a>
+                        <a href="{{ path('payment_page') }}" title="Visa" class="withImage"><img src="{{asset('assets/img/visa.png')}}" alt="Visa" title="Visa"/></a>
+                        <a href="{{ path('payment_page') }}" title="MasterCard" class="withImage"><img src="{{asset('assets/img/mastercard.png')}}" alt="MasterCard" title="MasterCard"/></a>
+                    </div>
+                    <div>
+                        <a href="{{ path('page_display', {slug:'partners_page'}) }}" class="links_footer" title="Партнёрская программа">Партнёрская программа</a>
+                        <a href="{{ path('page_display', {slug:'forreclams_page'}) }}" class="links_footer" title="Для рекламных агенств">Для рекламных агенств</a>
+                        <a href="{{ path('contact_page') }}" class="links_footer" title="Контакты">Контакты</a>
+                        <!-- <a href="#" class="links_footer" title="Язык">Eng</a> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="footer-block block-phone">
+                    <p class="phone"><a href="tel:+74922600232" class="tel"><span>(4922)</span> 60-02-32 </a><a href="#" title="Выбрать город">г. Владимир</a></p>
+
+                </div>
+                <div class="footer-block zvonok">
+                    <a class="btn-dashed fancybox" href="#forma_zvonok" bs-action='feedback'>
+                        Задать вопрос
+                    </a>
+                </div>
+                <div class="footer-block mail">
+                    <img src="{{asset('assets/img/email_ico_2.png')}}" alt="Почта" title="Почта"/>
+                    <span>Отдел продаж:</span>
+                    <a href="mailto:n@colornew.ru" title="n@colornew.ru">n@colornew.ru</a>
+                    <br>
+                    <span>Тех. поддержка:</span>
+                    <a href="mailto:support@colornew.ru" title="support@colornew.ru">support@colornew.ru</a>
+                </div>
+                <div>
+                    <a href="{{ path('payment_page') }}" title="Сбербанк" class="withImage"><img src="{{asset('assets/img/sberbank.png')}}" alt="Сбербанк" title="Сбербанк"/></a>
+                    <a href="{{ path('payment_page') }}" title="Qiwi" class="withImage"><img src="{{asset('assets/img/qiwi.png')}}" alt="Qiwi" title="Qiwi"/></a>
+                    <a href="{{ path('payment_page') }}" title="Яндекс деньги" class="withImage"><img src="{{asset('assets/img/yandex_money.png')}}" alt="Яндекс деньги" title="Яндекс деньги"/></a>
+                    <a href="{{ path('payment_page') }}" title="Webmoney" class="withImage"><img src="{{asset('assets/img/webmoney.png')}}" alt="Webmoney" title="Webmoney"/></a>
+                    <a href="{{ path('payment_page') }}" title="Visa" class="withImage"><img src="{{asset('assets/img/visa.png')}}" alt="Visa" title="Visa"/></a>
+                    <a href="{{ path('payment_page') }}" title="MasterCard" class="withImage"><img src="{{asset('assets/img/mastercard.png')}}" alt="MasterCard" title="MasterCard"/></a>
+                </div>
+            </div>

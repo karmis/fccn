@@ -1,0 +1,50 @@
+            <div class="container_user">
+                <ul class="list-unstyled list-inline">
+                    <li class="withHref">
+                        <a class="item-menu" href="{{ path('installments_page') }}" title="Сайт в рассрочку">
+                            Сайт в рассрочку
+                        </a>
+                    </li>
+
+                    <li class="withHref">
+                        <a class="item-menu" href="{{ path('page_display', {slug:'sale-site' }) }}" title="Скидки">
+                            Скидки
+                        </a>
+                    </li>
+
+                    <li class="withHref">
+                        <a class="item-menu" href="{{ path('page_display', {slug:'job' }) }}" title="Вакансии">
+                            Вакансии
+                        </a>
+                    </li>
+                    <li class="withHref">
+                        <a class="item-menu" href="{{ path('contact_page') }}" title="Контакты">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+                <div class="header-block zvonok">
+                    <a class="item-menu btn-dashed fancybox" href="#forma_zvonok" bs-form-description="Отправленно из блока 'Форма обратной связи вверху страницы'" bs-action='feedback' bs-type="feedback">
+                        Заказать звонок
+                    </a>
+                </div>
+                <div class="header-block block-phone vcard">
+                    {% render(controller("AppBundle:Service:geoip")) %}
+                    <div>
+
+                    </div>
+                    {#<div class="panel_angle city">#}
+                        {#<div>Это имя свободно! Зарезервируйте его, пока не занял кто-то другой!<br>Получите#}
+                            {#доменное имя colornew.ru бесплатно при заказе сайта!<a href="#" title="Заказать доменное имя" class="btn-podrobnee">Заказать</a>#}
+                        {#</div>#}
+                    {#</div>#}
+                </div>
+                <div class="header-block block-reg">
+                    <img src="{{ asset('assets/img/lock.png')}}" alt="Клиентам" title="Клиентам"/>
+
+                    <div>
+                        <a href="http://billing-colornew.ru/pages/cab.php" target="_blank" title="Вход в биллинг">Вход для клиентов</a>
+                        <a href="{{ path('become_client_page') }}" title="Стать клиентом">Стать клиентом</a>
+                    </div>
+                </div>
+            </div>

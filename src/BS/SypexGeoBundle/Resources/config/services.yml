@@ -1,0 +1,5 @@
+# Services
+services:
+    sx.geoip:
+        class:      BS\SypexGeoBundle\Service\SxGeo
+        arguments:  [@kernel]

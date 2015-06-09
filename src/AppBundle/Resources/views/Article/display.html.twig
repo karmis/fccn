@@ -1,0 +1,67 @@
+{% extends 'default/index.html.twig' %}
+{% block meta %}
+    <title>{{ entity.metaTitle }}</title>
+    <meta charset="utf-8">
+    <meta name="description" content="{{ entity.metaDescription }}">
+    <meta name="keywords" content="{{ entity.metaKeywords }}">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Russian">
+{% endblock meta %}
+{% block content %}
+    <!--~~~~~~~~~~~~~~~~~content~~~~~~~~~~~~~~~~~-->
+        <div class="container">
+            <div class="">
+                <div class="container">
+                    <!-- Module sites -->
+                    <div class="container" role="tabpanel">
+                        <div class="row">
+                                <div class="col-md-3 no-padding articles-similar hidden-xs hidden-sm">
+                                    <div class="header">Похожие статьи по этой теме</div>
+                                    {% if entity.paths|length > 0 %}
+                                        {% set countAdditionArticles = 4 %}
+                                        {% set nowAdditionArticles = 0 %}
+
+                                        {% for paths in entity.paths %}
+                                            {% for articles in paths.articles %}
+                                                {% if articles.published == true and articles.deleted == false %}
+                                                    {% if countAdditionArticles >= nowAdditionArticles %}
+                                                        <div class="item">
+                                                            <div class="title">
+                                                                {{ articles.caption|truncate(50) }}
+                                                            </div>
+                                                            <div class="description">
+                                                                {{ articles.annotation|truncate(150) }}
+                                                            </div>
+                                                            <div class="time">{{ articles.updated|date('d.m.Y') }}</div>
+                                                            <a class="other" href="{{ path('article_display', {slug:articles.slug}) }}">Подробнее</a>
+                                                        </div>
+                                                    {% endif %}
+
+                                                    {% set nowAdditionArticles = nowAdditionArticles + 1 %}
+                                                {% endif %}
+                                            {% endfor %}
+                                        {% endfor %}
+                                    {% endif %}
+
+                                    <div class="btn-container">
+                                        <a class="btn" href="{{ path('article_list_all') }}" title="Прочитать все статьи">Все статьи</a>
+                                    </div>
+                                </div>
+                           
+                            <div class="col-md-9 ">
+                                <div class="article">
+                                    <h2>
+                                        {{ entity.caption }}
+                                    </h2>
+                                    <div class="clearfix"></div>
+                                        {{ entity.content|raw }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end sites -->
+                </div>
+            </div>
+        </div>
+{% endblock %}

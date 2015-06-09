@@ -1,0 +1,5 @@
+# Services
+services:
+    bs.whois:
+        class:      BS\WhoisBundle\Service\Whois
+        arguments:  [@kernel]

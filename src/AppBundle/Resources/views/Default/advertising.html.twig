@@ -1,0 +1,295 @@
+{% extends 'default/index.html.twig' %}
+    {% block meta %}
+	<title>Продвижение сайтов, заказать продвижение сайта в поисковых системах - ColorNew Интернет Студия</title>
+        <meta charset="utf-8">
+        <meta name="description" content="продвижение, сайт, поиск, реклама, заказать">
+        <meta name="robots" content="index, follow">
+        <meta name="language" content="Russian">
+    {% endblock meta %}
+{% block content %}
+
+    <!--~~~~~~~~~~~~~~~~~content~~~~~~~~~~~~~~~~~-->
+    <!--~~~~~~~~~~~~~~~~~banner~~~~~~~~~~~~~~~~~-->
+    {% block banner %}
+        {{ include('AppBundle:Blocks/Banners:adversing.html.twig') }}
+    {% endblock %}  
+    <!--~~~~~~~~~~~~~~~~~/banner~~~~~~~~~~~~~~~~~-->
+    <!--~~~~~~~~~~~~~~~~~tariffs~~~~~~~~~~~~~~~~~-->
+    {% block tariffs %}
+        <div class="tariffs container">
+            <h2>Профессиональная настройка<br>контекстной рекламы</h2>
+
+            <div class="row visible-md visible-lg">
+                <div class="thead col-md-4"></div>
+                <div class="thead col-md-2">Старт</div>
+                <div class="thead col-md-2">Подъём</div>
+                <div class="thead col-md-2">Взлёт</div>
+                <div class="thead col-md-2">Прорыв</div>
+                <div class="tleft col-md-4">
+                    <li>Стоимость</li>
+                    <li>Бонус</li>
+                    <li>Уникальные объявления (шт.)</li>
+                    <li>Рекламные площадки</li>
+                </div>
+                <div class="tbody col-md-2">
+                    <li>7 950</li>
+                    <li>-</li>
+                    <li>до 200</li>
+                    <li>до 20</li>
+                    <li>Яндекс</li>
+                    <li class="hid"><a class="btn-podrobnee fancybox" href="#forma_zvonok" title="" bs-form-description="Контекстная реклама в интернете. Тариф Старт" bs-action="feedback" >Заказать</a></li>
+                </div>
+                <div class="tbody col-md-2">
+                    <li>12 950</li>
+                    <li>2 000 руб. на баланс в Google в подарок</li>
+                    <li>до 500</li>
+                    <li>до 50</li>
+                    <li><img src="{{asset('assets/img/calc/checkbox_checked.png')}}">Яндекс, Google</li>
+                    <li class="hid"><a class="btn-podrobnee fancybox" href="#forma_zvonok" title="" bs-form-description="Контекстная реклама в интернете. Тариф Подъём" bs-action="feedback" >Заказать</a></li>
+                </div>
+                <div class="tbody col-md-2">
+                    <li>14 970</li>
+                    <li>2 000 руб. на баланс в Google в подарок</li>
+                    <li>до 1000</li>
+                    <li>до 100</li>
+                    <li><img src="{{asset('assets/img/calc/checkbox_checked.png')}}">Яндекс, Google</li>
+                    <li class="hid"><a class="btn-podrobnee fancybox" href="#forma_zvonok" title="" bs-form-description="Контекстная реклама в интернете. Тариф Взлет" bs-action="feedback" >Заказать</a></li>
+                </div>
+                <div class="tbody col-md-2">
+                    <li>35 950</li>
+                    <li>14 000 руб. на баланс в рекламу</li>
+                    <li>&infin;</li>
+                    <li>&infin;</li>
+                    <li><img src="{{asset('assets/img/calc/checkbox_checked.png')}}">Яндекс, Google</li>
+                    <li class="hid"><a class="btn-podrobnee fancybox" href="#forma_zvonok" title="" bs-form-description="Контекстная реклама в интернете. Тариф Прорыв" bs-action="feedback" >Заказать</a></li>
+                </div>
+            </div>
+            <div class="row visible-sm visible-xs">
+                <div class="horizontal-click">
+                    <input type="radio" name="vkl" id="vkl1" checked="checked"/>
+                    <label for="vkl1">Старт</label>
+
+                    <div class="row">
+                        <div class="tleft col-sm-6 col-xs-6">
+                            <li>Стоимость</li>
+                            <li>Контроль позиций и бюджета</li>
+                            <li>Количество ключевых слов</li>
+                            <li>Уникальные объявления (шт.)</li>
+                            <li>Рекламные площадки</li>
+                        </div>
+                        <div class="tbody col-sm-6 col-xs-6">
+                            <li>333 руб./день</li>
+                            <li>да</li>
+                            <li>до 400</li>
+                            <li>до 40</li>
+                            <li><img src="{{asset('assets/img/calc/checkbox_checked.png')}}">Яндекс, Google</li>
+                            <li class="hid"><a class="btn-podrobnee fancybox" href="#forma_zvonok" title="" bs-form-description="Контекстная реклама в интернете. Тариф Старт" bs-action="feedback" >Заказать</a></li>
+                        </div>
+                    </div>
+                    <input type="radio" name="vkl" id="vkl2"/>
+                    <label for="vkl2">Подъём</label>
+
+                    <div class="row">
+                        <div class="tleft col-sm-6 col-xs-6">
+                            <li>Стоимость</li>
+                            <li>Контроль позиций и бюджета</li>
+                            <li>Количество ключевых слов</li>
+                            <li>Уникальные объявления (шт.)</li>
+                            <li>Рекламные площадки</li>
+                        </div>
+                        <div class="tbody col-sm-6 col-xs-6">
+                            <li>333 руб./день</li>
+                            <li>да</li>
+                            <li>до 400</li>
+                            <li>до 40</li>
+                            <li><img src="{{asset('assets/img/calc/checkbox_checked.png')}}">Яндекс, Google</li>
+                            <li class="hid"><a class="btn-podrobnee fancybox" href="#forma_zvonok" title="" bs-form-description="Контекстная реклама в интернете. Тариф Подъем" bs-action="feedback" >Заказать</a></li>
+                        </div>
+                    </div>
+                    <input type="radio" name="vkl" id="vkl3"/>
+                    <label for="vkl3">Взлёт</label>
+
+                    <div class="row">
+                        <div class="tleft col-sm-6 col-xs-6">
+                            <li>Стоимость</li>
+                            <li>Контроль позиций и бюджета</li>
+                            <li>Количество ключевых слов</li>
+                            <li>Уникальные объявления (шт.)</li>
+                            <li>Рекламные площадки</li>
+                        </div>
+                        <div class="tbody col-sm-6 col-xs-6">
+                            <li>499 руб./день</li>
+                            <li>да</li>
+                            <li>до 1000</li>
+                            <li>до 100</li>
+                            <li><img src="{{asset('assets/img/calc/checkbox_checked.png')}}">Яндекс, Google</li>
+                            <li class="hid"><a class="btn-podrobnee fancybox" href="#forma_zvonok" title="" bs-form-description="Контекстная реклама в интернете. Тариф Взлет" bs-action="feedback" >Заказать</a></li>
+                        </div>
+                    </div>
+                    <input type="radio" name="vkl" id="vkl4"/>
+                    <label for="vkl4">Прорыв</label>
+
+                    <div class="row">
+                        <div class="tleft col-sm-6 col-xs-6">
+                            <li>Стоимость</li>
+                            <li>Контроль позиций и бюджета</li>
+                            <li>Количество ключевых слов</li>
+                            <li>Уникальные объявления (шт.)</li>
+                            <li>Рекламные площадки</li>
+                        </div>
+                        <div class="tbody col-sm-6 col-xs-6">
+                            <li>333 руб./день</li>
+                            <li>да</li>
+                            <li>&infin;</li>
+                            <li>&infin;</li>
+                            <li><img src="{{asset('assets/img/calc/checkbox_checked.png')}}">Яндекс, Google</li>
+                            <li class="hid"><a class="btn-podrobnee fancybox" href="#forma_zvonok" title="" bs-form-description="Контекстная реклама в интернете. Тариф Прорыв" bs-action="feedback" >Заказать</a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 style="margin-top: 0px;">Преимущество услуги</h2>
+
+            <div class="preim_usl">
+                <div>
+                    <img src="{{asset('assets/img/img_start.png')}}">
+                    <a class="fancybox" href="#forma_zvonok">
+                        <img src="{{asset('assets/img/img_start_but.png')}}" alt="Запустить контекстную рекламу"
+                             title="Запустить контекстную рекламу">
+                    </a>
+                </div>
+                <ul>
+                    <li>Максимально низкая стоимость привлечения одного клиента по сравнению с Вашими конкурентами;</li>
+                    <li>Рекламную кампанию ведёт и контролирует человек, а не робот (в отличии от автоматического
+                        способа Яндекса);
+                    </li>
+                    <li>Быстрая реакция персонального менеджера по внедрению акций и спецпредложений на сайт;</li>
+                    <li>Ежедневный мониторинг сайтов-конкурентов, улучшение Вашей рекламной кампании;</li>
+                    <li>Написание новых уникальных текстов объявлений каждый мсяц;</li>
+                    <li>Удобный личный кабинет для просмотра статистики и рекомендаций;</li>
+                </ul>
+            </div>
+        </div>
+        <!--~~~~~~~~~~~~~~~~~/tariffs~~~~~~~~~~~~~~~~~-->
+    {% endblock %}
+
+    {% block consult %}
+        {{ include('AppBundle:Blocks:consult.html.twig', {
+            'text': "Получите наше лучшее предложение!",
+            'button': "Получить консультацию"
+        }) }}
+    {% endblock consult %}
+    {% block preim %}
+        <!--~~~~~~~~~~~~~~~~~preim~~~~~~~~~~~~~~~~~-->
+        <div class="preim container">
+            <div class="steps">
+                <div><img src="{{asset('assets/img/ico_tap_kr_01.png')}}">
+
+                    <p>Оплата только за реальные переходы на сайт Ваш сайт будет показываться на первых страницах
+                        поисковых систем уже сегодня! За показ рекламы Вы не платите, оплата происходит только в момент
+                        перехода пользователя на сайт. Вы получаете гарантированных посетителей;</p></div>
+                <div><img src="{{asset('assets/img/ico_tap_kr_03.png')}}">
+
+                    <p>Только целевая аудитория Пользователи вбивают поисковый запрос (например, "купить велосипед") и
+                        видят Ваш сайт. Вы получаете целевого пользователя, который интересуется Вашим товаром, или
+                        услогой;</p></div>
+                <div><img src="{{asset('assets/img/ico_tap_kr_02.png')}}">
+
+                    <p>Стоимость ниже, конверсия выше. Стоимость рекламы в Интернете в разы ниже наружной, или рекламы в
+                        печатных продукциях, а эффективность во много раз выше;</p></div>
+                <div><img src="{{asset('assets/img/ico_tap_kr_04.png')}}">
+
+                    <p>Конкурентное преимущество. Реклама в Интернете позволяет даже небольшим организациям
+                        конкурировать с огромными корпорациями на равных;</p></div>
+            </div>
+            <a href="#" title="">
+                <img src="{{asset('assets/img/banners/113.png')}}" alt="" title="">
+            </a>
+
+            <div class="yandex-google">
+                <div class="yandex">
+                    <img src="{{asset('assets/img/img_yandex.png')}}" alt="" title="">
+                    <input type="checkbox" id="read_more2">
+
+                    <div>
+                        <p>Реклама в Яндекс Директ</p>
+
+                        <p>Контекстная реклама Яндекс.Директ позволяет выводить сайт на первые...</p>
+
+                        <p>Контекстная реклама Яндекс.Директ позволяет выводить сайт на первые...</p>
+
+                        <p>Контекстная реклама Яндекс.Директ позволяет выводить сайт на первые...</p>
+
+                        <p>Контекстная реклама Яндекс.Директ позволяет выводить сайт на первые...</p>
+
+                        <p>Контекстная реклама Яндекс.Директ позволяет выводить сайт на первые...</p>
+
+                        <p>Контекстная реклама Яндекс.Директ позволяет выводить сайт на первые...</p>
+                        <label for="read_more2">Читать далее</label>
+                    </div>
+
+                </div>
+                <div class="google">
+                    <img src="{{asset('assets/img/img_google.png')}}" alt="" title="">
+                    <input type="checkbox" id="read_more3">
+
+                    <div>
+                        <p>Реклама в Google Adwords</p>
+
+                        <p>Google - поисковая система, аудитория которой растёт с каждым днём.</p>
+
+                        <p>Google - поисковая система, аудитория которой растёт с каждым днём.</p>
+
+                        <p>Google - поисковая система, аудитория которой растёт с каждым днём.</p>
+
+                        <p>Google - поисковая система, аудитория которой растёт с каждым днём.</p>
+
+                        <p>Google - поисковая система, аудитория которой растёт с каждым днём.</p>
+                        <label for="read_more3">Читать далее</label>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    {% endblock preim %}
+    <!--~~~~~~~~~~~~~~~~~/preim~~~~~~~~~~~~~~~~~-->
+    {% block annotation %}
+        <!--~~~~~~~~~~~~~~~~~annotations_all~~~~~~~~~~~~~~~~~-->
+        <div class="annotations_all container">
+            <div class="links">
+                <a href="{{ path('advertising_page') }}" class="active">Контекстная реклама</a>
+                <a href="{{ path('promotion_page') }}">SEO продвижение</a>
+                <a href="{{ path('social_page') }}">Продвижение в соц. сетях</a>
+            </div>
+            <input type="checkbox" id="read_more">
+
+            <div class="annotation">
+                <p>А Вы знаете, что именно Ваши товары и услуги предельно востребованы? Нет? Значит, ваша реклама никуда
+                    не годится! Хотите увидеть, на что действительно способен ваш бизнес? Получить массу новых заказов и
+                    поток клиентов? Мы сделаем Вам рекламу в интернете, которой будут завидовать все конкуренты! </p>
+
+                <p>Реклама в Интернете - на что она способна: </p>
+
+                <p>Рассказать сразу всему миру о своей фирме, предложить товары и услуги так, как никто другой и начать
+                    продажи сегодня и сейчас – это мечта многих начинающих предпринимателей. Но даже если у Вас солидная
+                    компания, которая работает не один год, а Вы еще не сделали ни одной продажи в </p>
+
+                <p>Рассказать сразу всему миру о своей фирме, предложить товары и услуги так, как никто другой и начать
+                    продажи сегодня и сейчас – это мечта многих начинающих предпринимателей. Но даже если у Вас солидная
+                    компания, которая работает не один год, а Вы еще не сделали ни одной продажи в </p>
+
+                <p>Рассказать сразу всему миру о своей фирме, предложить товары и услуги так, как никто другой и начать
+                    продажи сегодня и сейчас – это мечта многих начинающих предпринимателей. Но даже если у Вас солидная
+                    компания, которая работает не один год, а Вы еще не сделали ни одной продажи в </p>
+                <label for="read_more">Читать далее</label>
+            </div>
+        </div>
+    {% endblock %}
+    <!--~~~~~~~~~~~~~~~~~/annotations_all~~~~~~~~~~~~~~~~~-->
+    <div class="clearfix" style="margin-top: 100px;">
+    <!--~~~~~~~~~~~~~~~~~/tariffs~~~~~~~~~~~~~~~~~-->
+    {{ include('AppBundle:Article:preview_list.html.twig', { 'entities': articles }) }}
+    <!--~~~~~~~~~~~~~~~~~/content~~~~~~~~~~~~~~~~~-->
+    </div>
+    <!--~~~~~~~~~~~~~~~~~/content~~~~~~~~~~~~~~~~~-->
+{% endblock %}

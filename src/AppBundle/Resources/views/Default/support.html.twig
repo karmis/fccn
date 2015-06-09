@@ -1,0 +1,62 @@
+{% extends 'default/index.html.twig' %}
+{% block meta %}
+	<title>Поддержка сайтов - ColorNew Интернет Студия</title>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+{% endblock meta %}
+{% block content %}
+<!--~~~~~~~~~~~~~~~~~content~~~~~~~~~~~~~~~~~-->
+	<!--~~~~~~~~~~~~~~~~~banner~~~~~~~~~~~~~~~~~-->
+    {% block banner %}
+        {{ include('AppBundle:Blocks/Banners:support.html.twig') }}
+    {% endblock %} 
+	<!--~~~~~~~~~~~~~~~~~/banner~~~~~~~~~~~~~~~~~-->
+	<!--~~~~~~~~~~~~~~~~~circle_steps~~~~~~~~~~~~~~~~~-->
+		<div class="circle_steps container visible-lg">
+			<div><img src="{{asset('assets/img/circle-1.png')}}"><p>Добавить новый раздел</p></div>
+			<div></div>
+			<div><img src="{{asset('assets/img/circle-2.png')}}"><p>Дописать<br>небольшой функционал</p></div>
+			<div></div>
+			<div><img src="{{asset('assets/img/circle-3.png')}}"><p>Заполнить до 50 карточек<br>товаров в Интернет-магазин</p></div>
+			<div></div>
+			<div><img src="{{asset('assets/img/circle-4.png')}}"><p>Оптимизировать<br>изображения</p></div>
+			<p>Это лишь примерные работы, которые могут быть выполнены за 1 час. Требования у Вас могут быть разные. Мы всегда подскажем как улучшить Ваш сайт и какие варианты могут быть по модернизации функционала. Если Вы будете часто заказывать технические работы по сайту, то можете воспользоваться пакетами часов для экономии:</p>
+		</div>
+	<!--~~~~~~~~~~~~~~~~~/circle_steps~~~~~~~~~~~~~~~~~-->
+	<!--~~~~~~~~~~~~~~~~~packages~~~~~~~~~~~~~~~~~-->
+		<div class="packages container">
+			<div class="col-lg-4">
+				<div class="blod">
+					<img src="{{asset('assets/img/blod.png')}}">Mini
+				</div>
+				<div class="desc2">
+					<div class="h">Пакет МИНИ</div>
+					<p>Пакет рассчитан на 3 часа работы наших специалистов. Наполнение сайта контентом (статьями, новостями, изображениями, видео, карточки товаров в интернет-магазин, новые страницы), контроль распределения нагрузки сайта на сервер, консультации.</p>
+				</div>
+				<div class="cena">2 590 <span>руб.</span></div>
+			</div>
+			<div class="col-lg-4">
+				<div class="blod">
+					<img src="{{asset('assets/img/blod.png')}}">Standart
+				</div>
+				<div class="desc2">
+					<div class="h">Пакет СТАНДАРТ</div>
+					<p>Пакет рассчитан на 7 часов работы технического специалиста. Кроме наполнения сайта в данном пакете можно частично изменить дизайн и верстку, добавить разделы, написать небольшой скрипт, нарисовать слайды, обработать фото и т.д.</p>
+				</div>
+				<div class="cena">5 990 <span>руб.</span></div>
+			</div>
+			<div class="col-lg-4">
+				<div class="blod">
+					<img src="{{asset('assets/img/blod.png')}}">Max
+				</div>
+				<div class="desc2">
+					<div class="h">Пакет МАКСИМАЛЬНЫЙ</div>
+					<p>Пакет поддержки сайта рассчитан на 20 часов работы наших специалистов. Подойдет крупным Интернет-магазинам и высоконагруженным проектам. Добавление/изменение функционала, написание скриптов, разработка сложной графики.</p>
+				</div>
+				<div class="cena">15 300 <span>руб.</span></div>
+			</div>
+			<div class="podrobnee"><a href="#" class="btn-podrobnee">Получить консультацию</a></div>
+		</div>
+	<!--~~~~~~~~~~~~~~~~~/packages~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~/content~~~~~~~~~~~~~~~~~-->
+{% endblock %}

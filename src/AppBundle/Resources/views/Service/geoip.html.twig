@@ -1,0 +1,16 @@
+<p class="phone">
+        {{ city.phone|raw }}
+</p>
+<a
+        href="#"
+        title="Выбор города"
+        data-container="body"
+        data-toggle="popover"
+        data-placement="bottom"
+        data-content="<div class='cityItem' id='RU-MOW'><a href='{{ path('service_geoip_region_change', {'iso': 'RU-MOW'}) }}'>Москва</a></div><div class='cityItem' id='RU-VLA'><a href='{{ path('service_geoip_region_change', {'iso': 'RU-VLA'}) }}'>Владимир</a></div><div class='cityItem' id='RU-NIZ'><a href='{{ path('service_geoip_region_change', {'iso': 'RU-NIZ'}) }}'>Нижний Новгород</a></div>">
+    {% if city.name %}
+    	{{ 'г. ' ~ city.name}}
+    {% else %}
+    	{{'Другие города'}}
+    {% endif %}
+</a>
