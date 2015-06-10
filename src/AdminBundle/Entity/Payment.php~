@@ -30,9 +30,16 @@ class Payment
     /**
      * @var string
      *
-     * @ORM\Column(name="type", type="string", length=100)
+     * @ORM\Column(name="type", type="string", length=50)
      */
     private $type;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="is_reciept", type="boolean", nullable=true)
+     */
+    private $isReciept;
 
     /**
      * @var string
@@ -126,13 +133,6 @@ class Payment
     private $mailAddress;
 
     /**
-     * @var string
-     *
-     * @ORM\Column(name="report", type="string", length=255)
-     */
-    private $report;
-
-    /**
      * @var datetime $created
      *
      * @ORM\Column(type="datetime")
@@ -142,14 +142,9 @@ class Payment
     /**
      * @var boolean
      *
-     * @ORM\Column(name="deleted", type="boolean")
+     * @ORM\Column(name="deleted", type="boolean", nullable=true)
      */
     private $deleted;
-
-    /**
-     * @Assert\File(maxSize="6000000")
-     */
-    public $file;
 
     public function __construct()
     {

@@ -12,6 +12,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
+use Symfony\Component\Config\Definition\Exception\Exception;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -34,42 +35,39 @@ class PaymentController extends Controller {
     public function paymentAction(Request $request)
     {
         $entity = new Payment();
-
+        $answer = array();
         $data = $request->request;
-        if($data->get('payment_type') == 'individual'){
-            $entity = $this->bindIndividual($data, $entity);
-        } elseif($data->get('payment_type') == 'legal') {
-            $entity = $this->bindLegal($data, $entity);
+        if($data->get('payment_type') == 'payment_phis' || $data->get('payment_type') == 'phis_reciept'){
+            $entity = $this->bindPhisPayment($data, $entity);
+            if($data->get('with_reciept') == 1){
+                $entity->setIsReciept(true);
+                $html = $this->createPhisReceipt($entity);
+            } else {
+                $entity->setIsReciept(false);
+            }
+        } elseif($data->get('payment_type') == 'payment_jur') {
+            $entity = $this->bindJurPayment($data, $entity);
+            $entity->setIsReciept(true);
+            $html = $this->createJurReceipt($entity);
+        } else {
+            throw new Exception('Payment method not found',1);
         }
         $form = $this->createCreateForm($entity);
-        $entity->setReport('none');
         $em = $this->getDoctrine()->getManager();
         $em->persist($entity);
         $em->flush();
 
-        return new JsonResponse(array('ok'));
-    }
-
-    /**
-     * Обработка запроса на получение квитанции
-     *
-     * @Route("/recaipt", name="receipt_action")
-     * @Method("POST")
-     */
-    public function getReceiptAction(Request $request)
-    {
-
-        $entity = new Payment();
-        $data = $request->request;
-        $html = "";
-        if($data->get('payment_type') == 'individual'){
-            $entity = $this->bindIndividual($data, $entity);
-            $html = $this->createIndividualReceipt($entity);
-        } elseif($data->get('payment_type') == 'legal') {
-            $entity = $this->bindLegal($data, $entity);
-            $html = $this->createLegalReceipt($entity);
+        $answer['status'] = 'ok';
+        if(isset($html)){
+            $uri = $this->createReceipt($html);
+            $answer['uri'] = $uri;
         }
 
+        return new JsonResponse($answer);
+    }
+
+    private function createReceipt($html)
+    {
         $name = uniqid() .'.pdf';
         $uri = $this->get('router')->generate('receipt_download', array(
             'filename' => $name
@@ -77,13 +75,7 @@ class PaymentController extends Controller {
         $path = $this->get('kernel')->getRootDir() . '/../web/uploads/documents/receipts/'.$name;
         $this->get('knp_snappy.pdf')->generateFromHtml($html, $path);
 
-        $entity->setReport($name);
-        $form = $this->createCreateForm($entity);
-        $em = $this->getDoctrine()->getManager();
-        $em->persist($entity);
-        $em->flush();
-
-        return new JsonResponse(array('uri'=> $uri));
+        return $uri;
     }
 
     /**
@@ -107,31 +99,31 @@ class PaymentController extends Controller {
         return $response; 
     }
 
-    private function createIndividualReceipt($entity)
+    private function createPhisReceipt($entity)
     {
-        $html = $this->renderView('AppBundle:Documents/Receipts:individual.html.twig', array(
+        $html = $this->renderView('AppBundle:Documents/Receipts:phis.html.twig', array(
             'entity'  => $entity
         ));
 
         return $html;
     }
 
-    private function createLegalReceipt($entity)
+    private function createJurReceipt($entity)
     {
-        $html = $this->renderView('AppBundle:Documents/Receipts:legal.html.twig', array(
+        $html = $this->renderView('AppBundle:Documents/Receipts:jur.html.twig', array(
             'entity'  => $entity
         ));
 
         return $html;
     }
 
-    private function bindIndividual($data, $entity)
+    private function bindPhisPayment($data, $entity)
     {
         $entity->setType($data->get('payment_type'));
-        $entity->setFio($data->get('fio'));
-        $entity->setEmail($data->get('email'));
-        $entity->setPhone($data->get('tel'));
-        $entity->setSumm($data->get('MNT_AMOUNT'));
+        $entity->setFio($data->get('fio_phis'));
+        $entity->setEmail($data->get('email_phis'));
+        $entity->setPhone($data->get('tel_phis'));
+        $entity->setSumm($data->get('amount_phis'));
         $entity->setOrganization(0);
         $entity->setInn(0);
         $entity->setRs(0);
@@ -145,13 +137,13 @@ class PaymentController extends Controller {
         return $entity;
     }
 
-    private function bindLegal($data, $entity)
+    private function bindJurPayment($data, $entity)
     {
         $entity->setType($data->get('payment_type'));
-        $entity->setFio($data->get('fio'));
+        $entity->setFio($data->get('fio_jur'));
         $entity->setEmail(0);
-        $entity->setPhone(0);
-        $entity->setSumm($data->get('MNT_AMOUNT'));
+        $entity->setPhone($data->get('tel_jur'));
+        $entity->setSumm($data->get('amount_jur'));
         $entity->setOrganization($data->get('organization'));
         $entity->setInn($data->get('inn'));
         $entity->setRs($data->get('pc'));
@@ -160,6 +152,7 @@ class PaymentController extends Controller {
         $entity->setLegalAddress($data->get('legalAddress'));
         $entity->setMailAddress($data->get('mailAddress'));
         $entity->setBik($data->get('bik'));
+        $entity->setEmail($data->get('email_jur'));
         $entity->setBasis($data->get('basis'));
 
         return $entity;

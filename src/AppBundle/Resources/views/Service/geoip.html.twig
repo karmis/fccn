@@ -7,10 +7,19 @@
         data-container="body"
         data-toggle="popover"
         data-placement="bottom"
-        data-content="<div class='cityItem' id='RU-MOW'><a href='{{ path('service_geoip_region_change', {'iso': 'RU-MOW'}) }}'>Москва</a></div><div class='cityItem' id='RU-VLA'><a href='{{ path('service_geoip_region_change', {'iso': 'RU-VLA'}) }}'>Владимир</a></div><div class='cityItem' id='RU-NIZ'><a href='{{ path('service_geoip_region_change', {'iso': 'RU-NIZ'}) }}'>Нижний Новгород</a></div>">
+        data-content="
+        <div class='cityItem' id='RU-MOW'><a href='{{ path('service_geoip_region_change', {'iso': 'RU-MOW'}) }}'>Москва</a></div>
+        <div class='cityItem' id='RU-VLA'><a href='{{ path('service_geoip_region_change', {'iso': 'RU-VLA'}) }}'>Владимир</a></div>
+        <div class='cityItem' id='RU-NIZ'><a href='{{ path('service_geoip_region_change', {'iso': 'GLOBAL'}) }}'>Санкт-Петербург</a></div>
+        <div class='cityItem' id='RU-NIZ'><a href='{{ path('service_geoip_region_change', {'iso': 'GLOBAL'}) }}'>Нижний Новгород</a></div>
+        <div class='cityItem' id='RU-NIZ'><a href='{{ path('service_geoip_region_change', {'iso': 'GLOBAL'}) }}'>Волгоград</a></div>
+        <div class='cityItem' id='RU-NIZ'><a href='{{ path('service_geoip_region_change', {'iso': 'GLOBAL'}) }}'>Казань</a></div>
+        <div class='cityItem' id='RU-NIZ'><a href='{{ path('service_geoip_region_change', {'iso': 'GLOBAL'}) }}'>Калининград</a></div>
+        <div class='cityItem' id='RU-NIZ'><a href='{{ path('service_geoip_region_change', {'iso': 'GLOBAL'}) }}'>Другой город</a></div>
+        ">
     {% if city.name %}
     	{{ 'г. ' ~ city.name}}
     {% else %}
-    	{{'Другие города'}}
+            <span id="city_other_whois">Звонок по России бесплатный</span>
     {% endif %}
 </a>

@@ -1,0 +1,17 @@
+<div style="display:none;" id="forma_zvonok" class="forma modal_zvonok">
+    <form class="feed_call_form" bs-action-path="{{ path('feed_call_back') }}"  bs-form-type="feedback">
+        <p>Заполните форму и мы перезвоним вам!</p>
+        <input type="text" placeholder="Ваше имя" name="name" required>
+        <input type="tel" class="phone_input" placeholder="Телефон" name="tel" required>
+        <input type="email" placeholder="Электронная почта" name="email">
+        <textarea name="msg" id="" cols="30" rows="8" placeholder="Сообщение"></textarea>
+        <input type="hidden" class="hide" name="ref" bs-id="form-reference" />
+        <input type="hidden" class="hide" name="ref_description" bs-id="form-reference-description" />
+        <input type="hidden" class="hide" name="ref_value" bs-id="form-reference-value" />
+        <p>
+            Ваши данные не будут переданы третьим лицам.
+        </p>
+        <a href="{{path('page_display', {slug:'confidentiality'})}}" class="politica" target="_blank">Политика конфиденциальности</a>
+        <input id="submitFeedbackFormBtn" type="submit" data-loading-text="Отправляется запрос" bs-form-success="Ваше сообщение успешно отправлено. Мы с Вами свяжемся!" bs-form-error="Ошибка при выполнение запроса. Попробуйте позже" class="btn-dashed" value="Отправить">
+    </form>
+</div>

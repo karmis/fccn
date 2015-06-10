@@ -38,7 +38,7 @@ class FeedController extends Controller
         $siteName = $request->request->get('site_type_name');
         $salePromotion = $request->request->get('checkbox_skidka');
         $ref = $request->request->get('ref');
-
+        $price = $request->request->get('price');
         if (isset($salePromotion)) {
             $salePromotionText = 'С продвижением';
         } else {
@@ -63,6 +63,7 @@ class FeedController extends Controller
         $template = $this->renderView(
             'AppBundle:Email:orderFromCalc.html.twig',
             array(
+                'price' => $price,
                 'subject' => $subject,
                 'ref' => $ref,
                 'name' => $name,
@@ -79,6 +80,114 @@ class FeedController extends Controller
         return new JsonResponse(array('answer' => 'ok'));
     }
 
+    /**
+     * Форма заказа домена
+     *
+     * @Route("/order/domain", name="feed_order_domain")
+     * @Method("POST")
+     */
+    public function orderDomainAction(Request $request)
+    {
+        $subject = "Заказ домена";
+        $name = $request->request->get('name');
+        $tel = $request->request->get('tel');
+        $email = $request->request->get('email');
+        $ref = $request->request->get('ref');
+        $descriptionRef = $request->request->get('ref_description');
+        $domain = $request->request->get('ref_value');
+
+        $template = $this->renderView(
+            'AppBundle:Email:order.domain.html.twig',
+            array(
+                'subject' => $subject,
+                'ref' => $ref,
+                'descriptionRef' => $descriptionRef,
+                'domain' => $domain,
+                'name' => $name,
+                'tel' => $tel,
+                'email' => $email
+            )
+        );
+
+        $this->sendEmail($subject, $template);
+
+        return new JsonResponse(array('answer' => 'ok'));
+    }
+
+    /**
+     * Форма заказа рекламы
+     *
+     * @Route("/order/adversting", name="feed_order_advertising")
+     * @Method("POST")
+     */
+    public function orderAdverstingAction(Request $request)
+    {
+        $subject = "Заказ рекламы в интернете";
+        $name = $request->request->get('name');
+        $tel = $request->request->get('tel');
+        $email = $request->request->get('email');
+        $ref = $request->request->get('ref');
+        $descriptionRef = $request->request->get('ref_description');
+        $tariff = $request->request->get('ref_value');
+
+        $template = $this->renderView(
+            'AppBundle:Email:order.adwersting.html.twig',
+            array(
+                'subject' => $subject,
+                'ref' => $ref,
+                'descriptionRef' => $descriptionRef,
+                'tariff' => $tariff,
+                'name' => $name,
+                'tel' => $tel,
+                'email' => $email
+            )
+        );
+
+        $this->sendEmail($subject, $template);
+
+        return new JsonResponse(array('answer' => 'ok'));
+    }
+
+    /**
+     * Форма заказа хостинга
+     *
+     * @Route("/order/hosting", name="feed_order_hosting")
+     * @Method("POST")
+     */
+    public function orderHostingAction(Request $request)
+    {
+        $subject = "Заказ домена или хостинга";
+        $name = $request->request->get('name');
+        $tel = $request->request->get('tel');
+        $email = $request->request->get('email');
+        $ref = $request->request->get('ref');
+        $domain = $request->request->get('domain');
+        $descriptionRef = $request->request->get('ref_description');
+        $tariff = $request->request->get('ref_value');
+        $dateInterval = $request->request->get('date_interval');
+        $isNeedHelp = $request->request->get('isNeedHelp');
+
+        $template = $this->renderView(
+            'AppBundle:Email:order.hosting.html.twig',
+            array(
+                'subject' => $subject,
+                'ref' => $ref,
+                'descriptionRef' => $descriptionRef,
+                'tariff' => $tariff,
+                'name' => $name,
+                'tel' => $tel,
+                'email' => $email,
+                'domain' => $domain,
+                'dateInterval' => $dateInterval,
+                'isNeedHelp' => $isNeedHelp
+
+            )
+        );
+
+        $this->sendEmail($subject, $template);
+
+        return new JsonResponse(array('answer' => 'ok'));
+    }
 
     /**
      * Форма обратной связи
@@ -86,7 +195,7 @@ class FeedController extends Controller
      * @Route("/callback", name="feed_call_back")
      * @Method("POST")
      */
-    public function callBackAction(Request $request)
+    public function feedBackAction(Request $request)
     {
         $subject = "Заказ обратного звонка";
         $name = $request->request->get('name');
@@ -95,13 +204,15 @@ class FeedController extends Controller
         $msg = $request->request->get('msg');
         $ref = $request->request->get('ref');
         $descriptionRef = $request->request->get('ref_description');
+        $valueRef = $request->request->get('ref_value');
 
         $template = $this->renderView(
-            'AppBundle:Email:callBack.html.twig',
+            'AppBundle:Email:feedback.html.twig',
             array(
                 'subject' => $subject,
                 'ref' => $ref,
                 'descriptionRef' => $descriptionRef,
+                'valueRef' => $valueRef,
                 'name' => $name,
                 'tel' => $tel,
                 'email' => $email,

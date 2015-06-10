@@ -6,7 +6,7 @@
 
     <div class="korpus">
         <div class="container">
-            <div id="whois-domain-form">
+            <div id="whois-domain-form" bs-action-path="{{ path('services_whois') }}">
                 <input type="text" placeholder="КОЛОР-НЬЮ.РФ" id="domain-input-whois" required>
 
                 <p class="result"></p>
@@ -15,7 +15,7 @@
                 <div class="svoboden block-hidden-animate">
                     Это имя свободно! Зарезервируйте его, пока не занял кто-то другой!
                     <br/>Получите это имя бесплатно при заказе сайта!
-                    <a href="#forma_zvonok" title="Заказать доменное имя" class="btn-podrobnee fancybox">Заказать</a>
+                    <a href="#forma_order_domain" title="Заказать доменное имя" class="btn-podrobnee fancybox" id='orderDomainButton' bs-action-type="order_domain" bs-form-success="Ваша заявка в обработке. По готовности Вы получите уведомление на e-mail" bs-form-error="" bs-form-description="Проверка доступности домена. Заказ домена." bs-form-value="">Заказать</a>
                 </div>
                 <div class="zanyat block-hidden-animate">
                     Это имя занято! Попробуйте придумать другое доменное имя.

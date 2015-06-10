@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c059aa7-8461-45cf-a223-77d3fc96f711" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/compiled/js/all_calculator_23.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/compiled/js/all_calculator_24.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/compiled/js/all_calculator_25.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/compiled/js/all_calculator_26.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/compiled/js/all_order.adwersting_22.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/compiled/js/all_order.domain_24.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/compiled/js/all_order.hosting_23.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/compiled/js/all_payment_24.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/compiled/js/all_payment_25.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/compiled/js/all_payment_26.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/compiled/js/all_payment_27.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/compiled/js/all_scripts_25.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/compiled/js/all_scripts_26.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/compiled/js/all_scripts_27.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/compiled/js/all_scripts_28.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/compiled/js/all_whois_23.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/compiled/js/all_whois_24.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/compiled/js/all_whois_25.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/www.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/sessions/sess_88a6habv44046to5qni892d2a5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/sessions/sess_9vovflb5tt0et7aoed1os8q0a0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/sessions/sess_c169e5a70rt1ofm9demgaft5l3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/sessions/sess_dhd7lir1k93rqjoc65030jl7p5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/sessions/sess_dqf7alf8gm89lavcr7jj0qgpr3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/sessions/sess_se7j3vh89liu0os2mnkvuc3j95" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Forms/feedback.call.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Documents/Receipts/individual.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Documents/Receipts/legal.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Email/callBack.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/js/calc.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/uploadify/__MACOSX/._uploadify.swf" afterPath="$PROJECT_DIR$/web/assets/vendor/uploadify/__MACOSX/._uploadify.swf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/articles/1 (1).jpg" afterPath="$PROJECT_DIR$/web/assets/img/articles/1 (1).jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/articles/1.jpg" afterPath="$PROJECT_DIR$/web/assets/img/articles/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/articles/12.jpg" afterPath="$PROJECT_DIR$/web/assets/img/articles/12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/1_b.jpg" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/1_b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/1_s.jpg" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/1_s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/articles/2 (1).jpg" afterPath="$PROJECT_DIR$/web/assets/img/articles/2 (1).jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/articles/2.jpg" afterPath="$PROJECT_DIR$/web/assets/img/articles/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/2_b.jpg" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/2_b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/2_s.jpg" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/2_s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/articles/3 (1).jpg" afterPath="$PROJECT_DIR$/web/assets/img/articles/3 (1).jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/articles/3.jpg" afterPath="$PROJECT_DIR$/web/assets/img/articles/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/3_b.jpg" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/3_b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/3_s.jpg" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/3_s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/articles/4.jpg" afterPath="$PROJECT_DIR$/web/assets/img/articles/4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/4_b.jpg" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/4_b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/4_s.jpg" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/4_s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/articles/5.jpg" afterPath="$PROJECT_DIR$/web/assets/img/articles/5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/5_b.jpg" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/5_b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/5_s.jpg" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/5_s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/articles/6.jpg" afterPath="$PROJECT_DIR$/web/assets/img/articles/6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/MyriadProLight.eot" afterPath="$PROJECT_DIR$/web/assets/fonts/MyriadProLight.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/MyriadProLight.ttf" afterPath="$PROJECT_DIR$/web/assets/fonts/MyriadProLight.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/MyriadProLight.woff" afterPath="$PROJECT_DIR$/web/assets/fonts/MyriadProLight.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/11akadem-stroy.ru/akadem-stroy.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/11akadem-stroy.ru/akadem-stroy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/11akadem-stroy.ru/akadem-stroy_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/11akadem-stroy.ru/akadem-stroy_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/dop/akkordeon.jpg" afterPath="$PROJECT_DIR$/web/assets/img/dop/akkordeon.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/35angarsk-kedr/angarsk-kedr.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/35angarsk-kedr/angarsk-kedr.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/35angarsk-kedr/angarsk-kedr_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/35angarsk-kedr/angarsk-kedr_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/assets/ico/apple-touch-icon-144-precomposed.png" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/assets/ico/apple-touch-icon-144-precomposed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/10arab-new/arab-new.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/10arab-new/arab-new.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/10arab-new/arab-new_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/10arab-new/arab-new_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/arrow-down-little.png" afterPath="$PROJECT_DIR$/web/assets/img/arrow-down-little.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/arrow-right-little.png" afterPath="$PROJECT_DIR$/web/assets/img/arrow-right-little.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/8astreya/astreya.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/8astreya/astreya.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/8astreya/astreya_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/8astreya/astreya_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/dop/audio-video.jpg" afterPath="$PROJECT_DIR$/web/assets/img/dop/audio-video.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/21beats/beats.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/21beats/beats.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/21beats/beats_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/21beats/beats_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/becomeClient.jpg" afterPath="$PROJECT_DIR$/web/assets/img/becomeClient.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/12bg/bg.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/12bg/bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/12bg/bg_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/12bg/bg_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/blank.gif" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/blank.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bxslider/images/bx_loader.gif" afterPath="$PROJECT_DIR$/web/assets/vendor/bxslider/images/bx_loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/dop/cart.jpg" afterPath="$PROJECT_DIR$/web/assets/img/dop/cart.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/close.png" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/close.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/color_logo.png" afterPath="$PROJECT_DIR$/web/assets/img/color_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/dop/comment_pages.jpg" afterPath="$PROJECT_DIR$/web/assets/img/dop/comment_pages.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bxslider/images/controls.png" afterPath="$PROJECT_DIR$/web/assets/vendor/bxslider/images/controls.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/32edel/edel.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/32edel/edel.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/32edel/edel_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/32edel/edel_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/28vladimir.egoza33/egoza33.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/28vladimir.egoza33/egoza33.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/28vladimir.egoza33/egoza33_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/28vladimir.egoza33/egoza33_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/helpers/fancybox_buttons.png" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/helpers/fancybox_buttons.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/fancybox_loading.gif" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/fancybox_loading.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/fancybox_loading@2x.gif" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/fancybox_loading@2x.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/fancybox_overlay.png" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/fancybox_overlay.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/fancybox_sprite.png" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/fancybox_sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/fancybox_sprite@2x.png" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/fancybox_sprite@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/dop/faq.jpg" afterPath="$PROJECT_DIR$/web/assets/img/dop/faq.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/gae-go/static/favicon.ico" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/gae-go/static/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/gae-python/static/favicon.ico" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/gae-python/static/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/assets/ico/favicon.png" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/assets/ico/favicon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/14gigmebeli/gigmebeli.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/14gigmebeli/gigmebeli.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/14gigmebeli/gigmebeli_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/14gigmebeli/gigmebeli_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/30globalcircus/globalcircus.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/30globalcircus/globalcircus.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/30globalcircus/globalcircus_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/30globalcircus/globalcircus_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/17halyava/halyava.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/17halyava/halyava.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/17halyava/halyava_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/17halyava/halyava_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/26igrazooma/igrazooma.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/26igrazooma/igrazooma.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/26igrazooma/igrazooma_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/26igrazooma/igrazooma_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/22inet-mebel/inet-mebel.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/22inet-mebel/inet-mebel.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/22inet-mebel/inet-mebel_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/22inet-mebel/inet-mebel_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/18intactmotors/intactmotors.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/18intactmotors/intactmotors.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/18intactmotors/intactmotors_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/18intactmotors/intactmotors_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/31inteza33/inteza33.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/31inteza33/inteza33.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/31inteza33/inteza33_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/31inteza33/inteza33_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/16kb/kb.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/16kb/kb.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/16kb/kb_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/16kb/kb_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/dop/konsultant.jpg" afterPath="$PROJECT_DIR$/web/assets/img/dop/konsultant.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/29kupitut-online/kupitut-online.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/29kupitut-online/kupitut-online.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/29kupitut-online/kupitut-online_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/29kupitut-online/kupitut-online_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/lite-magaz.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/lite-magaz.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/img/loading.gif" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/img/loading.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/dop/maps.jpg" afterPath="$PROJECT_DIR$/web/assets/img/dop/maps.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/34master/master.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/34master/master.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/34master/master_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/34master/master_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/23masterovoy33/masterovoy33.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/23masterovoy33/masterovoy33.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/23masterovoy33/masterovoy33_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/23masterovoy33/masterovoy33_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/dop/menu.jpg" afterPath="$PROJECT_DIR$/web/assets/img/dop/menu.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_01.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_01_fbox.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_01_fbox.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_02.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_02_fbox.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_02_fbox.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_03.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_03.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_03_fbox.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_03_fbox.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_04.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_04.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_04_fbox.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_04_fbox.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_05.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_05.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_05_fbox.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_05_fbox.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_06.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_06.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_06_fbox.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/mini/mini_06_fbox.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/19mishki/mishki.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/19mishki/mishki.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/19mishki/mishki_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/19mishki/mishki_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/dop/obr_zv.jpg" afterPath="$PROJECT_DIR$/web/assets/img/dop/obr_zv.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/dop/pay.jpg" afterPath="$PROJECT_DIR$/web/assets/img/dop/pay.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/pechat.png" afterPath="$PROJECT_DIR$/web/assets/img/pechat.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/dop/pod.jpg" afterPath="$PROJECT_DIR$/web/assets/img/dop/pod.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/dop/poisk.jpg" afterPath="$PROJECT_DIR$/web/assets/img/dop/poisk.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/img/progressbar.gif" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/img/progressbar.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/24ps/ps.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/24ps/ps.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/24ps/ps_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/24ps/ps_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/13ros-lift/ros-lift.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/13ros-lift/ros-lift.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/13ros-lift/ros-lift_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/13ros-lift/ros-lift_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/rospis.png" afterPath="$PROJECT_DIR$/web/assets/img/rospis.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/27sc33/sc33.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/27sc33/sc33.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/27sc33/sc33_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/27sc33/sc33_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/site-katalog/site-katalog_01.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/site-katalog/site-katalog_01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/site-katalog/site-katalog_01_fbox.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/site-katalog/site-katalog_01_fbox.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/site-katalog/site-katalog_02.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/site-katalog/site-katalog_02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/site-katalog/site-katalog_02_fbox.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/site-katalog/site-katalog_02_fbox.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/site-katalog/site-katalog_03.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/site-katalog/site-katalog_03.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/site-katalog/site-katalog_03_fbox.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/site-katalog/site-katalog_03_fbox.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/dop/slider.jpg" afterPath="$PROJECT_DIR$/web/assets/img/dop/slider.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/9smr/smr.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/9smr/smr.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/9smr/smr_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/9smr/smr_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/dop/spec.jpg" afterPath="$PROJECT_DIR$/web/assets/img/dop/spec.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/demo/spinner.gif" afterPath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/demo/spinner.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/sprite.psd" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/sprite.psd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_01.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_01_fbox.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_01_fbox.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_02.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_02_fbox.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_02_fbox.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_03.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_03.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_03_fbox.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_03_fbox.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_04.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_04.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_04_fbox.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_04_fbox.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_05.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_05.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_05_fbox.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_05_fbox.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_06.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_06.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_06_fbox.jpg" afterPath="$PROJECT_DIR$/web/assets/img/gotovie/standart/standart_06_fbox.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/tinymce/skins/lightgray/fonts/tinymce.ttf" afterPath="$PROJECT_DIR$/web/assets/vendor/tinymce/skins/lightgray/fonts/tinymce.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/tinymce/skins/lightgray/fonts/tinymce.woff" afterPath="$PROJECT_DIR$/web/assets/vendor/tinymce/skins/lightgray/fonts/tinymce.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/uploadify/uploadify-cancel.png" afterPath="$PROJECT_DIR$/web/assets/vendor/uploadify/uploadify-cancel.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/uploadify/uploadify.swf" afterPath="$PROJECT_DIR$/web/assets/vendor/uploadify/uploadify.swf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/33vip-yurist/vip-yurist.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/33vip-yurist/vip-yurist.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/33vip-yurist/vip-yurist_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/33vip-yurist/vip-yurist_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/15yagoda/yagoda.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/15yagoda/yagoda.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/15yagoda/yagoda_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/15yagoda/yagoda_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/20zeon-system/zeon-system.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/20zeon-system/zeon-system.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/20zeon-system/zeon-system_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/20zeon-system/zeon-system_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/25zoovezu/zoovezu.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/25zoovezu/zoovezu.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/img/portfolio/25zoovezu/zoovezu_h.png" afterPath="$PROJECT_DIR$/web/assets/img/portfolio/25zoovezu/zoovezu_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/uploadify/__MACOSX/._Change Log.txt" afterPath="$PROJECT_DIR$/web/assets/vendor/uploadify/__MACOSX/._Change Log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/.gitattributes" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/.gitattributes" afterPath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/.gitignore" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/.gitignore" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/node/.gitignore" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/node/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/node/public/files/.gitignore" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/node/public/files/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/node/tmp/.gitignore" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/node/tmp/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/php/files/.gitignore" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/php/files/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/.gitignore" afterPath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/.gitignore" afterPath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/quicksand/jquery.quicksand.js/.gitignore" afterPath="$PROJECT_DIR$/web/assets/vendor/quicksand/jquery.quicksand.js/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/php/files/.htaccess" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/php/files/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/js/.jshintrc" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/js/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/.jshintrc" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/.jshintrc" afterPath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/.npmignore" afterPath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/.travis.yml" afterPath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/CHANGELOG.md" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/CHANGELOG.md" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/quicksand/jquery.quicksand.js/CHANGELOG.textile" afterPath="$PROJECT_DIR$/web/assets/vendor/quicksand/jquery.quicksand.js/CHANGELOG.textile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/uploadify/Change Log.txt" afterPath="$PROJECT_DIR$/web/assets/vendor/uploadify/Change Log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/FeedController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/FeedController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/Gruntfile.js" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/Gruntfile.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/Gruntfile.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/Gruntfile.js" afterPath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/LICENSE-MIT.txt" afterPath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/LICENSE-MIT.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/LICENSE" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/LICENSE" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/LICENSE" afterPath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/fonts/MyriadProLight.svg" afterPath="$PROJECT_DIR$/web/assets/fonts/MyriadProLight.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AdminBundle/Entity/Payment.php" afterPath="$PROJECT_DIR$/src/AdminBundle/Entity/Payment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/PaymentController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/PaymentController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/README.md" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/README.md" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/README.md" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/README.md" afterPath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/README.md" afterPath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/quicksand/jquery.quicksand.js/README.textile" afterPath="$PROJECT_DIR$/web/assets/vendor/quicksand/jquery.quicksand.js/README.textile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/php/UploadHandler.php" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/php/UploadHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/_config.yml" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/adversing.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/adversing.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Default/advertising.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Default/advertising.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/ajax.txt" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/ajax.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/alertify.core.css" afterPath="$PROJECT_DIR$/web/assets/css/alertify.core.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/alertify.default.css" afterPath="$PROJECT_DIR$/web/assets/css/alertify.default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/alertify.js" afterPath="$PROJECT_DIR$/web/assets/js/alertify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/compiled/js/all-admin.js" afterPath="$PROJECT_DIR$/web/compiled/js/all-admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/compiled/js/all-admin_scripts-admin_12.js" afterPath="$PROJECT_DIR$/web/compiled/js/all-admin_scripts-admin_12.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/compiled/css/all.css" afterPath="$PROJECT_DIR$/web/compiled/css/all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/compiled/js/all.js" afterPath="$PROJECT_DIR$/web/compiled/js/all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/compiled/css/all_main_7.css" afterPath="$PROJECT_DIR$/web/compiled/css/all_main_7.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/angularjs.html" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/angularjs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/app.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/gae-go/app.yaml" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/gae-go/app.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/gae-python/app.yaml" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/gae-python/app.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/assets/js/application.js" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/assets/js/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/basic-plus.html" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/basic-plus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/basic.html" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/basic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/blueimp-file-upload.jquery.json" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/blueimp-file-upload.jquery.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap/css/bootstrap.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/bower.json" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bxslider/bower.json" afterPath="$PROJECT_DIR$/web/assets/vendor/bxslider/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/bower.json" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/bower.json" afterPath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/bower.json" afterPath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/calculator.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/calculator.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/Blueprints/HorizontalSlideOutMenu/js/cbpHorizontalSlideOutMenu.min.js" afterPath="$PROJECT_DIR$/web/assets/vendor/Blueprints/HorizontalSlideOutMenu/js/cbpHorizontalSlideOutMenu.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/demo/client.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/demo/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/component.json" afterPath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/quicksand/jquery.quicksand.js/component.json" afterPath="$PROJECT_DIR$/web/assets/vendor/quicksand/jquery.quicksand.js/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/consult.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/consult.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/tinymce/skins/lightgray/content.min.css" afterPath="$PROJECT_DIR$/web/assets/vendor/tinymce/skins/lightgray/content.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/corp.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/corp.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/tests/data.js" afterPath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/tests/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/_layouts/default.html" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/_layouts/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/css/demo-ie8.css" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/css/demo-ie8.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/css/demo.css" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/css/demo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/assets/css/docs.css" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/assets/css/docs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Default/domains.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Default/domains.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/domains_hosting.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/domains_hosting.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/dropzone/dropzone.js" afterPath="$PROJECT_DIR$/web/assets/vendor/dropzone/dropzone.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/fonts.css" afterPath="$PROJECT_DIR$/web/assets/css/fonts.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/_includes/footer.html" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/_includes/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Service/geoip.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Service/geoip.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/gotovie.js" afterPath="$PROJECT_DIR$/web/assets/js/gotovie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/_includes/header.html" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/_includes/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/iframe.html" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/iframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/index.html" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/js/tests/index.html" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/js/tests/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/index.html" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/demo/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/index.html" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/test/index.html" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/test/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/demo/index.html" afterPath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/demo/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/tests/index.html" afterPath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/tests/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/php/index.php" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/php/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/installments.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/installments.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/lib/jquery-1.10.1.min.js" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/lib/jquery-1.10.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jquery/jquery-1.11.3.min.map" afterPath="$PROJECT_DIR$/web/assets/vendor/jquery/jquery-1.11.3.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/lib/jquery-1.9.0.min.js" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/lib/jquery-1.9.0.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jquery/jquery-migrate.min.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jquery/jquery-migrate.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/jquery-ui.html" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/jquery-ui.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bxslider/jquery.bxslider.css" afterPath="$PROJECT_DIR$/web/assets/vendor/bxslider/jquery.bxslider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bxslider/jquery.bxslider.js" afterPath="$PROJECT_DIR$/web/assets/vendor/bxslider/jquery.bxslider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bxslider/jquery.bxslider.min.js" afterPath="$PROJECT_DIR$/web/assets/vendor/bxslider/jquery.bxslider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bxslider/plugins/jquery.easing.1.3.js" afterPath="$PROJECT_DIR$/web/assets/vendor/bxslider/plugins/jquery.easing.1.3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/helpers/jquery.fancybox-buttons.css" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/helpers/jquery.fancybox-buttons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/helpers/jquery.fancybox-buttons.js" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/helpers/jquery.fancybox-buttons.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/helpers/jquery.fancybox-media.js" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/helpers/jquery.fancybox-media.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/helpers/jquery.fancybox-thumbs.css" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/helpers/jquery.fancybox-thumbs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/helpers/jquery.fancybox-thumbs.js" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/helpers/jquery.fancybox-thumbs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/jquery.fancybox.css" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/jquery.fancybox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/jquery.fancybox.js" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/jquery.fancybox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/jquery.fancybox.pack.js" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/source/jquery.fancybox.pack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/jquery.fileupload-angular.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/jquery.fileupload-angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/jquery.fileupload-audio.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/jquery.fileupload-audio.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/jquery.fileupload-image.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/jquery.fileupload-image.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/jquery.fileupload-jquery-ui.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/jquery.fileupload-jquery-ui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/css/jquery.fileupload-noscript.css" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/css/jquery.fileupload-noscript.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/jquery.fileupload-process.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/jquery.fileupload-process.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/css/jquery.fileupload-ui-noscript.css" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/css/jquery.fileupload-ui-noscript.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/css/jquery.fileupload-ui.css" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/css/jquery.fileupload-ui.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/jquery.fileupload-ui.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/jquery.fileupload-ui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/jquery.fileupload-validate.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/jquery.fileupload-validate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/jquery.fileupload-video.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/jquery.fileupload-video.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/css/jquery.fileupload.css" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/css/jquery.fileupload.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/jquery.fileupload.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/jquery.fileupload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bxslider/plugins/jquery.fitvids.js" afterPath="$PROJECT_DIR$/web/assets/vendor/bxslider/plugins/jquery.fitvids.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/jquery.iframe-transport.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/jquery.iframe-transport.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/jquery.iframe-transport.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/jquery.iframe-transport.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/js/tests/vendor/jquery.js" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/js/tests/vendor/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/maskedinput/jquery.maskedinput.js" afterPath="$PROJECT_DIR$/web/assets/vendor/maskedinput/jquery.maskedinput.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jquery/jquery.min.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jquery/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/js/tests/vendor/jquery.mockjax.js" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/js/tests/vendor/jquery.mockjax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/fancybox/lib/jquery.mousewheel-3.0.6.pack.js" afterPath="$PROJECT_DIR$/web/assets/vendor/fancybox/lib/jquery.mousewheel-3.0.6.pack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/cors/jquery.postmessage-transport.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/cors/jquery.postmessage-transport.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/quicksand/jquery.quicksand.js/jquery.quicksand.js" afterPath="$PROJECT_DIR$/web/assets/vendor/quicksand/jquery.quicksand.js/jquery.quicksand.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/quicksand/jquery.quicksand.js/jquery.quicksand.min.js" afterPath="$PROJECT_DIR$/web/assets/vendor/quicksand/jquery.quicksand.js/jquery.quicksand.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/vendor/jquery.ui.widget.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/vendor/jquery.ui.widget.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/uploadify/jquery.uploadify.js" afterPath="$PROJECT_DIR$/web/assets/vendor/uploadify/jquery.uploadify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/uploadify/jquery.uploadify.min.js" afterPath="$PROJECT_DIR$/web/assets/vendor/uploadify/jquery.uploadify.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/cors/jquery.xdr-transport.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/cors/jquery.xdr-transport.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/landing.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/landing.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/demo/layout.css" afterPath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/demo/layout.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/uploadify/license.txt" afterPath="$PROJECT_DIR$/web/assets/vendor/uploadify/license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/main.css" afterPath="$PROJECT_DIR$/web/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/gae-go/app/main.go" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/gae-go/app/main.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/main.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/main.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/main.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/gae-python/main.py" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/gae-python/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/Blueprints/HorizontalSlideOutMenu/js/modernizr.custom.js" afterPath="$PROJECT_DIR$/web/assets/vendor/Blueprints/HorizontalSlideOutMenu/js/modernizr.custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/_includes/nav-main.html" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/_includes/nav-main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/_includes/nav-validator.html" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/_includes/nav-validator.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap/js/npm.js" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap/js/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Email/orderFromCalc.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Email/orderFromCalc.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/package.json" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/package.json" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/node/package.json" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/node/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/package.json" afterPath="$PROJECT_DIR$/web/assets/vendor/jquery-iframe-transport-master/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/package.json" afterPath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/paging-dashboard.css" afterPath="$PROJECT_DIR$/web/assets/css/paging-dashboard.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/paging.css" afterPath="$PROJECT_DIR$/web/assets/css/paging.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/payment.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/payment.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Default/payment.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Default/payment.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/js/tests/unit/phantom.js" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/js/tests/unit/phantom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/cors/postmessage.html" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/cors/postmessage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/promotion.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/promotion.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/punycode.js" afterPath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/punycode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/punycode.min.js" afterPath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/punycode.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/assets/css/pygments-manni.css" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/assets/css/pygments-manni.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/quicksand/qsmain.js" afterPath="$PROJECT_DIR$/web/assets/vendor/quicksand/qsmain.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/quicksand/quicksandpaginated.jquery.js" afterPath="$PROJECT_DIR$/web/assets/vendor/quicksand/quicksandpaginated.jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/js/tests/vendor/qunit.css" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/js/tests/vendor/qunit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/js/tests/vendor/qunit.js" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/js/tests/vendor/qunit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bxslider/readme.md" afterPath="$PROJECT_DIR$/web/assets/vendor/bxslider/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bxslider/readme.txt" afterPath="$PROJECT_DIR$/web/assets/vendor/bxslider/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/cors/result.html" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/cors/result.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/gae-go/static/robots.txt" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/gae-go/static/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/gae-python/static/robots.txt" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/gae-python/static/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/scripts-admin.js" afterPath="$PROJECT_DIR$/web/assets/js/scripts-admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/scripts.js" afterPath="$PROJECT_DIR$/web/assets/js/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/security-styles.css" afterPath="$PROJECT_DIR$/web/assets/css/security-styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/select2/select2.min.css" afterPath="$PROJECT_DIR$/web/assets/vendor/select2/select2.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/node/server.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/server/node/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/shop.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/shop.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/tinymce/skins/lightgray/skin.min.css" afterPath="$PROJECT_DIR$/web/assets/vendor/tinymce/skins/lightgray/skin.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/_includes/social-buttons.html" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/_includes/social-buttons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/social.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/social.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/css/style.css" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/support.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/support.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jquery/tabs_jquery.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jquery/tabs_jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/test/test.js" afterPath="$PROJECT_DIR$/web/assets/vendor/jQuery-File-Upload-9.10.0/test/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/tests/tests.js" afterPath="$PROJECT_DIR$/web/assets/vendor/punycode.js-master/tests/tests.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/tinymce/tinymce.min.js" afterPath="$PROJECT_DIR$/web/assets/vendor/tinymce/tinymce.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Menu/top.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Menu/top.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/uploadify/uploadify.css" afterPath="$PROJECT_DIR$/web/assets/vendor/uploadify/uploadify.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/dist/validator.js" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/dist/validator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/dist/validator.js" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/dist/validator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/js/validator.js" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/js/validator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/js/tests/unit/validator.js" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/js/tests/unit/validator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/dist/validator.min.js" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/dist/validator.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/dist/validator.min.js" afterPath="$PROJECT_DIR$/web/assets/vendor/bootstrap-validator-master/docs/dist/validator.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/vizitka.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/vizitka.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/whois.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/whois.html.twig" />
+    </list>
+    <ignored path="www.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="www" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/ServiceController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.375" vertical-offset="795" max-vertical-offset="2175">
+              <caret line="78" column="49" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="geoip.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Service/geoip.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="450">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/assets/js/scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.36607143" vertical-offset="140" max-vertical-offset="3525">
+              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="s cache:clear" />
+      <command text="s assetic:dump " />
+      <command text="s cache:clear" />
+      <command text="s assetic:dump " />
+      <command text="s cache:clear" />
+      <command text="s assetic:dump " />
+      <command text="s cache:clear" />
+      <command text="s assetic:dump " />
+      <command text="s cache:clear" />
+      <command text="s assetic:dump " />
+      <command text="c clear-cache" />
+      <command text="s cache:clear" />
+      <command text="s assetic:dump -e=dev" />
+      <command text="s doctrine:schema:update --force" />
+      <command text="s assetic:dump -e=dev" />
+      <command text="s doctrine:generate:entities AdminBunale" />
+      <command text="s doctrine:generate:entities AdminBundle" />
+      <command text="s doctrine:schema:update --force" />
+      <command text="s assetic:dump -e=dev" />
+      <command text="s cache:clear" />
+      <command text="s assetic:dump -e=dev" />
+      <command text="s cache:clear" />
+      <command text="s assetic:dump -e=dev" />
+      <command text="s cache:clear" />
+      <command text="s assetic:dump -e=dev" />
+    </commandsHistory>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/AppBundle/Repository/ArticleRepository.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Article.php" />
+        <option value="$PROJECT_DIR$/src/AdminBundle/Entity/Path.php" />
+        <option value="$PROJECT_DIR$/src/AdminBundle/Controller/ArticleController.php" />
+        <option value="$PROJECT_DIR$/src/AdminBundle/Form/ArticleType.php" />
+        <option value="$PROJECT_DIR$/app/config/services.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Article/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/AdminBundle/Repository/ArticleRepository.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/ArticleController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Article/preview_list.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Article/index.html.twig" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/src/BS/SypexGeoBundle/Entity/SxGeo.php" />
+        <option value="$PROJECT_DIR$/src/BS/SypexGeoBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/BS/SypexGeoBundle/Service/SxGeo.php" />
+        <option value="$PROJECT_DIR$/web/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Bloks/whois.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Portfolio/gallery.html.twig" />
+        <option value="$PROJECT_DIR$/TODO" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Email/orderFromCalc.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Email/callBack.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/CommonController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/geoip.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/ServiceController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/main.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Email/consult.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Forms/feedback.consult.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/homeimage.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Default/vizitka.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Default/landing.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Default/shop.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Default/corp.html.twig" />
+        <option value="$PROJECT_DIR$/web/assets/js/calc.js" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/AdminBundle/Entity/Article.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Forms/feedback.call.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/calculator.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/AdminBundle/Entity/Payment.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/PaymentController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/FeedController.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/dashboard/index.html.twig" />
+        <option value="$PROJECT_DIR$/web/assets/js/scripts-admin.js" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Service/geoip.html.twig" />
+        <option value="$PROJECT_DIR$/web/assets/js/scripts.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="24" />
+    <option name="width" value="1920" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Blade files</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdminBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdminBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdminBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/AppBundle/Controller" />
+      <recent name="$PROJECT_DIR$/app/config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/AdminBundle/Entity" />
+      <recent name="$PROJECT_DIR$/src/AppBundle/Repository" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c059aa7-8461-45cf-a223-77d3fc96f711" name="Default" comment="" />
+      <created>1429836397357</created>
+      <option name="number" value="Default" />
+      <updated>1429836397357</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="24" width="1920" height="1032" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20750782" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2919786" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3721925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Controller/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3292" max-vertical-offset="3945">
+          <caret line="254" column="12" selection-start-line="254" selection-start-column="12" selection-end-line="254" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1800" max-vertical-offset="2820">
+          <caret line="167" column="42" selection-start-line="167" selection-start-column="42" selection-end-line="167" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="435">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/FeedController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="744" max-vertical-offset="1980">
+          <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Entity/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="8160">
+          <caret line="105" column="7" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
+          <folding>
+            <element signature="e#38#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="600">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2820">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Form/ArticleType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1095">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Default/advertising.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3327616" vertical-offset="406" max-vertical-offset="4935">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Article/preview_list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="600">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Default/domains.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81989706" vertical-offset="6497" max-vertical-offset="7080">
+          <caret line="465" column="13" selection-start-line="465" selection-start-column="10" selection-end-line="465" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Default/gotovie.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84210527" vertical-offset="5205" max-vertical-offset="5775">
+          <caret line="379" column="9" selection-start-line="379" selection-start-column="6" selection-end-line="379" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Default/installments.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84562606" vertical-offset="272" max-vertical-offset="855">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Repository/ArticleRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.333334" vertical-offset="169" max-vertical-offset="810">
+          <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Default/promotion.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3645485" vertical-offset="802" max-vertical-offset="2115">
+          <caret line="68" column="31" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Article/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="660">
+          <caret line="19" column="87" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="780">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49099836" vertical-offset="150" max-vertical-offset="1140">
+          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="635">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BS/SypexGeoBundle/Service/SxGeo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4013378" vertical-offset="660" max-vertical-offset="5625">
+          <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/whois.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5090498" vertical-offset="0" max-vertical-offset="884">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Portfolio/gallery.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.95090014" vertical-offset="2929" max-vertical-offset="3600">
+          <caret line="234" column="6" selection-start-line="234" selection-start-column="6" selection-end-line="234" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODO">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="635">
+          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="27629" max-vertical-offset="60090">
+          <caret line="1869" column="16" selection-start-line="1869" selection-start-column="16" selection-end-line="1869" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Email/orderFromCalc.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47658864" vertical-offset="150" max-vertical-offset="1650">
+          <caret line="626" column="21" selection-start-line="626" selection-start-column="21" selection-end-line="626" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.958333" vertical-offset="340" max-vertical-offset="975">
+          <caret line="53" column="7" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Banners/main.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/homeimage.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Default/vizitka.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3846154" vertical-offset="1219" max-vertical-offset="2595">
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="100" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Default/corp.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6304348" vertical-offset="1078" max-vertical-offset="2595">
+          <caret line="97" column="24" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Default/shop.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44983277" vertical-offset="1261" max-vertical-offset="2655">
+          <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Default/landing.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.590301" vertical-offset="1147" max-vertical-offset="2700">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="107" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25832376" vertical-offset="0" max-vertical-offset="871">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25947186" vertical-offset="554" max-vertical-offset="1425">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7454751" vertical-offset="4726" max-vertical-offset="5610">
+          <caret line="359" column="23" selection-start-line="359" selection-start-column="23" selection-end-line="359" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/calculator.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4266467" vertical-offset="180" max-vertical-offset="21510">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Blocks/Forms/feedback.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29191616" vertical-offset="0" max-vertical-offset="668">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Controller/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7454751" vertical-offset="3061" max-vertical-offset="3945">
+          <caret line="254" column="12" selection-start-line="254" selection-start-column="12" selection-end-line="254" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/scripts-admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38391224" vertical-offset="0" max-vertical-offset="645">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4375" vertical-offset="2110" max-vertical-offset="2925">
+          <caret line="157" column="21" selection-start-line="157" selection-start-column="21" selection-end-line="157" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Entity/Payment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50373137" vertical-offset="8100" max-vertical-offset="8715">
+          <caret line="561" column="32" selection-start-line="561" selection-start-column="20" selection-end-line="561" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/PaymentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8414179" vertical-offset="1259" max-vertical-offset="2520">
+          <caret line="128" column="26" selection-start-line="128" selection-start-column="26" selection-end-line="128" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Entity/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72761196" vertical-offset="1035" max-vertical-offset="8160">
+          <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
+          <folding>
+            <element signature="e#38#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/dashboard/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5597015" vertical-offset="90" max-vertical-offset="3645">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64365673" vertical-offset="0" max-vertical-offset="536">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/FeedController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4402985" vertical-offset="1189" max-vertical-offset="3600">
+          <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/ServiceController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375" vertical-offset="795" max-vertical-offset="2175">
+          <caret line="78" column="49" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Service/geoip.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="450">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36607143" vertical-offset="140" max-vertical-offset="3525">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

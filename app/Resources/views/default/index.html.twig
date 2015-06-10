@@ -37,18 +37,20 @@
     'assets/vendor/quicksand/quicksandpaginated.jquery.js'
     'assets/vendor/punycode.js-master/punycode.min.js'
     'assets/vendor/quicksand/qsmain.js'
-    'assets/js/calc.js'
-    'assets/js/scripts.js'
     'assets/js/alertify.js'
+    'assets/js/functions.js'
+    'assets/js/feedback.js'
+    'assets/js/order.adwersting.js'
+    'assets/js/order.hosting.js'
+    'assets/js/order.domain.js'
+    'assets/js/whois.js'
+    'assets/js/calculator.js'
+    'assets/js/payment.js'
+    'assets/js/scripts.js'
+    
     output='compiled/js/all.js' %}
     <script src="{{ asset_url }}"></script>
     {% endjavascripts %}
-
-    <script type="text/javascript">
-        window.ROUTES = {
-            'whois': "{{ path('services_whois') }}"
-        }
-    </script>
 {% endblock js %}
 
 {% block body %}
@@ -71,7 +73,10 @@
         </footer>
         <!--~~~~~~~~~~~~~~~~~/footer~~~~~~~~~~~~~~~~~-->
 
-        {{ include('AppBundle:Blocks/Forms:feedback.call.html.twig') }}
+        {{ include('AppBundle:Blocks/Forms:feedback.html.twig') }}
+        {{ include('AppBundle:Blocks/Forms:order.advertising.html.twig') }}
+        {{ include('AppBundle:Blocks/Forms:order.hosting.html.twig') }}
+        {{ include('AppBundle:Blocks/Forms:order.domain.html.twig') }}
     {% endblock footer %}
 
     <div class="q" id="q1" style="display: none;">

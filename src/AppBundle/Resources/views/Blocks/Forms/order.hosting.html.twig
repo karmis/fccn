@@ -1,0 +1,29 @@
+<div style="display:none;" id="forma_order_hosting" class="forma modal_zvonok">
+    <form class="feed_call_form" bs-action-path="{{ path('feed_order_hosting') }}"  bs-form-type="order_hosting">
+        <p>Вы выбрали тарифный план: <span id="modalHostingTariff" name="ref_value"></span> <br>
+        Мы подготовим для Вас площадку для размещения сайта в течение одного рабочего дня! 
+        Заполните форму быстрой регистрации.</p>
+        <input type="text" placeholder="ФИО" name="name" required>
+        <input type="text" placeholder="Доменное имя(если есть)" name="domain">
+        Период заказа тарифа: <select name="date_interval">
+            <option value="1 месяц">1 месяц</option>
+            <option value="3 месяца">3 месяца</option>
+            <option value="6 месяцев">6 месяцев</option>
+            <option value="12 месяцев">12 месяцев</option>
+        </select>
+        <input type="tel" class="phone_input" placeholder="Телефон" name="tel" required>
+        <input type="email" placeholder="Электронная почта" name="email">
+        Нужна ли помощь в переносе сайта?
+        Да<input type="radio" name="isNeedHelp" value="Да" checked="checked"> <br>
+        <input type="radio" name="isNeedHelp" value="Нет"> <br>
+        <input type="hidden" class="hide" name="ref" bs-id="form-reference" />
+        <input type="hidden" class="hide" name="ref_description" bs-id="form-reference-description" />
+        <input type="hidden" class="hide" name="ref_value" bs-id="form-reference-value" />
+        <p>
+            Ваши данные не будут переданы третьим лицам.
+        </p>
+        <br>
+        <a href="{{path('page_display', {slug:'confidentiality'})}}" class="politica" target="_blank">Политика конфиденциальности</a>
+        <input id="submitOrderHostingFormBtn" type="submit" data-loading-text="Отправляется запрос" bs-form-success="Ваша заявка в обработке. По готовности Вы получите уведомление на e-mail" bs-form-error="Ошибка при выполнение запроса. Попробуйте позже" class="btn-dashed" value="Отправить">
+    </form>
+</div>

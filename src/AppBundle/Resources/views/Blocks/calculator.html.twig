@@ -35,7 +35,7 @@
         <!--~~~~~~~~~~~~~~~~~business card site calc~~~~~~~~~~~~~~~~~-->
         {% if vizitka == true %}
         <div>
-            <form name="site_vizitka" bs-type='feedback' bs-action='{{ path('feed_calc_order') }}'>
+            <form name="site_vizitka" bs-form-type='calculator_order' bs-action-path='{{ path('feed_calc_order') }}'>
                 <input type="hidden" name="site_type_name" value="Сайт-визитка"/>
                 <img src="{{ asset('assets/img/calc/dizayn_logo.png') }}" alt="Дизайн сайта"
                      title="Дизайн сайта">
@@ -372,7 +372,7 @@
                     <input type="hidden" class="hide" name="ref" bs-id="form-reference" />
                     <input type="hidden" class="hide" name="price" bs-id="form-calc-price" />
                     <br>
-                    <input class="btn-podrobnee" data-loading-text="Отправляется запрос" type="submit" name="submit" id="submit"
+                    <input class="btn-podrobnee" data-loading-text="Отправляется запрос" bs-form-success="Ваше сообщение успешно отправлено. Мы с Вами свяжемся!" bs-form-error="Ошибка при выполнение запроса. Попробуйте позже" type="submit" name="submit" id="submit"
                            value="Заказать прямо сейчас">
                 </div>
             </form>
@@ -383,7 +383,7 @@
         <!--~~~~~~~~~~~~~~~~~online shop calc~~~~~~~~~~~~~~~~~-->
         {% if shop == true %}
         <div>
-            <form name="internet-magazin" bs-type='feedback' bs-action='{{ path('feed_calc_order') }}'>
+            <form name="internet-magazin" bs-form-type='calculator_order' bs-action-path='{{ path('feed_calc_order') }}'>
                 <input type="hidden" name="site_type_name" value="Интернет-магазин"/>
                 <img src="{{ asset('assets/img/calc/dizayn_logo.png') }}" alt="Дизайн сайта"
                      title="Дизайн сайта">
@@ -762,7 +762,7 @@
                     <input type="hidden" class="hide" name="ref" bs-id="form-reference" />
                     <input type="hidden" class="hide" name="price" bs-id="form-calc-price" />
                     <br>
-                    <input class="btn-podrobnee" data-loading-text="Отправляется запрос" type="submit" name="submit" id="submit"
+                    <input class="btn-podrobnee" data-loading-text="Отправляется запрос" bs-form-success="Ваше сообщение успешно отправлено. Мы с Вами свяжемся!" bs-form-error="Ошибка при выполнение запроса. Попробуйте позже" type="submit" name="submit" id="submit"
                            value="Заказать прямо сейчас">
                 </div>
             </form>
@@ -772,7 +772,7 @@
         <!--~~~~~~~~~~~~~~~~~corporate website calc~~~~~~~~~~~~~~~~~-->
         {% if corp == true %}
         <div>
-            <form name="korparativniy-site" bs-type='feedback' bs-action='{{ path('feed_calc_order') }}'>
+            <form name="korparativniy-site" bs-form-type='calculator_order' bs-action-path='{{ path('feed_calc_order') }}'>
                 <input type="hidden" name="site_type_name" value="Корпоративный сайт"/>
                 <img src="{{ asset('assets/img/calc/dizayn_logo.png') }}" alt="Дизайн сайта"
                      title="Дизайн сайта">
@@ -1078,7 +1078,7 @@
                     <input type="hidden" class="hide" name="ref" bs-id="form-reference" />
                     <input type="hidden" class="hide" name="price" bs-id="form-calc-price" />
                     <br/>
-                    <input class="btn-podrobnee" data-loading-text="Отправляется запрос" type="submit" name="submit" id="submit"
+                    <input class="btn-podrobnee" data-loading-text="Отправляется запрос" bs-form-success="Ваше сообщение успешно отправлено. Мы с Вами свяжемся!" bs-form-error="Ошибка при выполнение запроса. Попробуйте позже" type="submit" name="submit" id="submit"
                            value="Заказать прямо сейчас">
                 </div>
             </form>
@@ -1088,7 +1088,7 @@
         <!--~~~~~~~~~~~~~~~~~landing-page calc~~~~~~~~~~~~~~~~~-->
         {% if landing == true %}
         <div>
-            <form name="landing-page" bs-type='feedback' bs-action='{{ path('feed_calc_order') }}'>
+            <form name="landing-page" bs-form-type='calculator_order' bs-action-path='{{ path('feed_calc_order') }}'>
                 <input type="hidden" name="site_type_name" value="Landing-page"/>
                 <img src="{{ asset('assets/img/calc/dizayn_logo.png') }}" alt="Дизайн сайта"
                      title="Дизайн сайта">
@@ -1269,7 +1269,7 @@
                     <input type="hidden" class="hide" name="ref" bs-id="form-reference" />
                     <input type="hidden" class="hide" name="price" bs-id="form-calc-price" />
                     <br>
-                    <input class="btn-podrobnee" data-loading-text="Отправляется запрос" type="submit" name="submit" id="submit"
+                    <input class="btn-podrobnee" data-loading-text="Отправляется запрос" bs-form-success="Ваше сообщение успешно отправлено. Мы с Вами свяжемся!" bs-form-error="Ошибка при выполнение запроса. Попробуйте позже" type="submit" name="submit" id="submit"
                            value="Заказать прямо сейчас">
 
                 </div>

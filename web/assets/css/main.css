@@ -4162,6 +4162,7 @@ padding-top: 12px;
     visibility:hidden;
     opacity:0;
     transition:visibility 0s linear 0.5s,opacity 0.5s linear;
+    z-index: 10;
 }
 
 .block-show-animate {
@@ -4535,7 +4536,7 @@ dl.faq-index dd{
     font-size: 1em;
     letter-spacing: -0.03px;    
 }
-a.btn, a.add-quest {
+a.btn, a.add-quest, .paytabs button.btn {
         -webkit-box-shadow: 0 1px 0 0 #951E1E;
        -moz-box-shadow: 0 1px 0 0 #951E1E;
         -ms-box-shadow: 0 1px 0 0 #951E1E;
@@ -4572,7 +4573,7 @@ a.add-quest {
     width: 174px;
     padding-left: 0;
 }
-a.btn:hover, a.add-quest:hover {
+a.btn:hover, a.add-quest:hover, .paytabs button.btn:hover {
     background: #920f0f !important; 
     -webkit-transition-duration: .3s;
        -moz-transition-duration: .3s;
@@ -4848,7 +4849,7 @@ ul.payment-process li
 span.tel{
     white-space: nowrap;
 }
-.half a.btn{
+.half a.btn, .paytabs button.btn {
     display: block;
     margin-top: -2px!important;
     margin-right: 2px;
@@ -5390,4 +5391,13 @@ margin-left: 30px;
 }
 .forma form a.politica {
   display: inline !important;
+}
+
+
+.red-border-for-input {
+    border: 1px #f00 solid !important;
+}
+
+#city_other_whois {
+    font-size: 13px;
 }
